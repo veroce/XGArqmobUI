@@ -25,7 +25,8 @@ s.source = { :git => "https://github.com/veroce/XGArqmobUI.git",
 
 # 7
 s.framework = "UIKit"
-s.dependency 'LGSideMenuController', '~> 2.1.1'
+s.dependency 'LGSideMenuController', '~> 2.1'
+
 
 # 8
 s.source_files = "XGArqmobUI/**/*.{swift}"

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RadioButton" customModule="XGArqmobUi" customModuleProvider="target">
+            <connections>
+                <outlet property="lbTitle" destination="nUL-aG-EGb" id="xB5-2Q-7lF"/>
+                <outlet property="viewBorder" destination="pCP-Bm-OeY" id="HL9-ar-LIj"/>
+                <outlet property="viewFill" destination="20w-7F-UUS" id="tUB-Jf-zAl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCP-Bm-OeY">
+                    <rect key="frame" x="16" y="12" width="20" height="20"/>
+                    <subviews>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20w-7F-UUS">
+                            <rect key="frame" x="5" y="5" width="10" height="10"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Bo1-qa-Gnj"/>
+                        <constraint firstAttribute="bottom" secondItem="20w-7F-UUS" secondAttribute="bottom" constant="5" id="Bx0-6S-l8p"/>
+                        <constraint firstAttribute="width" constant="20" id="HaJ-nc-key"/>
+                        <constraint firstItem="20w-7F-UUS" firstAttribute="leading" secondItem="pCP-Bm-OeY" secondAttribute="leading" constant="5" id="clW-4M-cG4"/>
+                        <constraint firstAttribute="trailing" secondItem="20w-7F-UUS" secondAttribute="trailing" constant="5" id="rOg-pp-OPG"/>
+                        <constraint firstItem="20w-7F-UUS" firstAttribute="top" secondItem="pCP-Bm-OeY" secondAttribute="top" constant="5" id="zVt-nW-Woa"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUL-aG-EGb">
+                    <rect key="frame" x="56" y="13" width="256" height="18"/>
+                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="15"/>
+                    <color key="textColor" name="primaryTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nUL-aG-EGb" secondAttribute="trailing" constant="10" id="4eO-ZJ-P24"/>
+                <constraint firstItem="pCP-Bm-OeY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NGq-ZV-fDb"/>
+                <constraint firstItem="nUL-aG-EGb" firstAttribute="leading" secondItem="pCP-Bm-OeY" secondAttribute="trailing" constant="20" id="NVU-0S-xYV"/>
+                <constraint firstItem="nUL-aG-EGb" firstAttribute="centerY" secondItem="pCP-Bm-OeY" secondAttribute="centerY" id="d8M-WN-imH"/>
+                <constraint firstItem="pCP-Bm-OeY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="fJV-Jm-xBN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="t7h-OX-B0x" appends="YES" id="MDI-sS-QGF"/>
+            </connections>
+            <point key="canvasLocation" x="79.710144927536234" y="180.80357142857142"/>
+        </view>
+        <tapGestureRecognizer id="t7h-OX-B0x">
+            <connections>
+                <action selector="radioButtonTouch:" destination="-1" id="f6L-WN-SJc"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <namedColor name="primaryTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

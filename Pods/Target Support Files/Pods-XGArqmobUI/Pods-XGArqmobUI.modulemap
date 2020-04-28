@@ -1,0 +1,6 @@
+framework module Pods_XGArqmobUI {
+  umbrella header "Pods-XGArqmobUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

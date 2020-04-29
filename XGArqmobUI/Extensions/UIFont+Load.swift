@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIFont {
 
-    public static func loadFonts() {
+     static func loadFonts() {
         registerFont(withName: "Raleway-BoldItalic", fileExtension: "ttf")
         registerFont(withName: "Raleway-SemiBold", fileExtension: "ttf")
         registerFont(withName: "Raleway-Regular", fileExtension: "ttf")
@@ -19,7 +19,7 @@ public extension UIFont {
         registerFont(withName: "Raleway-Bold", fileExtension: "ttf")
     }
 
-    private static func registerFont(withName name: String, fileExtension: String) {
+     static func registerFont(withName name: String, fileExtension: String) {
         let frameworkBundle = Bundle(for: self)
         let pathForResourceString = frameworkBundle.path(forResource: name, ofType: fileExtension)
         let fontData = NSData(contentsOfFile: pathForResourceString!)

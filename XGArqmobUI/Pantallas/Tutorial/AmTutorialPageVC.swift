@@ -12,11 +12,11 @@ public enum AmButtonAction: Int {
     case FINISH = 1
 }
 
-public protocol AmTutorialPageDelegate {
+protocol AmTutorialPageDelegate {
     func actionButton(action: AmButtonAction)
 }
 
-public class AmTutorialPageVC: UIViewController {
+class AmTutorialPageVC: UIViewController {
     
     @IBOutlet weak var imgPage: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!

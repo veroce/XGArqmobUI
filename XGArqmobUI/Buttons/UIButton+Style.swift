@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIButton {
     
-    public func defaultStyle() {
+    func defaultStyle() {
         titleLabel?.font = Theme.current.subheadlineBold
         backgroundColor = UIColor(named: "primaryColor")
         setTitleColor(.white, for: .normal)
@@ -18,7 +18,7 @@ public extension UIButton {
         
     }
     
-    public func outlineStyle() {
+    func outlineStyle() {
         titleLabel?.font = Theme.current.subheadlineBold
         setTitleColor(UIColor(named: "button_enabled"), for: .normal)
         setTitleColor(UIColor(named: "button_highlighted"), for: .highlighted)
@@ -26,14 +26,14 @@ public extension UIButton {
 
         
     }
-    public func textStyle() {
+    func textStyle() {
         titleLabel?.font = Theme.current.subheadlineBold
         setTitleColor(UIColor(named: "button_enabled"), for: .normal)
         setTitleColor(UIColor(named: "button_highlighted"), for: .highlighted)
         setTitleColor(UIColor(named: "button_disabled"), for: .disabled)
     }
     
-    public func setBackgroundColor(color: UIColor, forState: UIControl.State) {
+    func setBackgroundColor(color: UIColor, forState: UIControl.State) {
         self.clipsToBounds = true  // add this to maintain corner radius
         UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
         if let context = UIGraphicsGetCurrentContext() {

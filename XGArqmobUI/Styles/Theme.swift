@@ -15,7 +15,7 @@ public enum Theme: Int {
         static let selectedTheme = "SelectedTheme"
     }
     
-    static var current: Theme {
+    public static var current: Theme {
         let storedTheme = UserDefaults.standard.integer(forKey: Keys.selectedTheme)
         return Theme(rawValue: storedTheme) ?? .default
     }

@@ -15,7 +15,7 @@ public class Checkbox: UIView {
     @IBOutlet weak var viewBorder: UIView!
     @IBOutlet weak var viewFill: UIImageView!
     var isSelected: Bool = false
-    var delegate: CheckboxDelegate?
+    public var delegate: CheckboxDelegate?
     
     @IBOutlet open weak var lbtitle: UILabel!
     override init(frame: CGRect) {

@@ -17,7 +17,7 @@ public class RadioButton: UIView {
     @IBOutlet weak var viewFill: UIView!
     @IBOutlet open weak var lbTitle: UILabel!
     var isSelected: Bool = false
-    var delegate: RadioButtonDelegate?
+    public var delegate: RadioButtonDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)

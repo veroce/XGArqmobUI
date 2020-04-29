@@ -14,7 +14,7 @@ public class AmTutorialItem: NSObject {
     var title: String
     var body: String
     
-    init(image: String, title: String, body: String) {
+   public init(image: String, title: String, body: String) {
         self.image = image
         self.title = title
         self.body = body

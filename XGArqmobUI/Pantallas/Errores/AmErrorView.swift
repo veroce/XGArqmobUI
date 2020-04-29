@@ -18,7 +18,7 @@ public class AmErrorView: UIView {
     @IBOutlet weak var lbMensaje: UILabel!
     @IBOutlet weak var btnReintentar: AmDefaultGrayButton!
     @IBOutlet weak var viewError: UIView!
-    var delegate: AmErrorViewDelegate?
+    public var delegate: AmErrorViewDelegate?
     @IBOutlet weak var viewEmpty: UIView!
     @IBOutlet weak var lbNoResults: UILabel!
     @IBOutlet weak var imgNoResults: UIImageView!

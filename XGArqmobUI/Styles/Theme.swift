@@ -20,114 +20,114 @@ public enum Theme: Int {
         return Theme(rawValue: storedTheme) ?? .default
     }
     
-    var largeTitleRegular: UIFont {
+    public var largeTitleRegular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 34) ?? UIFont.systemFont(ofSize: 34.0, weight: UIFont.Weight.regular)
     }
-    var largeTitleBold: UIFont {
+    public var largeTitleBold: UIFont {
         return UIFont(name: "Raleway-Bold", size: 34) ?? UIFont.systemFont(ofSize: 34.0, weight: UIFont.Weight.bold)
     }
-    var title1Regular: UIFont {
+    public var title1Regular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 28) ?? UIFont.systemFont(ofSize: 28.0, weight: UIFont.Weight.regular)
     }
-    var title1Bold: UIFont {
+    public var title1Bold: UIFont {
         return UIFont(name: "Raleway-Bold", size: 28) ?? UIFont.systemFont(ofSize: 28.0, weight: UIFont.Weight.bold)
     }
-    var title2Regular: UIFont {
+    public var title2Regular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 22) ?? UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.regular)
     }
-    var title2Bold: UIFont {
+   public var title2Bold: UIFont {
         return UIFont(name: "Raleway-Bold", size: 22) ?? UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.bold)
     }
-    var title3Semibold: UIFont {
+    public var title3Semibold: UIFont {
         return UIFont(name: "Raleway-Semibold", size: 20) ?? UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.semibold)
     }
-    var title3SemiboldItalic: UIFont {
+   public var title3SemiboldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 20) ?? UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.semibold)
     }
     
-    var headlineSemibold: UIFont {
+   public var headlineSemibold: UIFont {
         return UIFont(name: "Raleway-Semibold", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: UIFont.Weight.semibold)
     }
-    var headlineSemiBoldItalic: UIFont {
+   public var headlineSemiBoldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: UIFont.Weight.semibold)
     }
-    var bodyRegular: UIFont {
+   public var bodyRegular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: UIFont.Weight.semibold)
     }
-    var bodyBold: UIFont {
+   public var bodyBold: UIFont {
         return UIFont(name: "Raleway-Bold", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: UIFont.Weight.semibold)
     }
-    var bodyItalic: UIFont {
+   public var bodyItalic: UIFont {
         return UIFont(name: "Raleway-Italic", size: 17) ?? UIFont.italicSystemFont(ofSize: 17)
     }
-    var bodySemiboldItalic: UIFont {
+   public var bodySemiboldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: UIFont.Weight.semibold)
     }
     
-    var calloutRegular: UIFont {
+   public var calloutRegular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.semibold)
     }
-    var calloutItalic: UIFont {
+   public var calloutItalic: UIFont {
         return UIFont(name: "Raleway-Italic", size: 16) ?? UIFont.italicSystemFont(ofSize: 16)
     }
-    var calloutBold: UIFont {
+   public var calloutBold: UIFont {
         return UIFont(name: "Raleway-Bold", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.semibold)
     }
-    var calloutSemiboldItalic: UIFont {
+   public var calloutSemiboldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.semibold)
     }
     
-    var subheadlineRegular: UIFont {
+  public var subheadlineRegular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 15) ?? UIFont.systemFont(ofSize: 15)
     }
-    var subheadlineItalic: UIFont {
+   public var subheadlineItalic: UIFont {
         return UIFont(name: "Raleway-Italic", size: 15) ?? UIFont.italicSystemFont(ofSize: 15)
     }
-    var subheadlineBold: UIFont {
+   public var subheadlineBold: UIFont {
         return UIFont(name: "Raleway-Bold", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.bold)
     }
-    var subheadlineSemiboldItalic: UIFont {
+   public var subheadlineSemiboldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.semibold)
     }
     
-    var footnoteRegular: UIFont {
+   public var footnoteRegular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 13) ?? UIFont.systemFont(ofSize: 13)
     }
-    var footnoteItalic: UIFont {
+   public var footnoteItalic: UIFont {
         return UIFont(name: "Raleway-Italic", size: 13) ?? UIFont.italicSystemFont(ofSize: 13)
     }
-    var footnoteBold: UIFont {
+   public var footnoteBold: UIFont {
            return UIFont(name: "Raleway-Bold", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: UIFont.Weight.semibold)
        }
-    var footnoteSemiboldItalic: UIFont {
+   public var footnoteSemiboldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: UIFont.Weight.semibold)
     }
     
-    var caption1Regular: UIFont {
+   public var caption1Regular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 12) ?? UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.semibold)
     }
-    var caption1Italic: UIFont {
+   public var caption1Italic: UIFont {
         return UIFont(name: "Raleway-Italic", size: 12) ?? UIFont.italicSystemFont(ofSize: 12)
     }
-    var caption1Semibold: UIFont {
+   public var caption1Semibold: UIFont {
         return UIFont(name: "Raleway-Semibold", size: 12) ?? UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.semibold)
     }
-    var caption1SemiboldItalic: UIFont {
+   public var caption1SemiboldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 12) ?? UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.semibold)
     }
-    var caption2Regular: UIFont {
+   public var caption2Regular: UIFont {
         return UIFont(name: "Raleway-Regular", size: 11) ?? UIFont.systemFont(ofSize: 11, weight: UIFont.Weight.semibold)
     }
-    var caption2Italic: UIFont {
+   public var caption2Italic: UIFont {
         return UIFont(name: "Raleway-Italic", size: 11) ?? UIFont.italicSystemFont(ofSize: 11)
     }
-    var caption2Bold: UIFont {
+   public var caption2Bold: UIFont {
         return UIFont(name: "Raleway-Bold", size: 11) ?? UIFont.systemFont(ofSize: 11, weight: UIFont.Weight.semibold)
     }
-    var caption2SemiboldItalic: UIFont {
+   public var caption2SemiboldItalic: UIFont {
         return UIFont(name: "Raleway-SemiBoldItalic", size: 11) ?? UIFont.systemFont(ofSize: 11, weight: UIFont.Weight.semibold)
     }
-    func apply() {
+   public func apply() {
         // Cargamos las fuentes
         UIFont.loadFonts()
         

@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension UIView {
+public extension UIView {
     
     func shake() {
         let animation = CAKeyframeAnimation(keyPath: "transform.translation.x")

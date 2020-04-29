@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     func isValidWithRegEx(_ regEx: String) -> Bool {
         let pred = NSPredicate(format:"SELF MATCHES %@", regEx)

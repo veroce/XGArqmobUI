@@ -7,11 +7,11 @@
 //
 
 import UIKit
-protocol AmErrorViewDelegate {
+public protocol AmErrorViewDelegate {
     func buttonTouch()
 }
 
-class AmErrorView: UIView {
+public class AmErrorView: UIView {
     
     @IBOutlet weak var ilustracion: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!

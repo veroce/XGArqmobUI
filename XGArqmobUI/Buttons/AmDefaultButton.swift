@@ -8,8 +8,8 @@
 
 import UIKit
 
-class AmDefaultButton: SimpleButton {
-    override func configureButtonStyles() {
+public class AmDefaultButton: SimpleButton {
+   public override func configureButtonStyles() {
         super.configureButtonStyles()
         setBackgroundColor(UIColor(named: "buttonEnableColor") ?? .clear, for: .normal, animated: true, animationDuration: 0.2)
         setBackgroundColor(UIColor(named: "buttonHighlightedColor") ?? .clear, for: .highlighted, animated: false)

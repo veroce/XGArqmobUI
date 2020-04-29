@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmAlert: UIViewController {
+public class AmAlert: UIViewController {
     @IBOutlet weak var viewAlert: UIView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!
@@ -37,7 +37,7 @@ class AmAlert: UIViewController {
         imageString = image
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         loadStyle()

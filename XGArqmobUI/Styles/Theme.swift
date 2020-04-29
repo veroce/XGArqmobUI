@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum Theme: Int {
+public enum Theme: Int {
     case `default`
     
     private enum Keys {

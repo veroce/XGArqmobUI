@@ -7,12 +7,12 @@
 //
 
 import UIKit
-protocol AmTutorialPagerControllerDelegate{
+public protocol AmTutorialPagerControllerDelegate{
     func changePage(page: Int)
     func actionButton(action: AmButtonAction)
     
 }
-class AmTutorialPageController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
+public class AmTutorialPageController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
     
     
     var items: Array<AmTutorialItem>?

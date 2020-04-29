@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmAboutUsMainVC: UIViewController {
+public class AmAboutUsMainVC: UIViewController {
     
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var containerView: UIView!
@@ -27,7 +27,7 @@ class AmAboutUsMainVC: UIViewController {
         }
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         loadData()
         loadStyle()

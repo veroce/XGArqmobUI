@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmVersionInfo: NSObject {
+public class AmVersionInfo: NSObject {
     
     var version: String
     var versionInfo: String

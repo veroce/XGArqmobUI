@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmSplash: UIView {
+public class AmSplash: UIView {
 
     @IBOutlet weak var logoAplicacion: UIImageView!
     @IBOutlet weak var imgFondo: UIImageView!

@@ -10,7 +10,7 @@ import Foundation
 /**
  *  defines whether state transition to a given value should animate and at which speed
  */
-struct SimpleButtonStateChangeValue<T> {
+public struct SimpleButtonStateChangeValue<T> {
     let value: T
     let animated: Bool
     let animationDuration: TimeInterval

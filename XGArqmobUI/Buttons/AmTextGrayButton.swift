@@ -8,26 +8,26 @@
 
 import UIKit
 
-class AmTextGrayButton: UIButton {
+public class AmTextGrayButton: UIButton {
 
    var activityIndicator: UIActivityIndicatorView!
     var customTitle: String?
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         
     }
     
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         // Drawing code
         setTitleColor(UIColor(named: "buttonTitleEnableColor"), for: .normal)
         setTitleColor(UIColor(named: "buttonTitleHighlightedColor"), for: .highlighted)
         setTitleColor(UIColor(named: "buttonTitleDisabledColor"), for: .disabled)
         titleLabel?.font = UIFont(name: "Raleway-Semibold", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.semibold)
     }
-    func showLoading() {
+   public func showLoading() {
         customTitle = self.titleLabel?.text
         self.setTitle("", for: .normal)
         
@@ -37,7 +37,7 @@ class AmTextGrayButton: UIButton {
         
         showSpinning()
     }
-    func hideLoading() {
+   public func hideLoading() {
         self.setTitle(customTitle, for: .normal)
         activityIndicator.stopAnimating()
     }

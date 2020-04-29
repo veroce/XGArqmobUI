@@ -8,10 +8,10 @@
 
 import UIKit
 
-class AmFloatingExtendedButton: UIButton {
+public class AmFloatingExtendedButton: UIButton {
     private var shadowLayer: CAShapeLayer!
 
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         // Drawing code
         super.draw(rect)
         clipsToBounds = true
@@ -28,7 +28,7 @@ class AmFloatingExtendedButton: UIButton {
         
 
     }
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         self.layer.masksToBounds = false
         self.layer.cornerRadius = self.frame.height/2

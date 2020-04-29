@@ -7,8 +7,8 @@
 //
 
 import UIKit
-class AmOutlineGrayButton: SimpleButton {
-    override func configureButtonStyles() {
+public class AmOutlineGrayButton: SimpleButton {
+    public override func configureButtonStyles() {
         super.configureButtonStyles()
         setTitleColor(UIColor(named: "buttonTitleEnableColor"), for: .normal)
         setTitleColor(UIColor(named: "buttonTitleHighlightedColor"), for: .highlighted)

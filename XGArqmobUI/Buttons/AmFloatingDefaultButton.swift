@@ -8,10 +8,10 @@
 
 import UIKit
 
-class AmFloatingButton: UIButton {
+public class AmFloatingButton: UIButton {
     private var shadowLayer: CAShapeLayer!
 
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         // Drawing code
         
         clipsToBounds = true

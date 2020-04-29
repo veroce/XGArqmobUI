@@ -7,7 +7,7 @@
 //
 
 import UIKit
-class AmOutlineButton: SimpleButton {
+public class AmOutlineButton: SimpleButton {
     override func configureButtonStyles() {
         super.configureButtonStyles()
         setTitleColor(UIColor(named: "buttonEnableColor"), for: .normal)

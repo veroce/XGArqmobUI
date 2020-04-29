@@ -7,16 +7,16 @@
 //
 
 import UIKit
-enum AmButtonAction: Int {
+public enum AmButtonAction: Int {
     case NEXT = 0
     case FINISH = 1
 }
 
-protocol AmTutorialPageDelegate {
+public protocol AmTutorialPageDelegate {
     func actionButton(action: AmButtonAction)
 }
 
-class AmTutorialPageVC: UIViewController {
+public class AmTutorialPageVC: UIViewController {
     
     @IBOutlet weak var imgPage: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!

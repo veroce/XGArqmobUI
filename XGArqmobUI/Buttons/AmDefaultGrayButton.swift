@@ -7,7 +7,7 @@
 //
 
 import UIKit
-class AmDefaultGrayButton: SimpleButton {
+public class AmDefaultGrayButton: SimpleButton {
     override func configureButtonStyles() {
         super.configureButtonStyles()
         setBackgroundColor(UIColor(named: "buttonGrayEnableColor") ?? .clear, for: .normal, animated: true, animationDuration: 0.2)

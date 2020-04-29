@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmAboutUsShared: NSObject {
+public class AmAboutUsShared: NSObject {
 
     static let shared = AmAboutUsShared()
     var customStyle: AmAboutUsStyle = AmAboutUsStyle()

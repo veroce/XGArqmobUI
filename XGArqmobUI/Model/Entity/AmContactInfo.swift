@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmContactInfo: NSObject {
+public class AmContactInfo: NSObject {
     
     var icon: String
     var info: String

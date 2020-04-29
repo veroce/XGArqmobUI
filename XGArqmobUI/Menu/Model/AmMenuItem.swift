@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmMenuItem: NSObject {
+public class AmMenuItem: NSObject {
     
     var icon: String
     var title: String

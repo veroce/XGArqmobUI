@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     func dropShadow(color: UIColor? = nil) {
         layer.masksToBounds = false
         if color == nil {

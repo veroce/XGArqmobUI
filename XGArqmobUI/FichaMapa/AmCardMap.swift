@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmCardMap: UIView {
+public class AmCardMap: UIView {
     
     @IBOutlet weak var imgElemento: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!

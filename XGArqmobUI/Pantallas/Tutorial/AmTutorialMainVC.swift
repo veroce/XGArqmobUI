@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmTutorialMainVC: UIViewController {
+public class AmTutorialMainVC: UIViewController {
     
     @IBOutlet private weak var pageControl: UIPageControl!
     @IBOutlet private weak var containerView: UIView!
@@ -23,7 +23,7 @@ class AmTutorialMainVC: UIViewController {
         }
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         loadStyle()

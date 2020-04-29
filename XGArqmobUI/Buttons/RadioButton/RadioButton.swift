@@ -7,11 +7,11 @@
 //
 
 import UIKit
-protocol RadioButtonDelegate {
+public protocol RadioButtonDelegate {
     func optionSelected(sender: RadioButton)
 }
 
-class RadioButton: UIView {
+public class RadioButton: UIView {
     
     @IBOutlet weak var viewBorder: UIView!
     @IBOutlet weak var viewFill: UIView!

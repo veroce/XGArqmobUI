@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIFont {
+public extension UIFont {
 
     public static func loadFonts() {
         registerFont(withName: "Raleway-BoldItalic", fileExtension: "ttf")

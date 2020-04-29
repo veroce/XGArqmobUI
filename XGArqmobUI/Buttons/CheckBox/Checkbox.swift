@@ -7,11 +7,11 @@
 //
 
 import UIKit
-protocol CheckboxDelegate {
+public protocol CheckboxDelegate {
     func optionSelected(sender: Checkbox)
 }
 
-class Checkbox: UIView {
+public class Checkbox: UIView {
     @IBOutlet weak var viewBorder: UIView!
     @IBOutlet weak var viewFill: UIImageView!
     var isSelected: Bool = false

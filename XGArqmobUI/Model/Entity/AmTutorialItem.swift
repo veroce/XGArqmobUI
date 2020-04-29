@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AmTutorialItem: NSObject {
+public class AmTutorialItem: NSObject {
     
     var image: String
     var title: String

@@ -11,7 +11,7 @@ import UIKit
 open class AmFormWithLabel: UIView {
     
     @IBOutlet weak private var lbTitle: UILabel!
-    @IBOutlet weak private var textField: CustomTextField!
+    @IBOutlet weak public var textField: CustomTextField!
     @IBOutlet weak private var lbError: UILabel!
     
     /////////////////////////////////////////////////////////////////////////////

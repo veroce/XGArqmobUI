@@ -21,7 +21,7 @@ public class AmTutorialPageController: UIPageViewController, UIPageViewControlle
     var style: AmTutorialStyle = AmTutorialStyle()
     
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
         self.dataSource = self
@@ -58,7 +58,7 @@ public class AmTutorialPageController: UIPageViewController, UIPageViewControlle
     }
     
     //MARK: UIPageViewControllerDelegate
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let index:Int = (viewController as? AmTutorialPageVC)?.index else{
             return nil;
         }
@@ -72,7 +72,7 @@ public class AmTutorialPageController: UIPageViewController, UIPageViewControlle
         return viewControllerAtIndex(index: index - 1)
     }
     
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         guard let index:Int = (viewController as? AmTutorialPageVC)?.index else{
             return nil;
         }
@@ -85,7 +85,7 @@ public class AmTutorialPageController: UIPageViewController, UIPageViewControlle
         
     }
     
-    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+    public func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
         guard completed else { return }
         if let index = (pageViewController.viewControllers?.first as? AmTutorialPageVC)?.index {
             guard let delegate = self.delegatePager else{
@@ -103,7 +103,7 @@ public class AmTutorialPageController: UIPageViewController, UIPageViewControlle
     }
     
     
-    func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
+    public func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
         if let vc = pendingViewControllers.first {
             guard let delegatePager = self.delegatePager else {
                 return
@@ -135,7 +135,7 @@ public class AmTutorialPageController: UIPageViewController, UIPageViewControlle
     
 }
 extension AmTutorialPageController: AmTutorialPageDelegate {
-    func actionButton(action: AmButtonAction) {
+    public func actionButton(action: AmButtonAction) {
         guard let delegatePager = self.delegatePager else {
             return
         }

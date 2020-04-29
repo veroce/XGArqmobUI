@@ -8,7 +8,7 @@
 
 import UIKit
 public class AmDefaultGrayButton: SimpleButton {
-    override func configureButtonStyles() {
+    public override func configureButtonStyles() {
         super.configureButtonStyles()
         setBackgroundColor(UIColor(named: "buttonGrayEnableColor") ?? .clear, for: .normal, animated: true, animationDuration: 0.2)
         setBackgroundColor(UIColor(named: "buttonGrayHighlightedColor") ?? .clear, for: .highlighted, animated: false)

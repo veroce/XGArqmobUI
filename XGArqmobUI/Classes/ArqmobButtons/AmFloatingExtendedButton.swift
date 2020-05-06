@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+@objc
+@IBDesignable
 open class AmFloatingExtendedButton: UIButton {
     private var shadowLayer: CAShapeLayer!
 
@@ -20,8 +21,8 @@ open class AmFloatingExtendedButton: UIButton {
         setTitleColor(.white, for: .disabled)
         tintColor = .white
         titleLabel?.font = UIFont(name: "Raleway-Semibold", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.semibold)
-        setBackgroundColor(color: UIColor(named: "buttonEnableColor") ?? .clear, forState: .normal)
-        setBackgroundColor(color: UIColor(named: "buttonDisabledColor") ?? .clear, forState: .disabled)
+        setBackgroundColor(color: UIColor(named: "buttonEnableColor", in: Bundle(for: AmFloatingExtendedButton.self), compatibleWith: nil) ?? .clear, forState: .normal)
+        setBackgroundColor(color: UIColor(named: "buttonDisabledColor", in: Bundle(for: AmFloatingExtendedButton.self), compatibleWith: nil) ?? .clear, forState: .disabled)
         imageView?.contentMode = .scaleAspectFit
         let contentPadding = UIEdgeInsets(top: 0, left: 12, bottom: 0, right: 20)
         contentEdgeInsets = contentPadding

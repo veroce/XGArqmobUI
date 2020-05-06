@@ -35,6 +35,9 @@
 		D69ECBB624629F38001F17E9 /* AmDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA324629F38001F17E9 /* AmDefaultButton.swift */; };
 		D69ECBB724629F38001F17E9 /* AmFloatingDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA424629F38001F17E9 /* AmFloatingDefaultButton.swift */; };
 		D69ECBB824629F38001F17E9 /* AmTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA524629F38001F17E9 /* AmTextButton.swift */; };
+		D69ECBBF2462BA91001F17E9 /* AmCardMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69ECBBC2462BA91001F17E9 /* AmCardMap.xib */; };
+		D69ECBC02462BA91001F17E9 /* AmCardMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBBD2462BA91001F17E9 /* AmCardMap.swift */; };
+		D69ECBC12462BA91001F17E9 /* AmCardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBBE2462BA91001F17E9 /* AmCardStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		D69ECBA324629F38001F17E9 /* AmDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmDefaultButton.swift; sourceTree = "<group>"; };
 		D69ECBA424629F38001F17E9 /* AmFloatingDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFloatingDefaultButton.swift; sourceTree = "<group>"; };
 		D69ECBA524629F38001F17E9 /* AmTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTextButton.swift; sourceTree = "<group>"; };
+		D69ECBBC2462BA91001F17E9 /* AmCardMap.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmCardMap.xib; sourceTree = "<group>"; };
+		D69ECBBD2462BA91001F17E9 /* AmCardMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmCardMap.swift; sourceTree = "<group>"; };
+		D69ECBBE2462BA91001F17E9 /* AmCardStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmCardStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,7 @@
 		D69ECB8D24629F38001F17E9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D69ECBBB2462BA91001F17E9 /* ArqmobMap */,
 				D69ECB8E24629F38001F17E9 /* ArqmobTheme.swift */,
 				D69ECB8F24629F38001F17E9 /* UIFont+Utilities.swift */,
 				D69ECB9024629F38001F17E9 /* ArqmobToast */,
@@ -187,6 +194,16 @@
 				D69ECB9F24629F38001F17E9 /* Checkbox.swift */,
 			);
 			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		D69ECBBB2462BA91001F17E9 /* ArqmobMap */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBBC2462BA91001F17E9 /* AmCardMap.xib */,
+				D69ECBBD2462BA91001F17E9 /* AmCardMap.swift */,
+				D69ECBBE2462BA91001F17E9 /* AmCardStyle.swift */,
+			);
+			path = ArqmobMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69ECBBF2462BA91001F17E9 /* AmCardMap.xib in Resources */,
 				D69ECB2224629093001F17E9 /* AmIconos.xcassets in Resources */,
 				D69ECBAC24629F38001F17E9 /* RadioButton.xib in Resources */,
 				D69ECB1724628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf in Resources */,
@@ -282,6 +300,7 @@
 				D69ECBAD24629F38001F17E9 /* SimpleButtonStateChangeValue.swift in Sources */,
 				D69ECBAE24629F38001F17E9 /* SimpleButtonControlState.swift in Sources */,
 				D69ECBA624629F38001F17E9 /* ArqmobTheme.swift in Sources */,
+				D69ECBC12462BA91001F17E9 /* AmCardStyle.swift in Sources */,
 				D69ECBB024629F38001F17E9 /* UIButton+Style.swift in Sources */,
 				D69ECBB424629F38001F17E9 /* AmOutlineGrayButton.swift in Sources */,
 				D69ECBB224629F38001F17E9 /* Checkbox.swift in Sources */,
@@ -291,6 +310,7 @@
 				D69ECBB524629F38001F17E9 /* AmFloatingExtendedButton.swift in Sources */,
 				D69ECBB324629F38001F17E9 /* AmTextGrayButton.swift in Sources */,
 				D69ECBB824629F38001F17E9 /* AmTextButton.swift in Sources */,
+				D69ECBC02462BA91001F17E9 /* AmCardMap.swift in Sources */,
 				D69ECBB724629F38001F17E9 /* AmFloatingDefaultButton.swift in Sources */,
 				D69ECBAB24629F38001F17E9 /* RadioButton.swift in Sources */,
 				D69ECBA924629F38001F17E9 /* AmDefaultGrayButton.swift in Sources */,

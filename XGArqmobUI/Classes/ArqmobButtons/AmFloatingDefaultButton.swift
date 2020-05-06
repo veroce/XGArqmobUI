@@ -8,6 +8,7 @@
 
 import UIKit
 @objc
+@IBDesignable
 open class AmFloatingButton: UIButton {
     private var shadowLayer: CAShapeLayer!
 
@@ -22,8 +23,8 @@ open class AmFloatingButton: UIButton {
         titleLabel?.font = UIFont(name: "Raleway-Semibold", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.semibold)
         layer.cornerRadius = frame.height / 2
         imageView?.contentMode = .scaleAspectFit
-        setBackgroundColor(color: UIColor(named: "buttonEnableColor") ?? .clear, forState: .normal)
-        setBackgroundColor(color: UIColor(named: "buttonDisabledColor") ?? .clear, forState: .disabled)
+        setBackgroundColor(color: UIColor(named: "buttonEnableColor", in: Bundle(for: AmFloatingButton.self), compatibleWith: nil) ?? .clear, forState: .normal)
+        setBackgroundColor(color: UIColor(named: "buttonDisabledColor", in: Bundle(for: AmFloatingButton.self), compatibleWith: nil) ?? .clear, forState: .disabled)
     }
     
      override open var isHighlighted: Bool {

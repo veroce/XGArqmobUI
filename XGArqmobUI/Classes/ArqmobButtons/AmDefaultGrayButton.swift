@@ -8,13 +8,15 @@
 
 import UIKit
 @objc
+@IBDesignable
 open class AmDefaultGrayButton: SimpleButton {
     open override func configureButtonStyles() {
         super.configureButtonStyles()
-        setBackgroundColor(UIColor(named: "buttonGrayEnableColor") ?? .clear, for: .normal, animated: true, animationDuration: 0.2)
-        setBackgroundColor(UIColor(named: "buttonGrayHighlightedColor") ?? .clear, for: .highlighted, animated: false)
-        setBackgroundColor(UIColor(named: "buttonGrayDisabledColor") ?? .clear, for: .disabled, animated: false)
-        setBackgroundColor(color: UIColor(named: "buttonGrayDisabledColor") ?? .clear, forState: SimpleButtonControlState.loading)
+       
+        setBackgroundColor(UIColor(named: "buttonGrayEnableColor", in: Bundle(for: AmDefaultGrayButton.self), compatibleWith: nil) ?? .clear, for: .normal, animated: true, animationDuration: 0.2)
+        setBackgroundColor(UIColor(named: "buttonGrayHighlightedColor", in: Bundle(for: AmDefaultGrayButton.self), compatibleWith: nil) ?? .clear, for: .highlighted, animated: false)
+        setBackgroundColor(UIColor(named: "buttonGrayDisabledColor", in: Bundle(for: AmDefaultGrayButton.self), compatibleWith: nil) ?? .clear, for: .disabled, animated: false)
+        setBackgroundColor(color: UIColor(named: "buttonGrayDisabledColor", in: Bundle(for: AmDefaultGrayButton.self), compatibleWith: nil) ?? .clear, forState: SimpleButtonControlState.loading)
         setTitleColor(UIColor.white, for:.normal)
         setTitleColor(UIColor.white, for: .highlighted)
         setTitleColor(.white, for: .disabled)

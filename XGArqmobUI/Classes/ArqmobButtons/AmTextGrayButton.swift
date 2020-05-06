@@ -8,6 +8,7 @@
 
 import UIKit
 @objc
+@IBDesignable
 open class AmTextGrayButton: UIButton {
 
    var activityIndicator: UIActivityIndicatorView!
@@ -22,9 +23,9 @@ open class AmTextGrayButton: UIButton {
     // An empty implementation adversely affects performance during animation.
     open override func draw(_ rect: CGRect) {
         // Drawing code
-        setTitleColor(UIColor(named: "buttonTitleEnableColor"), for: .normal)
-        setTitleColor(UIColor(named: "buttonTitleHighlightedColor"), for: .highlighted)
-        setTitleColor(UIColor(named: "buttonTitleDisabledColor"), for: .disabled)
+        setTitleColor(UIColor(named: "buttonTitleEnableColor", in: Bundle(for: AmTextGrayButton.self), compatibleWith: nil), for: .normal)
+        setTitleColor(UIColor(named: "buttonTitleHighlightedColor", in: Bundle(for: AmTextGrayButton.self), compatibleWith: nil), for: .highlighted)
+        setTitleColor(UIColor(named: "buttonTitleDisabledColor", in: Bundle(for: AmTextGrayButton.self), compatibleWith: nil), for: .disabled)
         titleLabel?.font = UIFont(name: "Raleway-Semibold", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.semibold)
     }
    public func showLoading() {

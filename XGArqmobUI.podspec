@@ -2,13 +2,13 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '13.0'
+s.ios.deployment_target = '11.0'
 s.name = "XGArqmobUI"
 s.summary = "XGArqmobUI componentes ui para las aplicaciones"
 s.requires_arc = true
 
 # 2
-s.version = "0.2.7"
+s.version = "0.2.8"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

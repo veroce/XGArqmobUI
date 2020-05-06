@@ -41,6 +41,7 @@ class AmTutorialPageController: UIPageViewController, UIPageViewControllerDelega
         
     }
     func viewControllerAtIndex(index: Int) -> UIViewController{
+        let bundle = Bundle(for: AmTutorialPageVC.self)
         let sb = UIStoryboard(name: "AmTutorial", bundle: nil)
         let vc: AmTutorialPageVC = sb.instantiateViewController(withIdentifier: "AmTutorialPageVC") as! AmTutorialPageVC
         vc.index = index

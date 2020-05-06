@@ -16,34 +16,48 @@
 		D69ECB1A24628F8C001F17E9 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1424628F8C001F17E9 /* Raleway-Regular.ttf */; };
 		D69ECB2224629093001F17E9 /* AmIconos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB2024629093001F17E9 /* AmIconos.xcassets */; };
 		D69ECB2324629093001F17E9 /* AmColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB2124629093001F17E9 /* AmColors.xcassets */; };
-		D69ECBA624629F38001F17E9 /* ArqmobTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB8E24629F38001F17E9 /* ArqmobTheme.swift */; };
-		D69ECBA724629F38001F17E9 /* UIFont+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB8F24629F38001F17E9 /* UIFont+Utilities.swift */; };
-		D69ECBA824629F38001F17E9 /* ArqmobToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9124629F38001F17E9 /* ArqmobToast.swift */; };
-		D69ECBA924629F38001F17E9 /* AmDefaultGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9324629F38001F17E9 /* AmDefaultGrayButton.swift */; };
-		D69ECBAA24629F38001F17E9 /* AmOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9424629F38001F17E9 /* AmOutlineButton.swift */; };
-		D69ECBAB24629F38001F17E9 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9624629F38001F17E9 /* RadioButton.swift */; };
-		D69ECBAC24629F38001F17E9 /* RadioButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB9724629F38001F17E9 /* RadioButton.xib */; };
-		D69ECBAD24629F38001F17E9 /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9924629F38001F17E9 /* SimpleButtonStateChangeValue.swift */; };
-		D69ECBAE24629F38001F17E9 /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9A24629F38001F17E9 /* SimpleButtonControlState.swift */; };
-		D69ECBAF24629F38001F17E9 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9B24629F38001F17E9 /* SimpleButton.swift */; };
-		D69ECBB024629F38001F17E9 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9C24629F38001F17E9 /* UIButton+Style.swift */; };
-		D69ECBB124629F38001F17E9 /* Checkbox.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB9E24629F38001F17E9 /* Checkbox.xib */; };
-		D69ECBB224629F38001F17E9 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB9F24629F38001F17E9 /* Checkbox.swift */; };
-		D69ECBB324629F38001F17E9 /* AmTextGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA024629F38001F17E9 /* AmTextGrayButton.swift */; };
-		D69ECBB424629F38001F17E9 /* AmOutlineGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA124629F38001F17E9 /* AmOutlineGrayButton.swift */; };
-		D69ECBB524629F38001F17E9 /* AmFloatingExtendedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA224629F38001F17E9 /* AmFloatingExtendedButton.swift */; };
-		D69ECBB624629F38001F17E9 /* AmDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA324629F38001F17E9 /* AmDefaultButton.swift */; };
-		D69ECBB724629F38001F17E9 /* AmFloatingDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA424629F38001F17E9 /* AmFloatingDefaultButton.swift */; };
-		D69ECBB824629F38001F17E9 /* AmTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBA524629F38001F17E9 /* AmTextButton.swift */; };
-		D69ECBC82462C66F001F17E9 /* AmTutorialPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBC32462C66F001F17E9 /* AmTutorialPageVC.swift */; };
-		D69ECBC92462C66F001F17E9 /* AmTutorialPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBC42462C66F001F17E9 /* AmTutorialPageController.swift */; };
-		D69ECBCA2462C66F001F17E9 /* AmTutorialMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBC52462C66F001F17E9 /* AmTutorialMainVC.swift */; };
-		D69ECBCB2462C66F001F17E9 /* AmTutorialStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBC62462C66F001F17E9 /* AmTutorialStyle.swift */; };
-		D69ECBCC2462C66F001F17E9 /* AmTutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69ECBC72462C66F001F17E9 /* AmTutorial.storyboard */; };
-		D69ECBD22462C6B9001F17E9 /* AmVersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBCE2462C6B9001F17E9 /* AmVersionInfo.swift */; };
-		D69ECBD32462C6B9001F17E9 /* AmAboutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBCF2462C6B9001F17E9 /* AmAboutInfo.swift */; };
-		D69ECBD42462C6B9001F17E9 /* AmContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBD02462C6B9001F17E9 /* AmContactInfo.swift */; };
-		D69ECBD52462C6B9001F17E9 /* AmTutorialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBD12462C6B9001F17E9 /* AmTutorialItem.swift */; };
+		D69ECC0C2462D2C2001F17E9 /* AmTutorialPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBD82462D2C2001F17E9 /* AmTutorialPageVC.swift */; };
+		D69ECC0D2462D2C2001F17E9 /* AmTutorialPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBD92462D2C2001F17E9 /* AmTutorialPageController.swift */; };
+		D69ECC0E2462D2C2001F17E9 /* AmTutorialMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBDA2462D2C2001F17E9 /* AmTutorialMainVC.swift */; };
+		D69ECC0F2462D2C2001F17E9 /* AmTutorialStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBDB2462D2C2001F17E9 /* AmTutorialStyle.swift */; };
+		D69ECC102462D2C2001F17E9 /* AmTutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69ECBDC2462D2C2001F17E9 /* AmTutorial.storyboard */; };
+		D69ECC112462D2C2001F17E9 /* ArqmobTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBDD2462D2C2001F17E9 /* ArqmobTheme.swift */; };
+		D69ECC122462D2C2001F17E9 /* UIFont+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBDE2462D2C2001F17E9 /* UIFont+Utilities.swift */; };
+		D69ECC132462D2C2001F17E9 /* AmVersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBE02462D2C2001F17E9 /* AmVersionInfo.swift */; };
+		D69ECC142462D2C2001F17E9 /* AmAboutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBE12462D2C2001F17E9 /* AmAboutInfo.swift */; };
+		D69ECC152462D2C2001F17E9 /* AmContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBE22462D2C2001F17E9 /* AmContactInfo.swift */; };
+		D69ECC162462D2C2001F17E9 /* AmTutorialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBE32462D2C2001F17E9 /* AmTutorialItem.swift */; };
+		D69ECC172462D2C2001F17E9 /* ArqmobToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBE52462D2C2001F17E9 /* ArqmobToast.swift */; };
+		D69ECC182462D2C2001F17E9 /* AmAboutUsShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBE72462D2C2001F17E9 /* AmAboutUsShared.swift */; };
+		D69ECC192462D2C2001F17E9 /* AmContactInfoTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBE92462D2C2001F17E9 /* AmContactInfoTableController.swift */; };
+		D69ECC1A2462D2C2001F17E9 /* AmAboutUsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBEA2462D2C2001F17E9 /* AmAboutUsPageController.swift */; };
+		D69ECC1B2462D2C2001F17E9 /* AmVersionTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBEB2462D2C2001F17E9 /* AmVersionTableController.swift */; };
+		D69ECC1C2462D2C2001F17E9 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBED2462D2C2001F17E9 /* CellInfo.swift */; };
+		D69ECC1D2462D2C2001F17E9 /* CellVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBEE2462D2C2001F17E9 /* CellVersion.swift */; };
+		D69ECC1E2462D2C2001F17E9 /* CellVersion.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69ECBEF2462D2C2001F17E9 /* CellVersion.xib */; };
+		D69ECC1F2462D2C2001F17E9 /* CellInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69ECBF02462D2C2001F17E9 /* CellInfo.xib */; };
+		D69ECC202462D2C2001F17E9 /* AmChildVersionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBF22462D2C2001F17E9 /* AmChildVersionVC.swift */; };
+		D69ECC212462D2C2001F17E9 /* AmChildContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBF32462D2C2001F17E9 /* AmChildContactVC.swift */; };
+		D69ECC222462D2C2001F17E9 /* AmChildAboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBF42462D2C2001F17E9 /* AmChildAboutUsVC.swift */; };
+		D69ECC232462D2C2001F17E9 /* AmAboutUsStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBF52462D2C2001F17E9 /* AmAboutUsStyle.swift */; };
+		D69ECC242462D2C2001F17E9 /* AmAboutUsMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBF62462D2C2001F17E9 /* AmAboutUsMainVC.swift */; };
+		D69ECC252462D2C2001F17E9 /* AmAboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69ECBF72462D2C2001F17E9 /* AmAboutUs.storyboard */; };
+		D69ECC262462D2C2001F17E9 /* AmDefaultGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBF92462D2C2001F17E9 /* AmDefaultGrayButton.swift */; };
+		D69ECC272462D2C2001F17E9 /* AmOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBFA2462D2C2001F17E9 /* AmOutlineButton.swift */; };
+		D69ECC282462D2C2001F17E9 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBFC2462D2C2001F17E9 /* RadioButton.swift */; };
+		D69ECC292462D2C2001F17E9 /* RadioButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69ECBFD2462D2C2001F17E9 /* RadioButton.xib */; };
+		D69ECC2A2462D2C2001F17E9 /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECBFF2462D2C2001F17E9 /* SimpleButtonStateChangeValue.swift */; };
+		D69ECC2B2462D2C2001F17E9 /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC002462D2C2001F17E9 /* SimpleButtonControlState.swift */; };
+		D69ECC2C2462D2C2001F17E9 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC012462D2C2001F17E9 /* SimpleButton.swift */; };
+		D69ECC2D2462D2C2001F17E9 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC022462D2C2001F17E9 /* UIButton+Style.swift */; };
+		D69ECC2E2462D2C2001F17E9 /* Checkbox.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69ECC042462D2C2001F17E9 /* Checkbox.xib */; };
+		D69ECC2F2462D2C2001F17E9 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC052462D2C2001F17E9 /* Checkbox.swift */; };
+		D69ECC302462D2C2001F17E9 /* AmTextGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC062462D2C2001F17E9 /* AmTextGrayButton.swift */; };
+		D69ECC312462D2C2001F17E9 /* AmOutlineGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC072462D2C2001F17E9 /* AmOutlineGrayButton.swift */; };
+		D69ECC322462D2C2001F17E9 /* AmFloatingExtendedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC082462D2C2001F17E9 /* AmFloatingExtendedButton.swift */; };
+		D69ECC332462D2C2001F17E9 /* AmDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC092462D2C2001F17E9 /* AmDefaultButton.swift */; };
+		D69ECC342462D2C2001F17E9 /* AmFloatingDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC0A2462D2C2001F17E9 /* AmFloatingDefaultButton.swift */; };
+		D69ECC352462D2C2001F17E9 /* AmTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECC0B2462D2C2001F17E9 /* AmTextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,34 +72,48 @@
 		D69ECB1424628F8C001F17E9 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		D69ECB2024629093001F17E9 /* AmIconos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AmIconos.xcassets; sourceTree = "<group>"; };
 		D69ECB2124629093001F17E9 /* AmColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AmColors.xcassets; sourceTree = "<group>"; };
-		D69ECB8E24629F38001F17E9 /* ArqmobTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArqmobTheme.swift; sourceTree = "<group>"; };
-		D69ECB8F24629F38001F17E9 /* UIFont+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Utilities.swift"; sourceTree = "<group>"; };
-		D69ECB9124629F38001F17E9 /* ArqmobToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArqmobToast.swift; sourceTree = "<group>"; };
-		D69ECB9324629F38001F17E9 /* AmDefaultGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmDefaultGrayButton.swift; sourceTree = "<group>"; };
-		D69ECB9424629F38001F17E9 /* AmOutlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmOutlineButton.swift; sourceTree = "<group>"; };
-		D69ECB9624629F38001F17E9 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
-		D69ECB9724629F38001F17E9 /* RadioButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioButton.xib; sourceTree = "<group>"; };
-		D69ECB9924629F38001F17E9 /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
-		D69ECB9A24629F38001F17E9 /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButtonControlState.swift; sourceTree = "<group>"; };
-		D69ECB9B24629F38001F17E9 /* SimpleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
-		D69ECB9C24629F38001F17E9 /* UIButton+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
-		D69ECB9E24629F38001F17E9 /* Checkbox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Checkbox.xib; sourceTree = "<group>"; };
-		D69ECB9F24629F38001F17E9 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
-		D69ECBA024629F38001F17E9 /* AmTextGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTextGrayButton.swift; sourceTree = "<group>"; };
-		D69ECBA124629F38001F17E9 /* AmOutlineGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmOutlineGrayButton.swift; sourceTree = "<group>"; };
-		D69ECBA224629F38001F17E9 /* AmFloatingExtendedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFloatingExtendedButton.swift; sourceTree = "<group>"; };
-		D69ECBA324629F38001F17E9 /* AmDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmDefaultButton.swift; sourceTree = "<group>"; };
-		D69ECBA424629F38001F17E9 /* AmFloatingDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFloatingDefaultButton.swift; sourceTree = "<group>"; };
-		D69ECBA524629F38001F17E9 /* AmTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTextButton.swift; sourceTree = "<group>"; };
-		D69ECBC32462C66F001F17E9 /* AmTutorialPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialPageVC.swift; sourceTree = "<group>"; };
-		D69ECBC42462C66F001F17E9 /* AmTutorialPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialPageController.swift; sourceTree = "<group>"; };
-		D69ECBC52462C66F001F17E9 /* AmTutorialMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialMainVC.swift; sourceTree = "<group>"; };
-		D69ECBC62462C66F001F17E9 /* AmTutorialStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialStyle.swift; sourceTree = "<group>"; };
-		D69ECBC72462C66F001F17E9 /* AmTutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmTutorial.storyboard; sourceTree = "<group>"; };
-		D69ECBCE2462C6B9001F17E9 /* AmVersionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmVersionInfo.swift; sourceTree = "<group>"; };
-		D69ECBCF2462C6B9001F17E9 /* AmAboutInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutInfo.swift; sourceTree = "<group>"; };
-		D69ECBD02462C6B9001F17E9 /* AmContactInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmContactInfo.swift; sourceTree = "<group>"; };
-		D69ECBD12462C6B9001F17E9 /* AmTutorialItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialItem.swift; sourceTree = "<group>"; };
+		D69ECBD82462D2C2001F17E9 /* AmTutorialPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialPageVC.swift; sourceTree = "<group>"; };
+		D69ECBD92462D2C2001F17E9 /* AmTutorialPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialPageController.swift; sourceTree = "<group>"; };
+		D69ECBDA2462D2C2001F17E9 /* AmTutorialMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialMainVC.swift; sourceTree = "<group>"; };
+		D69ECBDB2462D2C2001F17E9 /* AmTutorialStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialStyle.swift; sourceTree = "<group>"; };
+		D69ECBDC2462D2C2001F17E9 /* AmTutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmTutorial.storyboard; sourceTree = "<group>"; };
+		D69ECBDD2462D2C2001F17E9 /* ArqmobTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArqmobTheme.swift; sourceTree = "<group>"; };
+		D69ECBDE2462D2C2001F17E9 /* UIFont+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Utilities.swift"; sourceTree = "<group>"; };
+		D69ECBE02462D2C2001F17E9 /* AmVersionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmVersionInfo.swift; sourceTree = "<group>"; };
+		D69ECBE12462D2C2001F17E9 /* AmAboutInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutInfo.swift; sourceTree = "<group>"; };
+		D69ECBE22462D2C2001F17E9 /* AmContactInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmContactInfo.swift; sourceTree = "<group>"; };
+		D69ECBE32462D2C2001F17E9 /* AmTutorialItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialItem.swift; sourceTree = "<group>"; };
+		D69ECBE52462D2C2001F17E9 /* ArqmobToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArqmobToast.swift; sourceTree = "<group>"; };
+		D69ECBE72462D2C2001F17E9 /* AmAboutUsShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsShared.swift; sourceTree = "<group>"; };
+		D69ECBE92462D2C2001F17E9 /* AmContactInfoTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmContactInfoTableController.swift; sourceTree = "<group>"; };
+		D69ECBEA2462D2C2001F17E9 /* AmAboutUsPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsPageController.swift; sourceTree = "<group>"; };
+		D69ECBEB2462D2C2001F17E9 /* AmVersionTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmVersionTableController.swift; sourceTree = "<group>"; };
+		D69ECBED2462D2C2001F17E9 /* CellInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
+		D69ECBEE2462D2C2001F17E9 /* CellVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellVersion.swift; sourceTree = "<group>"; };
+		D69ECBEF2462D2C2001F17E9 /* CellVersion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellVersion.xib; sourceTree = "<group>"; };
+		D69ECBF02462D2C2001F17E9 /* CellInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellInfo.xib; sourceTree = "<group>"; };
+		D69ECBF22462D2C2001F17E9 /* AmChildVersionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmChildVersionVC.swift; sourceTree = "<group>"; };
+		D69ECBF32462D2C2001F17E9 /* AmChildContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmChildContactVC.swift; sourceTree = "<group>"; };
+		D69ECBF42462D2C2001F17E9 /* AmChildAboutUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmChildAboutUsVC.swift; sourceTree = "<group>"; };
+		D69ECBF52462D2C2001F17E9 /* AmAboutUsStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsStyle.swift; sourceTree = "<group>"; };
+		D69ECBF62462D2C2001F17E9 /* AmAboutUsMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsMainVC.swift; sourceTree = "<group>"; };
+		D69ECBF72462D2C2001F17E9 /* AmAboutUs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmAboutUs.storyboard; sourceTree = "<group>"; };
+		D69ECBF92462D2C2001F17E9 /* AmDefaultGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmDefaultGrayButton.swift; sourceTree = "<group>"; };
+		D69ECBFA2462D2C2001F17E9 /* AmOutlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmOutlineButton.swift; sourceTree = "<group>"; };
+		D69ECBFC2462D2C2001F17E9 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		D69ECBFD2462D2C2001F17E9 /* RadioButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioButton.xib; sourceTree = "<group>"; };
+		D69ECBFF2462D2C2001F17E9 /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
+		D69ECC002462D2C2001F17E9 /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButtonControlState.swift; sourceTree = "<group>"; };
+		D69ECC012462D2C2001F17E9 /* SimpleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
+		D69ECC022462D2C2001F17E9 /* UIButton+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		D69ECC042462D2C2001F17E9 /* Checkbox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Checkbox.xib; sourceTree = "<group>"; };
+		D69ECC052462D2C2001F17E9 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		D69ECC062462D2C2001F17E9 /* AmTextGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTextGrayButton.swift; sourceTree = "<group>"; };
+		D69ECC072462D2C2001F17E9 /* AmOutlineGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmOutlineGrayButton.swift; sourceTree = "<group>"; };
+		D69ECC082462D2C2001F17E9 /* AmFloatingExtendedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFloatingExtendedButton.swift; sourceTree = "<group>"; };
+		D69ECC092462D2C2001F17E9 /* AmDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmDefaultButton.swift; sourceTree = "<group>"; };
+		D69ECC0A2462D2C2001F17E9 /* AmFloatingDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFloatingDefaultButton.swift; sourceTree = "<group>"; };
+		D69ECC0B2462D2C2001F17E9 /* AmTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +146,7 @@
 		D69ECB0224628ED0001F17E9 /* XGArqmobUI */ = {
 			isa = PBXGroup;
 			children = (
-				D69ECB8D24629F38001F17E9 /* Classes */,
+				D69ECBD62462D2C2001F17E9 /* Classes */,
 				D69ECB0B24628ED8001F17E9 /* Resources */,
 				D69ECB0324628ED0001F17E9 /* XGArqmobUI.h */,
 				D69ECB0424628ED0001F17E9 /* Info.plist */,
@@ -141,95 +169,141 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D69ECB8D24629F38001F17E9 /* Classes */ = {
+		D69ECBD62462D2C2001F17E9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D69ECBCD2462C6B9001F17E9 /* Model */,
-				D69ECBC22462C66F001F17E9 /* ArqmobAboutUs */,
-				D69ECB8E24629F38001F17E9 /* ArqmobTheme.swift */,
-				D69ECB8F24629F38001F17E9 /* UIFont+Utilities.swift */,
-				D69ECB9024629F38001F17E9 /* ArqmobToast */,
-				D69ECB9224629F38001F17E9 /* ArqmobButtons */,
+				D69ECBD72462D2C2001F17E9 /* ArqmobTutorial */,
+				D69ECBDD2462D2C2001F17E9 /* ArqmobTheme.swift */,
+				D69ECBDE2462D2C2001F17E9 /* UIFont+Utilities.swift */,
+				D69ECBDF2462D2C2001F17E9 /* Model */,
+				D69ECBE42462D2C2001F17E9 /* ArqmobToast */,
+				D69ECBE62462D2C2001F17E9 /* ArqmobAboutUs */,
+				D69ECBF82462D2C2001F17E9 /* ArqmobButtons */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		D69ECB9024629F38001F17E9 /* ArqmobToast */ = {
+		D69ECBD72462D2C2001F17E9 /* ArqmobTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				D69ECB9124629F38001F17E9 /* ArqmobToast.swift */,
+				D69ECBD82462D2C2001F17E9 /* AmTutorialPageVC.swift */,
+				D69ECBD92462D2C2001F17E9 /* AmTutorialPageController.swift */,
+				D69ECBDA2462D2C2001F17E9 /* AmTutorialMainVC.swift */,
+				D69ECBDB2462D2C2001F17E9 /* AmTutorialStyle.swift */,
+				D69ECBDC2462D2C2001F17E9 /* AmTutorial.storyboard */,
+			);
+			path = ArqmobTutorial;
+			sourceTree = "<group>";
+		};
+		D69ECBDF2462D2C2001F17E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBE02462D2C2001F17E9 /* AmVersionInfo.swift */,
+				D69ECBE12462D2C2001F17E9 /* AmAboutInfo.swift */,
+				D69ECBE22462D2C2001F17E9 /* AmContactInfo.swift */,
+				D69ECBE32462D2C2001F17E9 /* AmTutorialItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D69ECBE42462D2C2001F17E9 /* ArqmobToast */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBE52462D2C2001F17E9 /* ArqmobToast.swift */,
 			);
 			path = ArqmobToast;
 			sourceTree = "<group>";
 		};
-		D69ECB9224629F38001F17E9 /* ArqmobButtons */ = {
+		D69ECBE62462D2C2001F17E9 /* ArqmobAboutUs */ = {
 			isa = PBXGroup;
 			children = (
-				D69ECB9324629F38001F17E9 /* AmDefaultGrayButton.swift */,
-				D69ECB9424629F38001F17E9 /* AmOutlineButton.swift */,
-				D69ECB9524629F38001F17E9 /* RadioButton */,
-				D69ECB9824629F38001F17E9 /* SimpleButton */,
-				D69ECB9C24629F38001F17E9 /* UIButton+Style.swift */,
-				D69ECB9D24629F38001F17E9 /* CheckBox */,
-				D69ECBA024629F38001F17E9 /* AmTextGrayButton.swift */,
-				D69ECBA124629F38001F17E9 /* AmOutlineGrayButton.swift */,
-				D69ECBA224629F38001F17E9 /* AmFloatingExtendedButton.swift */,
-				D69ECBA324629F38001F17E9 /* AmDefaultButton.swift */,
-				D69ECBA424629F38001F17E9 /* AmFloatingDefaultButton.swift */,
-				D69ECBA524629F38001F17E9 /* AmTextButton.swift */,
-			);
-			path = ArqmobButtons;
-			sourceTree = "<group>";
-		};
-		D69ECB9524629F38001F17E9 /* RadioButton */ = {
-			isa = PBXGroup;
-			children = (
-				D69ECB9624629F38001F17E9 /* RadioButton.swift */,
-				D69ECB9724629F38001F17E9 /* RadioButton.xib */,
-			);
-			path = RadioButton;
-			sourceTree = "<group>";
-		};
-		D69ECB9824629F38001F17E9 /* SimpleButton */ = {
-			isa = PBXGroup;
-			children = (
-				D69ECB9924629F38001F17E9 /* SimpleButtonStateChangeValue.swift */,
-				D69ECB9A24629F38001F17E9 /* SimpleButtonControlState.swift */,
-				D69ECB9B24629F38001F17E9 /* SimpleButton.swift */,
-			);
-			path = SimpleButton;
-			sourceTree = "<group>";
-		};
-		D69ECB9D24629F38001F17E9 /* CheckBox */ = {
-			isa = PBXGroup;
-			children = (
-				D69ECB9E24629F38001F17E9 /* Checkbox.xib */,
-				D69ECB9F24629F38001F17E9 /* Checkbox.swift */,
-			);
-			path = CheckBox;
-			sourceTree = "<group>";
-		};
-		D69ECBC22462C66F001F17E9 /* ArqmobAboutUs */ = {
-			isa = PBXGroup;
-			children = (
-				D69ECBC32462C66F001F17E9 /* AmTutorialPageVC.swift */,
-				D69ECBC42462C66F001F17E9 /* AmTutorialPageController.swift */,
-				D69ECBC52462C66F001F17E9 /* AmTutorialMainVC.swift */,
-				D69ECBC62462C66F001F17E9 /* AmTutorialStyle.swift */,
-				D69ECBC72462C66F001F17E9 /* AmTutorial.storyboard */,
+				D69ECBE72462D2C2001F17E9 /* AmAboutUsShared.swift */,
+				D69ECBE82462D2C2001F17E9 /* Controller */,
+				D69ECBEC2462D2C2001F17E9 /* Cell */,
+				D69ECBF12462D2C2001F17E9 /* Childs */,
+				D69ECBF52462D2C2001F17E9 /* AmAboutUsStyle.swift */,
+				D69ECBF62462D2C2001F17E9 /* AmAboutUsMainVC.swift */,
+				D69ECBF72462D2C2001F17E9 /* AmAboutUs.storyboard */,
 			);
 			path = ArqmobAboutUs;
 			sourceTree = "<group>";
 		};
-		D69ECBCD2462C6B9001F17E9 /* Model */ = {
+		D69ECBE82462D2C2001F17E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D69ECBCE2462C6B9001F17E9 /* AmVersionInfo.swift */,
-				D69ECBCF2462C6B9001F17E9 /* AmAboutInfo.swift */,
-				D69ECBD02462C6B9001F17E9 /* AmContactInfo.swift */,
-				D69ECBD12462C6B9001F17E9 /* AmTutorialItem.swift */,
+				D69ECBE92462D2C2001F17E9 /* AmContactInfoTableController.swift */,
+				D69ECBEA2462D2C2001F17E9 /* AmAboutUsPageController.swift */,
+				D69ECBEB2462D2C2001F17E9 /* AmVersionTableController.swift */,
 			);
-			path = Model;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D69ECBEC2462D2C2001F17E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBED2462D2C2001F17E9 /* CellInfo.swift */,
+				D69ECBEE2462D2C2001F17E9 /* CellVersion.swift */,
+				D69ECBEF2462D2C2001F17E9 /* CellVersion.xib */,
+				D69ECBF02462D2C2001F17E9 /* CellInfo.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D69ECBF12462D2C2001F17E9 /* Childs */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBF22462D2C2001F17E9 /* AmChildVersionVC.swift */,
+				D69ECBF32462D2C2001F17E9 /* AmChildContactVC.swift */,
+				D69ECBF42462D2C2001F17E9 /* AmChildAboutUsVC.swift */,
+			);
+			path = Childs;
+			sourceTree = "<group>";
+		};
+		D69ECBF82462D2C2001F17E9 /* ArqmobButtons */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBF92462D2C2001F17E9 /* AmDefaultGrayButton.swift */,
+				D69ECBFA2462D2C2001F17E9 /* AmOutlineButton.swift */,
+				D69ECBFB2462D2C2001F17E9 /* RadioButton */,
+				D69ECBFE2462D2C2001F17E9 /* SimpleButton */,
+				D69ECC022462D2C2001F17E9 /* UIButton+Style.swift */,
+				D69ECC032462D2C2001F17E9 /* CheckBox */,
+				D69ECC062462D2C2001F17E9 /* AmTextGrayButton.swift */,
+				D69ECC072462D2C2001F17E9 /* AmOutlineGrayButton.swift */,
+				D69ECC082462D2C2001F17E9 /* AmFloatingExtendedButton.swift */,
+				D69ECC092462D2C2001F17E9 /* AmDefaultButton.swift */,
+				D69ECC0A2462D2C2001F17E9 /* AmFloatingDefaultButton.swift */,
+				D69ECC0B2462D2C2001F17E9 /* AmTextButton.swift */,
+			);
+			path = ArqmobButtons;
+			sourceTree = "<group>";
+		};
+		D69ECBFB2462D2C2001F17E9 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBFC2462D2C2001F17E9 /* RadioButton.swift */,
+				D69ECBFD2462D2C2001F17E9 /* RadioButton.xib */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		D69ECBFE2462D2C2001F17E9 /* SimpleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECBFF2462D2C2001F17E9 /* SimpleButtonStateChangeValue.swift */,
+				D69ECC002462D2C2001F17E9 /* SimpleButtonControlState.swift */,
+				D69ECC012462D2C2001F17E9 /* SimpleButton.swift */,
+			);
+			path = SimpleButton;
+			sourceTree = "<group>";
+		};
+		D69ECC032462D2C2001F17E9 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				D69ECC042462D2C2001F17E9 /* Checkbox.xib */,
+				D69ECC052462D2C2001F17E9 /* Checkbox.swift */,
+			);
+			path = CheckBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,14 +376,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69ECC1E2462D2C2001F17E9 /* CellVersion.xib in Resources */,
 				D69ECB2224629093001F17E9 /* AmIconos.xcassets in Resources */,
-				D69ECBAC24629F38001F17E9 /* RadioButton.xib in Resources */,
 				D69ECB1724628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf in Resources */,
-				D69ECBCC2462C66F001F17E9 /* AmTutorial.storyboard in Resources */,
+				D69ECC1F2462D2C2001F17E9 /* CellInfo.xib in Resources */,
+				D69ECC2E2462D2C2001F17E9 /* Checkbox.xib in Resources */,
 				D69ECB1A24628F8C001F17E9 /* Raleway-Regular.ttf in Resources */,
-				D69ECBB124629F38001F17E9 /* Checkbox.xib in Resources */,
+				D69ECC102462D2C2001F17E9 /* AmTutorial.storyboard in Resources */,
+				D69ECC292462D2C2001F17E9 /* RadioButton.xib in Resources */,
 				D69ECB1924628F8C001F17E9 /* Raleway-Italic.ttf in Resources */,
 				D69ECB1824628F8C001F17E9 /* Raleway-SemiBold.ttf in Resources */,
+				D69ECC252462D2C2001F17E9 /* AmAboutUs.storyboard in Resources */,
 				D69ECB2324629093001F17E9 /* AmColors.xcassets in Resources */,
 				D69ECB1524628F8C001F17E9 /* Raleway-Bold.ttf in Resources */,
 				D69ECB1624628F8C001F17E9 /* Raleway-BoldItalic.ttf in Resources */,
@@ -323,31 +400,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69ECBAD24629F38001F17E9 /* SimpleButtonStateChangeValue.swift in Sources */,
-				D69ECBCA2462C66F001F17E9 /* AmTutorialMainVC.swift in Sources */,
-				D69ECBD22462C6B9001F17E9 /* AmVersionInfo.swift in Sources */,
-				D69ECBAE24629F38001F17E9 /* SimpleButtonControlState.swift in Sources */,
-				D69ECBA624629F38001F17E9 /* ArqmobTheme.swift in Sources */,
-				D69ECBB024629F38001F17E9 /* UIButton+Style.swift in Sources */,
-				D69ECBB424629F38001F17E9 /* AmOutlineGrayButton.swift in Sources */,
-				D69ECBB224629F38001F17E9 /* Checkbox.swift in Sources */,
-				D69ECBA724629F38001F17E9 /* UIFont+Utilities.swift in Sources */,
-				D69ECBB624629F38001F17E9 /* AmDefaultButton.swift in Sources */,
-				D69ECBAA24629F38001F17E9 /* AmOutlineButton.swift in Sources */,
-				D69ECBB524629F38001F17E9 /* AmFloatingExtendedButton.swift in Sources */,
-				D69ECBD52462C6B9001F17E9 /* AmTutorialItem.swift in Sources */,
-				D69ECBB324629F38001F17E9 /* AmTextGrayButton.swift in Sources */,
-				D69ECBB824629F38001F17E9 /* AmTextButton.swift in Sources */,
-				D69ECBB724629F38001F17E9 /* AmFloatingDefaultButton.swift in Sources */,
-				D69ECBD32462C6B9001F17E9 /* AmAboutInfo.swift in Sources */,
-				D69ECBAB24629F38001F17E9 /* RadioButton.swift in Sources */,
-				D69ECBC92462C66F001F17E9 /* AmTutorialPageController.swift in Sources */,
-				D69ECBA924629F38001F17E9 /* AmDefaultGrayButton.swift in Sources */,
-				D69ECBA824629F38001F17E9 /* ArqmobToast.swift in Sources */,
-				D69ECBD42462C6B9001F17E9 /* AmContactInfo.swift in Sources */,
-				D69ECBCB2462C66F001F17E9 /* AmTutorialStyle.swift in Sources */,
-				D69ECBAF24629F38001F17E9 /* SimpleButton.swift in Sources */,
-				D69ECBC82462C66F001F17E9 /* AmTutorialPageVC.swift in Sources */,
+				D69ECC182462D2C2001F17E9 /* AmAboutUsShared.swift in Sources */,
+				D69ECC242462D2C2001F17E9 /* AmAboutUsMainVC.swift in Sources */,
+				D69ECC112462D2C2001F17E9 /* ArqmobTheme.swift in Sources */,
+				D69ECC2C2462D2C2001F17E9 /* SimpleButton.swift in Sources */,
+				D69ECC192462D2C2001F17E9 /* AmContactInfoTableController.swift in Sources */,
+				D69ECC222462D2C2001F17E9 /* AmChildAboutUsVC.swift in Sources */,
+				D69ECC142462D2C2001F17E9 /* AmAboutInfo.swift in Sources */,
+				D69ECC162462D2C2001F17E9 /* AmTutorialItem.swift in Sources */,
+				D69ECC262462D2C2001F17E9 /* AmDefaultGrayButton.swift in Sources */,
+				D69ECC332462D2C2001F17E9 /* AmDefaultButton.swift in Sources */,
+				D69ECC1C2462D2C2001F17E9 /* CellInfo.swift in Sources */,
+				D69ECC302462D2C2001F17E9 /* AmTextGrayButton.swift in Sources */,
+				D69ECC1B2462D2C2001F17E9 /* AmVersionTableController.swift in Sources */,
+				D69ECC272462D2C2001F17E9 /* AmOutlineButton.swift in Sources */,
+				D69ECC2A2462D2C2001F17E9 /* SimpleButtonStateChangeValue.swift in Sources */,
+				D69ECC2B2462D2C2001F17E9 /* SimpleButtonControlState.swift in Sources */,
+				D69ECC2F2462D2C2001F17E9 /* Checkbox.swift in Sources */,
+				D69ECC152462D2C2001F17E9 /* AmContactInfo.swift in Sources */,
+				D69ECC312462D2C2001F17E9 /* AmOutlineGrayButton.swift in Sources */,
+				D69ECC132462D2C2001F17E9 /* AmVersionInfo.swift in Sources */,
+				D69ECC0D2462D2C2001F17E9 /* AmTutorialPageController.swift in Sources */,
+				D69ECC1A2462D2C2001F17E9 /* AmAboutUsPageController.swift in Sources */,
+				D69ECC232462D2C2001F17E9 /* AmAboutUsStyle.swift in Sources */,
+				D69ECC0E2462D2C2001F17E9 /* AmTutorialMainVC.swift in Sources */,
+				D69ECC212462D2C2001F17E9 /* AmChildContactVC.swift in Sources */,
+				D69ECC342462D2C2001F17E9 /* AmFloatingDefaultButton.swift in Sources */,
+				D69ECC202462D2C2001F17E9 /* AmChildVersionVC.swift in Sources */,
+				D69ECC122462D2C2001F17E9 /* UIFont+Utilities.swift in Sources */,
+				D69ECC352462D2C2001F17E9 /* AmTextButton.swift in Sources */,
+				D69ECC0C2462D2C2001F17E9 /* AmTutorialPageVC.swift in Sources */,
+				D69ECC322462D2C2001F17E9 /* AmFloatingExtendedButton.swift in Sources */,
+				D69ECC172462D2C2001F17E9 /* ArqmobToast.swift in Sources */,
+				D69ECC282462D2C2001F17E9 /* RadioButton.swift in Sources */,
+				D69ECC0F2462D2C2001F17E9 /* AmTutorialStyle.swift in Sources */,
+				D69ECC1D2462D2C2001F17E9 /* CellVersion.swift in Sources */,
+				D69ECC2D2462D2C2001F17E9 /* UIButton+Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

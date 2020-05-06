@@ -10,6 +10,7 @@ import UIKit
 @objc
 open class AmTutorialStyle: NSObject {
     public override init() {}
+    private let bundle = Bundle(for: AmTutorialStyle.self)
     /**
      The backgroun color. Default is `systemColor` .
      */
@@ -21,15 +22,15 @@ open class AmTutorialStyle: NSObject {
     /**
      The title color. Default is `secondaryElevationColor` .
      */
-    public var titleColor: UIColor = UIColor(named: "primaryTextColor") ?? .darkGray
+    public var titleColor: UIColor = UIColor(named: "primaryTextColor", in: Bundle(for: AmTutorialStyle.self), compatibleWith: nil) ?? .darkGray
     /**
      The location color. Default is `secondaryElevationColor` .
      */
-    public var messageColor: UIColor = UIColor(named: "primaryTextColor") ?? UIColor.darkGray
+    public var messageColor: UIColor = UIColor(named: "primaryTextColor", in: Bundle(for: AmTutorialStyle.self), compatibleWith: nil) ?? UIColor.darkGray
     /**
      The title color. Default is `nil` .
      */
-    public var buttonBackgroundColor: UIColor? = UIColor(named: "tutorialButtonColor")
+    public var buttonBackgroundColor: UIColor? = UIColor(named: "tutorialButtonColor", in: Bundle(for: AmTutorialStyle.self), compatibleWith: nil)
     /**
      The title font. Default is `title1Bold`.
      */

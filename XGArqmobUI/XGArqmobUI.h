@@ -2,8 +2,8 @@
 //  XGArqmobUI.h
 //  XGArqmobUI
 //
-//  Created by Vero on 28/04/2020.
-//  Copyright © 2020 Vero. All rights reserved.
+//  Created by Vero on 06/05/2020.
+//  Copyright © 2020 Sixtema. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

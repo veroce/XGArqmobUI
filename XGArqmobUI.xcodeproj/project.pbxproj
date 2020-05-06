@@ -7,582 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D404EDD13B5D88423022831B /* Pods_XGArqmobUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7DFC79087199EC01E2017C /* Pods_XGArqmobUI.framework */; };
-		D6DCDA5924580BAA0090004D /* XGArqmobUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DCDA5724580BAA0090004D /* XGArqmobUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6DCDAD024580CCE0090004D /* AmCellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA6124580CCD0090004D /* AmCellMenu.swift */; };
-		D6DCDAD124580CCE0090004D /* AmCellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA6224580CCD0090004D /* AmCellMenu.xib */; };
-		D6DCDAD224580CCE0090004D /* AmMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA6424580CCD0090004D /* AmMenuItem.swift */; };
-		D6DCDAD324580CCE0090004D /* AmCardMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA6724580CCD0090004D /* AmCardMap.xib */; };
-		D6DCDAD424580CCE0090004D /* AmCardMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA6824580CCD0090004D /* AmCardMap.swift */; };
-		D6DCDAD524580CCE0090004D /* AmCardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA6924580CCD0090004D /* AmCardStyle.swift */; };
-		D6DCDAD624580CCE0090004D /* IconsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA6B24580CCD0090004D /* IconsLibrary.swift */; };
-		D6DCDAD724580CCE0090004D /* AmAboutUsShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA6D24580CCD0090004D /* AmAboutUsShared.swift */; };
-		D6DCDAD824580CCE0090004D /* AmContactInfoTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA6F24580CCD0090004D /* AmContactInfoTableController.swift */; };
-		D6DCDAD924580CCE0090004D /* AmAboutUsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7024580CCD0090004D /* AmAboutUsPageController.swift */; };
-		D6DCDADA24580CCE0090004D /* AmVersionTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7124580CCD0090004D /* AmVersionTableController.swift */; };
-		D6DCDADB24580CCE0090004D /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7324580CCD0090004D /* CellInfo.swift */; };
-		D6DCDADC24580CCE0090004D /* CellVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7424580CCD0090004D /* CellVersion.swift */; };
-		D6DCDADD24580CCE0090004D /* CellVersion.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA7524580CCD0090004D /* CellVersion.xib */; };
-		D6DCDADE24580CCE0090004D /* CellInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA7624580CCD0090004D /* CellInfo.xib */; };
-		D6DCDADF24580CCE0090004D /* AmChildVersionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7824580CCD0090004D /* AmChildVersionVC.swift */; };
-		D6DCDAE024580CCE0090004D /* AmChildContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7924580CCD0090004D /* AmChildContactVC.swift */; };
-		D6DCDAE124580CCE0090004D /* AmChildAboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7A24580CCD0090004D /* AmChildAboutUsVC.swift */; };
-		D6DCDAE224580CCE0090004D /* AmAboutUsStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7B24580CCD0090004D /* AmAboutUsStyle.swift */; };
-		D6DCDAE324580CCE0090004D /* AmAboutUsMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA7C24580CCD0090004D /* AmAboutUsMainVC.swift */; };
-		D6DCDAE424580CCE0090004D /* AmAboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA7D24580CCD0090004D /* AmAboutUs.storyboard */; };
-		D6DCDAE524580CCE0090004D /* AmSplash.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA8024580CCE0090004D /* AmSplash.xib */; };
-		D6DCDAE624580CCE0090004D /* AmSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8124580CCE0090004D /* AmSplash.swift */; };
-		D6DCDAE724580CCE0090004D /* AmTutorialPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8324580CCE0090004D /* AmTutorialPageVC.swift */; };
-		D6DCDAE824580CCE0090004D /* AmTutorialPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8424580CCE0090004D /* AmTutorialPageController.swift */; };
-		D6DCDAE924580CCE0090004D /* AmTutorialMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8524580CCE0090004D /* AmTutorialMainVC.swift */; };
-		D6DCDAEA24580CCE0090004D /* AmTutorialStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8624580CCE0090004D /* AmTutorialStyle.swift */; };
-		D6DCDAEB24580CCE0090004D /* AmTutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA8724580CCE0090004D /* AmTutorial.storyboard */; };
-		D6DCDAEC24580CCE0090004D /* AmErrorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8924580CCE0090004D /* AmErrorViewStyle.swift */; };
-		D6DCDAED24580CCE0090004D /* AmErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA8A24580CCE0090004D /* AmErrorView.xib */; };
-		D6DCDAEE24580CCE0090004D /* AmErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8B24580CCE0090004D /* AmErrorView.swift */; };
-		D6DCDAEF24580CCE0090004D /* AmDefaultGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8D24580CCE0090004D /* AmDefaultGrayButton.swift */; };
-		D6DCDAF024580CCE0090004D /* AmOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA8E24580CCE0090004D /* AmOutlineButton.swift */; };
-		D6DCDAF124580CCE0090004D /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9024580CCE0090004D /* RadioButton.swift */; };
-		D6DCDAF224580CCE0090004D /* RadioButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA9124580CCE0090004D /* RadioButton.xib */; };
-		D6DCDAF324580CCE0090004D /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9324580CCE0090004D /* SimpleButtonStateChangeValue.swift */; };
-		D6DCDAF424580CCE0090004D /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9424580CCE0090004D /* SimpleButtonControlState.swift */; };
-		D6DCDAF524580CCE0090004D /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9524580CCE0090004D /* SimpleButton.swift */; };
-		D6DCDAF624580CCE0090004D /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9624580CCE0090004D /* UIButton+Style.swift */; };
-		D6DCDAF724580CCE0090004D /* Checkbox.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDA9824580CCE0090004D /* Checkbox.xib */; };
-		D6DCDAF824580CCE0090004D /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9924580CCE0090004D /* Checkbox.swift */; };
-		D6DCDAF924580CCE0090004D /* AmTextGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9A24580CCE0090004D /* AmTextGrayButton.swift */; };
-		D6DCDAFA24580CCE0090004D /* AmOutlineGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9B24580CCE0090004D /* AmOutlineGrayButton.swift */; };
-		D6DCDAFB24580CCE0090004D /* AmFloatingExtendedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9C24580CCE0090004D /* AmFloatingExtendedButton.swift */; };
-		D6DCDAFC24580CCE0090004D /* AmDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9D24580CCE0090004D /* AmDefaultButton.swift */; };
-		D6DCDAFD24580CCE0090004D /* AmFloatingDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9E24580CCE0090004D /* AmFloatingDefaultButton.swift */; };
-		D6DCDAFE24580CCE0090004D /* AmTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDA9F24580CCE0090004D /* AmTextButton.swift */; };
-		D6DCDAFF24580CCE0090004D /* AmVersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAA224580CCE0090004D /* AmVersionInfo.swift */; };
-		D6DCDB0024580CCE0090004D /* AmAboutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAA324580CCE0090004D /* AmAboutInfo.swift */; };
-		D6DCDB0124580CCE0090004D /* AmContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAA424580CCE0090004D /* AmContactInfo.swift */; };
-		D6DCDB0224580CCE0090004D /* AmTutorialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAA524580CCE0090004D /* AmTutorialItem.swift */; };
-		D6DCDB0324580CCE0090004D /* ArqmobToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAA724580CCE0090004D /* ArqmobToast.swift */; };
-		D6DCDB0424580CCE0090004D /* AmColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAA924580CCE0090004D /* AmColors.xcassets */; };
-		D6DCDB0524580CCE0090004D /* AmIconos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAAA24580CCE0090004D /* AmIconos.xcassets */; };
-		D6DCDB0624580CCE0090004D /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAAC24580CCE0090004D /* Raleway-BoldItalic.ttf */; };
-		D6DCDB0724580CCE0090004D /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAAD24580CCE0090004D /* Raleway-SemiBold.ttf */; };
-		D6DCDB0824580CCE0090004D /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAAE24580CCE0090004D /* Raleway-Regular.ttf */; };
-		D6DCDB0924580CCE0090004D /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAAF24580CCE0090004D /* Raleway-SemiBoldItalic.ttf */; };
-		D6DCDB0A24580CCE0090004D /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAB024580CCE0090004D /* Raleway-Italic.ttf */; };
-		D6DCDB0B24580CCE0090004D /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAB124580CCE0090004D /* Raleway-Bold.ttf */; };
-		D6DCDB0C24580CCE0090004D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAB324580CCE0090004D /* Theme.swift */; };
-		D6DCDB0D24580CCE0090004D /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAB524580CCE0090004D /* Date+Format.swift */; };
-		D6DCDB0E24580CCE0090004D /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAB624580CCE0090004D /* UIView+Style.swift */; };
-		D6DCDB0F24580CCE0090004D /* UIFont+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAB724580CCE0090004D /* UIFont+Load.swift */; };
-		D6DCDB1024580CCE0090004D /* String+RegEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAB824580CCE0090004D /* String+RegEx.swift */; };
-		D6DCDB1124580CCE0090004D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAB924580CCE0090004D /* CustomTextField.swift */; };
-		D6DCDB1224580CCE0090004D /* UIView+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDABA24580CCE0090004D /* UIView+Shake.swift */; };
-		D6DCDB1324580CCE0090004D /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDABB24580CCE0090004D /* UIView+Nib.swift */; };
-		D6DCDB1424580CCE0090004D /* UIButton+Insents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDABC24580CCE0090004D /* UIButton+Insents.swift */; };
-		D6DCDB1524580CCE0090004D /* DefaultFieldFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDABF24580CCE0090004D /* DefaultFieldFormat.swift */; };
-		D6DCDB1624580CCE0090004D /* AmFormWithLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAC024580CCE0090004D /* AmFormWithLabel.xib */; };
-		D6DCDB1724580CCE0090004D /* AmFormWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAC124580CCE0090004D /* AmFormWithLabel.swift */; };
-		D6DCDB1824580CCE0090004D /* AnimatedFieldFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAC324580CCE0090004D /* AnimatedFieldFormat.swift */; };
-		D6DCDB1924580CCE0090004D /* AnimatedField+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAC424580CCE0090004D /* AnimatedField+TextFieldDelegate.swift */; };
-		D6DCDB1A24580CCE0090004D /* AnimatedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAC524580CCE0090004D /* AnimatedField.swift */; };
-		D6DCDB1B24580CCE0090004D /* AnimatedFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAC624580CCE0090004D /* AnimatedFieldType.swift */; };
-		D6DCDB1C24580CCE0090004D /* AnimatedField+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAC724580CCE0090004D /* AnimatedField+TextViewDelegate.swift */; };
-		D6DCDB1D24580CCE0090004D /* AnimatedFieldAlertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDAC824580CCE0090004D /* AnimatedFieldAlertPosition.swift */; };
-		D6DCDB1E24580CCE0090004D /* AnimatedField.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDAC924580CCE0090004D /* AnimatedField.xib */; };
-		D6DCDB1F24580CCE0090004D /* AnimatedField+UIPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDACA24580CCE0090004D /* AnimatedField+UIPickerViewDelegate.swift */; };
-		D6DCDB2024580CCE0090004D /* AnimatedField+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDACB24580CCE0090004D /* AnimatedField+Protocols.swift */; };
-		D6DCDB2124580CCE0090004D /* AmAlertStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDACD24580CCE0090004D /* AmAlertStyle.swift */; };
-		D6DCDB2224580CCE0090004D /* AmAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DCDACE24580CCE0090004D /* AmAlert.xib */; };
-		D6DCDB2324580CCE0090004D /* AmAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCDACF24580CCE0090004D /* AmAlert.swift */; };
+		D69ECB0524628ED0001F17E9 /* XGArqmobUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D69ECB0324628ED0001F17E9 /* XGArqmobUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D69ECB0E24628F13001F17E9 /* UIFont+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB0D24628F13001F17E9 /* UIFont+Utilities.swift */; };
+		D69ECB1524628F8C001F17E9 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB0F24628F8C001F17E9 /* Raleway-Bold.ttf */; };
+		D69ECB1624628F8C001F17E9 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1024628F8C001F17E9 /* Raleway-BoldItalic.ttf */; };
+		D69ECB1724628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1124628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf */; };
+		D69ECB1824628F8C001F17E9 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1224628F8C001F17E9 /* Raleway-SemiBold.ttf */; };
+		D69ECB1924628F8C001F17E9 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1324628F8C001F17E9 /* Raleway-Italic.ttf */; };
+		D69ECB1A24628F8C001F17E9 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1424628F8C001F17E9 /* Raleway-Regular.ttf */; };
+		D69ECB1C24628F9F001F17E9 /* ArmobTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB1B24628F9F001F17E9 /* ArmobTheme.swift */; };
+		D69ECB1F24629002001F17E9 /* ArqmobToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECB1E24629002001F17E9 /* ArqmobToast.swift */; };
+		D69ECB2224629093001F17E9 /* AmIconos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB2024629093001F17E9 /* AmIconos.xcassets */; };
+		D69ECB2324629093001F17E9 /* AmColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB2124629093001F17E9 /* AmColors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92721378C917A8E5906ED54B /* Pods-XGArqmobUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUI.debug.xcconfig"; path = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI.debug.xcconfig"; sourceTree = "<group>"; };
-		94FEC1BF74F66E5D6244DC9D /* Pods-XGArqmobUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUI.release.xcconfig"; path = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI.release.xcconfig"; sourceTree = "<group>"; };
-		BD7DFC79087199EC01E2017C /* Pods_XGArqmobUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGArqmobUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6DCDA5424580BAA0090004D /* XGArqmobUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XGArqmobUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6DCDA5724580BAA0090004D /* XGArqmobUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGArqmobUI.h; sourceTree = "<group>"; };
-		D6DCDA5824580BAA0090004D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6DCDA6124580CCD0090004D /* AmCellMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmCellMenu.swift; sourceTree = "<group>"; };
-		D6DCDA6224580CCD0090004D /* AmCellMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmCellMenu.xib; sourceTree = "<group>"; };
-		D6DCDA6424580CCD0090004D /* AmMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmMenuItem.swift; sourceTree = "<group>"; };
-		D6DCDA6724580CCD0090004D /* AmCardMap.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmCardMap.xib; sourceTree = "<group>"; };
-		D6DCDA6824580CCD0090004D /* AmCardMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmCardMap.swift; sourceTree = "<group>"; };
-		D6DCDA6924580CCD0090004D /* AmCardStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmCardStyle.swift; sourceTree = "<group>"; };
-		D6DCDA6B24580CCD0090004D /* IconsLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsLibrary.swift; sourceTree = "<group>"; };
-		D6DCDA6D24580CCD0090004D /* AmAboutUsShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsShared.swift; sourceTree = "<group>"; };
-		D6DCDA6F24580CCD0090004D /* AmContactInfoTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmContactInfoTableController.swift; sourceTree = "<group>"; };
-		D6DCDA7024580CCD0090004D /* AmAboutUsPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsPageController.swift; sourceTree = "<group>"; };
-		D6DCDA7124580CCD0090004D /* AmVersionTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmVersionTableController.swift; sourceTree = "<group>"; };
-		D6DCDA7324580CCD0090004D /* CellInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
-		D6DCDA7424580CCD0090004D /* CellVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellVersion.swift; sourceTree = "<group>"; };
-		D6DCDA7524580CCD0090004D /* CellVersion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellVersion.xib; sourceTree = "<group>"; };
-		D6DCDA7624580CCD0090004D /* CellInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellInfo.xib; sourceTree = "<group>"; };
-		D6DCDA7824580CCD0090004D /* AmChildVersionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmChildVersionVC.swift; sourceTree = "<group>"; };
-		D6DCDA7924580CCD0090004D /* AmChildContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmChildContactVC.swift; sourceTree = "<group>"; };
-		D6DCDA7A24580CCD0090004D /* AmChildAboutUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmChildAboutUsVC.swift; sourceTree = "<group>"; };
-		D6DCDA7B24580CCD0090004D /* AmAboutUsStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsStyle.swift; sourceTree = "<group>"; };
-		D6DCDA7C24580CCD0090004D /* AmAboutUsMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutUsMainVC.swift; sourceTree = "<group>"; };
-		D6DCDA7D24580CCD0090004D /* AmAboutUs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmAboutUs.storyboard; sourceTree = "<group>"; };
-		D6DCDA8024580CCE0090004D /* AmSplash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmSplash.xib; sourceTree = "<group>"; };
-		D6DCDA8124580CCE0090004D /* AmSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmSplash.swift; sourceTree = "<group>"; };
-		D6DCDA8324580CCE0090004D /* AmTutorialPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialPageVC.swift; sourceTree = "<group>"; };
-		D6DCDA8424580CCE0090004D /* AmTutorialPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialPageController.swift; sourceTree = "<group>"; };
-		D6DCDA8524580CCE0090004D /* AmTutorialMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialMainVC.swift; sourceTree = "<group>"; };
-		D6DCDA8624580CCE0090004D /* AmTutorialStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialStyle.swift; sourceTree = "<group>"; };
-		D6DCDA8724580CCE0090004D /* AmTutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmTutorial.storyboard; sourceTree = "<group>"; };
-		D6DCDA8924580CCE0090004D /* AmErrorViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmErrorViewStyle.swift; sourceTree = "<group>"; };
-		D6DCDA8A24580CCE0090004D /* AmErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmErrorView.xib; sourceTree = "<group>"; };
-		D6DCDA8B24580CCE0090004D /* AmErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmErrorView.swift; sourceTree = "<group>"; };
-		D6DCDA8D24580CCE0090004D /* AmDefaultGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmDefaultGrayButton.swift; sourceTree = "<group>"; };
-		D6DCDA8E24580CCE0090004D /* AmOutlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmOutlineButton.swift; sourceTree = "<group>"; };
-		D6DCDA9024580CCE0090004D /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
-		D6DCDA9124580CCE0090004D /* RadioButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioButton.xib; sourceTree = "<group>"; };
-		D6DCDA9324580CCE0090004D /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
-		D6DCDA9424580CCE0090004D /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButtonControlState.swift; sourceTree = "<group>"; };
-		D6DCDA9524580CCE0090004D /* SimpleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
-		D6DCDA9624580CCE0090004D /* UIButton+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
-		D6DCDA9824580CCE0090004D /* Checkbox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Checkbox.xib; sourceTree = "<group>"; };
-		D6DCDA9924580CCE0090004D /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
-		D6DCDA9A24580CCE0090004D /* AmTextGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTextGrayButton.swift; sourceTree = "<group>"; };
-		D6DCDA9B24580CCE0090004D /* AmOutlineGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmOutlineGrayButton.swift; sourceTree = "<group>"; };
-		D6DCDA9C24580CCE0090004D /* AmFloatingExtendedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFloatingExtendedButton.swift; sourceTree = "<group>"; };
-		D6DCDA9D24580CCE0090004D /* AmDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmDefaultButton.swift; sourceTree = "<group>"; };
-		D6DCDA9E24580CCE0090004D /* AmFloatingDefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFloatingDefaultButton.swift; sourceTree = "<group>"; };
-		D6DCDA9F24580CCE0090004D /* AmTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTextButton.swift; sourceTree = "<group>"; };
-		D6DCDAA224580CCE0090004D /* AmVersionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmVersionInfo.swift; sourceTree = "<group>"; };
-		D6DCDAA324580CCE0090004D /* AmAboutInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAboutInfo.swift; sourceTree = "<group>"; };
-		D6DCDAA424580CCE0090004D /* AmContactInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmContactInfo.swift; sourceTree = "<group>"; };
-		D6DCDAA524580CCE0090004D /* AmTutorialItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmTutorialItem.swift; sourceTree = "<group>"; };
-		D6DCDAA724580CCE0090004D /* ArqmobToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArqmobToast.swift; sourceTree = "<group>"; };
-		D6DCDAA924580CCE0090004D /* AmColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AmColors.xcassets; sourceTree = "<group>"; };
-		D6DCDAAA24580CCE0090004D /* AmIconos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AmIconos.xcassets; sourceTree = "<group>"; };
-		D6DCDAAC24580CCE0090004D /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
-		D6DCDAAD24580CCE0090004D /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
-		D6DCDAAE24580CCE0090004D /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
-		D6DCDAAF24580CCE0090004D /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		D6DCDAB024580CCE0090004D /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
-		D6DCDAB124580CCE0090004D /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
-		D6DCDAB324580CCE0090004D /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		D6DCDAB524580CCE0090004D /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
-		D6DCDAB624580CCE0090004D /* UIView+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
-		D6DCDAB724580CCE0090004D /* UIFont+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Load.swift"; sourceTree = "<group>"; };
-		D6DCDAB824580CCE0090004D /* String+RegEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RegEx.swift"; sourceTree = "<group>"; };
-		D6DCDAB924580CCE0090004D /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		D6DCDABA24580CCE0090004D /* UIView+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shake.swift"; sourceTree = "<group>"; };
-		D6DCDABB24580CCE0090004D /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
-		D6DCDABC24580CCE0090004D /* UIButton+Insents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Insents.swift"; sourceTree = "<group>"; };
-		D6DCDABF24580CCE0090004D /* DefaultFieldFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFieldFormat.swift; sourceTree = "<group>"; };
-		D6DCDAC024580CCE0090004D /* AmFormWithLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmFormWithLabel.xib; sourceTree = "<group>"; };
-		D6DCDAC124580CCE0090004D /* AmFormWithLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmFormWithLabel.swift; sourceTree = "<group>"; };
-		D6DCDAC324580CCE0090004D /* AnimatedFieldFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFieldFormat.swift; sourceTree = "<group>"; };
-		D6DCDAC424580CCE0090004D /* AnimatedField+TextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+TextFieldDelegate.swift"; sourceTree = "<group>"; };
-		D6DCDAC524580CCE0090004D /* AnimatedField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedField.swift; sourceTree = "<group>"; };
-		D6DCDAC624580CCE0090004D /* AnimatedFieldType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFieldType.swift; sourceTree = "<group>"; };
-		D6DCDAC724580CCE0090004D /* AnimatedField+TextViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+TextViewDelegate.swift"; sourceTree = "<group>"; };
-		D6DCDAC824580CCE0090004D /* AnimatedFieldAlertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFieldAlertPosition.swift; sourceTree = "<group>"; };
-		D6DCDAC924580CCE0090004D /* AnimatedField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimatedField.xib; sourceTree = "<group>"; };
-		D6DCDACA24580CCE0090004D /* AnimatedField+UIPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+UIPickerViewDelegate.swift"; sourceTree = "<group>"; };
-		D6DCDACB24580CCE0090004D /* AnimatedField+Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+Protocols.swift"; sourceTree = "<group>"; };
-		D6DCDACD24580CCE0090004D /* AmAlertStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAlertStyle.swift; sourceTree = "<group>"; };
-		D6DCDACE24580CCE0090004D /* AmAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmAlert.xib; sourceTree = "<group>"; };
-		D6DCDACF24580CCE0090004D /* AmAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmAlert.swift; sourceTree = "<group>"; };
+		D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XGArqmobUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69ECB0324628ED0001F17E9 /* XGArqmobUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGArqmobUI.h; sourceTree = "<group>"; };
+		D69ECB0424628ED0001F17E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69ECB0D24628F13001F17E9 /* UIFont+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Utilities.swift"; sourceTree = "<group>"; };
+		D69ECB0F24628F8C001F17E9 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		D69ECB1024628F8C001F17E9 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D69ECB1124628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D69ECB1224628F8C001F17E9 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		D69ECB1324628F8C001F17E9 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		D69ECB1424628F8C001F17E9 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		D69ECB1B24628F9F001F17E9 /* ArmobTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmobTheme.swift; sourceTree = "<group>"; };
+		D69ECB1E24629002001F17E9 /* ArqmobToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArqmobToast.swift; sourceTree = "<group>"; };
+		D69ECB2024629093001F17E9 /* AmIconos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AmIconos.xcassets; sourceTree = "<group>"; };
+		D69ECB2124629093001F17E9 /* AmColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AmColors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D6DCDA5124580BAA0090004D /* Frameworks */ = {
+		D69ECAFD24628ED0001F17E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D404EDD13B5D88423022831B /* Pods_XGArqmobUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0567B7DDAAC47117148ADE16 /* Frameworks */ = {
+		D69ECAF624628ED0001F17E9 = {
 			isa = PBXGroup;
 			children = (
-				BD7DFC79087199EC01E2017C /* Pods_XGArqmobUI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		415B49BF597CB3125D5F53DD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				92721378C917A8E5906ED54B /* Pods-XGArqmobUI.debug.xcconfig */,
-				94FEC1BF74F66E5D6244DC9D /* Pods-XGArqmobUI.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		D6DCDA4A24580BAA0090004D = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA5624580BAA0090004D /* XGArqmobUI */,
-				D6DCDA5524580BAA0090004D /* Products */,
-				415B49BF597CB3125D5F53DD /* Pods */,
-				0567B7DDAAC47117148ADE16 /* Frameworks */,
+				D69ECB0224628ED0001F17E9 /* XGArqmobUI */,
+				D69ECB0124628ED0001F17E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D6DCDA5524580BAA0090004D /* Products */ = {
+		D69ECB0124628ED0001F17E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6DCDA5424580BAA0090004D /* XGArqmobUI.framework */,
+				D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D6DCDA5624580BAA0090004D /* XGArqmobUI */ = {
+		D69ECB0224628ED0001F17E9 /* XGArqmobUI */ = {
 			isa = PBXGroup;
 			children = (
-				D6DCDAA624580CCE0090004D /* ArmobToast */,
-				D6DCDA8C24580CCE0090004D /* Buttons */,
-				D6DCDACC24580CCE0090004D /* CustomAlert */,
-				D6DCDAB424580CCE0090004D /* Extensions */,
-				D6DCDA6624580CCD0090004D /* FichaMapa */,
-				D6DCDABD24580CCE0090004D /* Forms */,
-				D6DCDA5F24580CCD0090004D /* Menu */,
-				D6DCDAA024580CCE0090004D /* Model */,
-				D6DCDA7E24580CCE0090004D /* Pantallas */,
-				D6DCDAA824580CCE0090004D /* Resources */,
-				D6DCDAB224580CCE0090004D /* Styles */,
-				D6DCDA6A24580CCD0090004D /* Utils */,
-				D6DCDA6C24580CCD0090004D /* ViewInfo */,
-				D6DCDA5724580BAA0090004D /* XGArqmobUI.h */,
-				D6DCDA5824580BAA0090004D /* Info.plist */,
+				D69ECB0C24628EDF001F17E9 /* Classes */,
+				D69ECB0B24628ED8001F17E9 /* Resources */,
+				D69ECB0324628ED0001F17E9 /* XGArqmobUI.h */,
+				D69ECB0424628ED0001F17E9 /* Info.plist */,
 			);
 			path = XGArqmobUI;
 			sourceTree = "<group>";
 		};
-		D6DCDA5F24580CCD0090004D /* Menu */ = {
+		D69ECB0B24628ED8001F17E9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D6DCDA6024580CCD0090004D /* Cell */,
-				D6DCDA6324580CCD0090004D /* Model */,
-				D6DCDA6524580CCD0090004D /* lib */,
-			);
-			path = Menu;
-			sourceTree = "<group>";
-		};
-		D6DCDA6024580CCD0090004D /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA6124580CCD0090004D /* AmCellMenu.swift */,
-				D6DCDA6224580CCD0090004D /* AmCellMenu.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		D6DCDA6324580CCD0090004D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA6424580CCD0090004D /* AmMenuItem.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D6DCDA6524580CCD0090004D /* lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		D6DCDA6624580CCD0090004D /* FichaMapa */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA6724580CCD0090004D /* AmCardMap.xib */,
-				D6DCDA6824580CCD0090004D /* AmCardMap.swift */,
-				D6DCDA6924580CCD0090004D /* AmCardStyle.swift */,
-			);
-			path = FichaMapa;
-			sourceTree = "<group>";
-		};
-		D6DCDA6A24580CCD0090004D /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA6B24580CCD0090004D /* IconsLibrary.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		D6DCDA6C24580CCD0090004D /* ViewInfo */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA6D24580CCD0090004D /* AmAboutUsShared.swift */,
-				D6DCDA6E24580CCD0090004D /* Controller */,
-				D6DCDA7224580CCD0090004D /* Cell */,
-				D6DCDA7724580CCD0090004D /* Childs */,
-				D6DCDA7B24580CCD0090004D /* AmAboutUsStyle.swift */,
-				D6DCDA7C24580CCD0090004D /* AmAboutUsMainVC.swift */,
-				D6DCDA7D24580CCD0090004D /* AmAboutUs.storyboard */,
-			);
-			path = ViewInfo;
-			sourceTree = "<group>";
-		};
-		D6DCDA6E24580CCD0090004D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA6F24580CCD0090004D /* AmContactInfoTableController.swift */,
-				D6DCDA7024580CCD0090004D /* AmAboutUsPageController.swift */,
-				D6DCDA7124580CCD0090004D /* AmVersionTableController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D6DCDA7224580CCD0090004D /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA7324580CCD0090004D /* CellInfo.swift */,
-				D6DCDA7424580CCD0090004D /* CellVersion.swift */,
-				D6DCDA7524580CCD0090004D /* CellVersion.xib */,
-				D6DCDA7624580CCD0090004D /* CellInfo.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		D6DCDA7724580CCD0090004D /* Childs */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA7824580CCD0090004D /* AmChildVersionVC.swift */,
-				D6DCDA7924580CCD0090004D /* AmChildContactVC.swift */,
-				D6DCDA7A24580CCD0090004D /* AmChildAboutUsVC.swift */,
-			);
-			path = Childs;
-			sourceTree = "<group>";
-		};
-		D6DCDA7E24580CCE0090004D /* Pantallas */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA7F24580CCE0090004D /* Splash */,
-				D6DCDA8224580CCE0090004D /* Tutorial */,
-				D6DCDA8824580CCE0090004D /* Errores */,
-			);
-			path = Pantallas;
-			sourceTree = "<group>";
-		};
-		D6DCDA7F24580CCE0090004D /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA8024580CCE0090004D /* AmSplash.xib */,
-				D6DCDA8124580CCE0090004D /* AmSplash.swift */,
-			);
-			path = Splash;
-			sourceTree = "<group>";
-		};
-		D6DCDA8224580CCE0090004D /* Tutorial */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA8324580CCE0090004D /* AmTutorialPageVC.swift */,
-				D6DCDA8424580CCE0090004D /* AmTutorialPageController.swift */,
-				D6DCDA8524580CCE0090004D /* AmTutorialMainVC.swift */,
-				D6DCDA8624580CCE0090004D /* AmTutorialStyle.swift */,
-				D6DCDA8724580CCE0090004D /* AmTutorial.storyboard */,
-			);
-			path = Tutorial;
-			sourceTree = "<group>";
-		};
-		D6DCDA8824580CCE0090004D /* Errores */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA8924580CCE0090004D /* AmErrorViewStyle.swift */,
-				D6DCDA8A24580CCE0090004D /* AmErrorView.xib */,
-				D6DCDA8B24580CCE0090004D /* AmErrorView.swift */,
-			);
-			path = Errores;
-			sourceTree = "<group>";
-		};
-		D6DCDA8C24580CCE0090004D /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA8D24580CCE0090004D /* AmDefaultGrayButton.swift */,
-				D6DCDA8E24580CCE0090004D /* AmOutlineButton.swift */,
-				D6DCDA8F24580CCE0090004D /* RadioButton */,
-				D6DCDA9224580CCE0090004D /* SimpleButton */,
-				D6DCDA9624580CCE0090004D /* UIButton+Style.swift */,
-				D6DCDA9724580CCE0090004D /* CheckBox */,
-				D6DCDA9A24580CCE0090004D /* AmTextGrayButton.swift */,
-				D6DCDA9B24580CCE0090004D /* AmOutlineGrayButton.swift */,
-				D6DCDA9C24580CCE0090004D /* AmFloatingExtendedButton.swift */,
-				D6DCDA9D24580CCE0090004D /* AmDefaultButton.swift */,
-				D6DCDA9E24580CCE0090004D /* AmFloatingDefaultButton.swift */,
-				D6DCDA9F24580CCE0090004D /* AmTextButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		D6DCDA8F24580CCE0090004D /* RadioButton */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA9024580CCE0090004D /* RadioButton.swift */,
-				D6DCDA9124580CCE0090004D /* RadioButton.xib */,
-			);
-			path = RadioButton;
-			sourceTree = "<group>";
-		};
-		D6DCDA9224580CCE0090004D /* SimpleButton */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA9324580CCE0090004D /* SimpleButtonStateChangeValue.swift */,
-				D6DCDA9424580CCE0090004D /* SimpleButtonControlState.swift */,
-				D6DCDA9524580CCE0090004D /* SimpleButton.swift */,
-			);
-			path = SimpleButton;
-			sourceTree = "<group>";
-		};
-		D6DCDA9724580CCE0090004D /* CheckBox */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDA9824580CCE0090004D /* Checkbox.xib */,
-				D6DCDA9924580CCE0090004D /* Checkbox.swift */,
-			);
-			path = CheckBox;
-			sourceTree = "<group>";
-		};
-		D6DCDAA024580CCE0090004D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDAA124580CCE0090004D /* Entity */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D6DCDAA124580CCE0090004D /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDAA224580CCE0090004D /* AmVersionInfo.swift */,
-				D6DCDAA324580CCE0090004D /* AmAboutInfo.swift */,
-				D6DCDAA424580CCE0090004D /* AmContactInfo.swift */,
-				D6DCDAA524580CCE0090004D /* AmTutorialItem.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		D6DCDAA624580CCE0090004D /* ArmobToast */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDAA724580CCE0090004D /* ArqmobToast.swift */,
-			);
-			path = ArmobToast;
-			sourceTree = "<group>";
-		};
-		D6DCDAA824580CCE0090004D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDAA924580CCE0090004D /* AmColors.xcassets */,
-				D6DCDAAA24580CCE0090004D /* AmIconos.xcassets */,
-				D6DCDAAB24580CCE0090004D /* Fonts */,
+				D69ECB2124629093001F17E9 /* AmColors.xcassets */,
+				D69ECB2024629093001F17E9 /* AmIconos.xcassets */,
+				D69ECB0F24628F8C001F17E9 /* Raleway-Bold.ttf */,
+				D69ECB1024628F8C001F17E9 /* Raleway-BoldItalic.ttf */,
+				D69ECB1324628F8C001F17E9 /* Raleway-Italic.ttf */,
+				D69ECB1424628F8C001F17E9 /* Raleway-Regular.ttf */,
+				D69ECB1224628F8C001F17E9 /* Raleway-SemiBold.ttf */,
+				D69ECB1124628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D6DCDAAB24580CCE0090004D /* Fonts */ = {
+		D69ECB0C24628EDF001F17E9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D6DCDAAC24580CCE0090004D /* Raleway-BoldItalic.ttf */,
-				D6DCDAAD24580CCE0090004D /* Raleway-SemiBold.ttf */,
-				D6DCDAAE24580CCE0090004D /* Raleway-Regular.ttf */,
-				D6DCDAAF24580CCE0090004D /* Raleway-SemiBoldItalic.ttf */,
-				D6DCDAB024580CCE0090004D /* Raleway-Italic.ttf */,
-				D6DCDAB124580CCE0090004D /* Raleway-Bold.ttf */,
+				D69ECB1D24629002001F17E9 /* ArmobToast */,
+				D69ECB0D24628F13001F17E9 /* UIFont+Utilities.swift */,
+				D69ECB1B24628F9F001F17E9 /* ArmobTheme.swift */,
 			);
-			path = Fonts;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		D6DCDAB224580CCE0090004D /* Styles */ = {
+		D69ECB1D24629002001F17E9 /* ArmobToast */ = {
 			isa = PBXGroup;
 			children = (
-				D6DCDAB324580CCE0090004D /* Theme.swift */,
+				D69ECB1E24629002001F17E9 /* ArqmobToast.swift */,
 			);
-			path = Styles;
-			sourceTree = "<group>";
-		};
-		D6DCDAB424580CCE0090004D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDAB524580CCE0090004D /* Date+Format.swift */,
-				D6DCDAB624580CCE0090004D /* UIView+Style.swift */,
-				D6DCDAB724580CCE0090004D /* UIFont+Load.swift */,
-				D6DCDAB824580CCE0090004D /* String+RegEx.swift */,
-				D6DCDAB924580CCE0090004D /* CustomTextField.swift */,
-				D6DCDABA24580CCE0090004D /* UIView+Shake.swift */,
-				D6DCDABB24580CCE0090004D /* UIView+Nib.swift */,
-				D6DCDABC24580CCE0090004D /* UIButton+Insents.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		D6DCDABD24580CCE0090004D /* Forms */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDABE24580CCE0090004D /* DefaultField */,
-				D6DCDAC224580CCE0090004D /* AnimatedField */,
-			);
-			path = Forms;
-			sourceTree = "<group>";
-		};
-		D6DCDABE24580CCE0090004D /* DefaultField */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDABF24580CCE0090004D /* DefaultFieldFormat.swift */,
-				D6DCDAC024580CCE0090004D /* AmFormWithLabel.xib */,
-				D6DCDAC124580CCE0090004D /* AmFormWithLabel.swift */,
-			);
-			path = DefaultField;
-			sourceTree = "<group>";
-		};
-		D6DCDAC224580CCE0090004D /* AnimatedField */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDAC324580CCE0090004D /* AnimatedFieldFormat.swift */,
-				D6DCDAC424580CCE0090004D /* AnimatedField+TextFieldDelegate.swift */,
-				D6DCDAC524580CCE0090004D /* AnimatedField.swift */,
-				D6DCDAC624580CCE0090004D /* AnimatedFieldType.swift */,
-				D6DCDAC724580CCE0090004D /* AnimatedField+TextViewDelegate.swift */,
-				D6DCDAC824580CCE0090004D /* AnimatedFieldAlertPosition.swift */,
-				D6DCDAC924580CCE0090004D /* AnimatedField.xib */,
-				D6DCDACA24580CCE0090004D /* AnimatedField+UIPickerViewDelegate.swift */,
-				D6DCDACB24580CCE0090004D /* AnimatedField+Protocols.swift */,
-			);
-			path = AnimatedField;
-			sourceTree = "<group>";
-		};
-		D6DCDACC24580CCE0090004D /* CustomAlert */ = {
-			isa = PBXGroup;
-			children = (
-				D6DCDACD24580CCE0090004D /* AmAlertStyle.swift */,
-				D6DCDACE24580CCE0090004D /* AmAlert.xib */,
-				D6DCDACF24580CCE0090004D /* AmAlert.swift */,
-			);
-			path = CustomAlert;
+			path = ArmobToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D6DCDA4F24580BAA0090004D /* Headers */ = {
+		D69ECAFB24628ED0001F17E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DCDA5924580BAA0090004D /* XGArqmobUI.h in Headers */,
+				D69ECB0524628ED0001F17E9 /* XGArqmobUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D6DCDA5324580BAA0090004D /* XGArqmobUI */ = {
+		D69ECAFF24628ED0001F17E9 /* XGArqmobUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6DCDA5C24580BAA0090004D /* Build configuration list for PBXNativeTarget "XGArqmobUI" */;
+			buildConfigurationList = D69ECB0824628ED0001F17E9 /* Build configuration list for PBXNativeTarget "XGArqmobUI" */;
 			buildPhases = (
-				C3FEA4D75DB78416C059E18E /* [CP] Check Pods Manifest.lock */,
-				D6DCDA4F24580BAA0090004D /* Headers */,
-				D6DCDA5024580BAA0090004D /* Sources */,
-				D6DCDA5124580BAA0090004D /* Frameworks */,
-				D6DCDA5224580BAA0090004D /* Resources */,
+				D69ECAFB24628ED0001F17E9 /* Headers */,
+				D69ECAFC24628ED0001F17E9 /* Sources */,
+				D69ECAFD24628ED0001F17E9 /* Frameworks */,
+				D69ECAFE24628ED0001F17E9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -590,24 +138,25 @@
 			);
 			name = XGArqmobUI;
 			productName = XGArqmobUI;
-			productReference = D6DCDA5424580BAA0090004D /* XGArqmobUI.framework */;
+			productReference = D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D6DCDA4B24580BAA0090004D /* Project object */ = {
+		D69ECAF724628ED0001F17E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = Vero;
+				ORGANIZATIONNAME = Sixtema;
 				TargetAttributes = {
-					D6DCDA5324580BAA0090004D = {
+					D69ECAFF24628ED0001F17E9 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
-			buildConfigurationList = D6DCDA4E24580BAA0090004D /* Build configuration list for PBXProject "XGArqmobUI" */;
+			buildConfigurationList = D69ECAFA24628ED0001F17E9 /* Build configuration list for PBXProject "XGArqmobUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -615,147 +164,49 @@
 				en,
 				Base,
 			);
-			mainGroup = D6DCDA4A24580BAA0090004D;
-			productRefGroup = D6DCDA5524580BAA0090004D /* Products */;
+			mainGroup = D69ECAF624628ED0001F17E9;
+			productRefGroup = D69ECB0124628ED0001F17E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6DCDA5324580BAA0090004D /* XGArqmobUI */,
+				D69ECAFF24628ED0001F17E9 /* XGArqmobUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D6DCDA5224580BAA0090004D /* Resources */ = {
+		D69ECAFE24628ED0001F17E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DCDAD324580CCE0090004D /* AmCardMap.xib in Resources */,
-				D6DCDB0B24580CCE0090004D /* Raleway-Bold.ttf in Resources */,
-				D6DCDB0824580CCE0090004D /* Raleway-Regular.ttf in Resources */,
-				D6DCDAF224580CCE0090004D /* RadioButton.xib in Resources */,
-				D6DCDADE24580CCE0090004D /* CellInfo.xib in Resources */,
-				D6DCDB1E24580CCE0090004D /* AnimatedField.xib in Resources */,
-				D6DCDAE524580CCE0090004D /* AmSplash.xib in Resources */,
-				D6DCDB1624580CCE0090004D /* AmFormWithLabel.xib in Resources */,
-				D6DCDB0A24580CCE0090004D /* Raleway-Italic.ttf in Resources */,
-				D6DCDB2224580CCE0090004D /* AmAlert.xib in Resources */,
-				D6DCDB0424580CCE0090004D /* AmColors.xcassets in Resources */,
-				D6DCDB0624580CCE0090004D /* Raleway-BoldItalic.ttf in Resources */,
-				D6DCDAF724580CCE0090004D /* Checkbox.xib in Resources */,
-				D6DCDAED24580CCE0090004D /* AmErrorView.xib in Resources */,
-				D6DCDAEB24580CCE0090004D /* AmTutorial.storyboard in Resources */,
-				D6DCDADD24580CCE0090004D /* CellVersion.xib in Resources */,
-				D6DCDAD124580CCE0090004D /* AmCellMenu.xib in Resources */,
-				D6DCDB0524580CCE0090004D /* AmIconos.xcassets in Resources */,
-				D6DCDB0924580CCE0090004D /* Raleway-SemiBoldItalic.ttf in Resources */,
-				D6DCDAE424580CCE0090004D /* AmAboutUs.storyboard in Resources */,
-				D6DCDB0724580CCE0090004D /* Raleway-SemiBold.ttf in Resources */,
+				D69ECB2224629093001F17E9 /* AmIconos.xcassets in Resources */,
+				D69ECB1724628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				D69ECB1A24628F8C001F17E9 /* Raleway-Regular.ttf in Resources */,
+				D69ECB1924628F8C001F17E9 /* Raleway-Italic.ttf in Resources */,
+				D69ECB1824628F8C001F17E9 /* Raleway-SemiBold.ttf in Resources */,
+				D69ECB2324629093001F17E9 /* AmColors.xcassets in Resources */,
+				D69ECB1524628F8C001F17E9 /* Raleway-Bold.ttf in Resources */,
+				D69ECB1624628F8C001F17E9 /* Raleway-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C3FEA4D75DB78416C059E18E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XGArqmobUI-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D6DCDA5024580BAA0090004D /* Sources */ = {
+		D69ECAFC24628ED0001F17E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DCDB2124580CCE0090004D /* AmAlertStyle.swift in Sources */,
-				D6DCDB1824580CCE0090004D /* AnimatedFieldFormat.swift in Sources */,
-				D6DCDAD724580CCE0090004D /* AmAboutUsShared.swift in Sources */,
-				D6DCDAE924580CCE0090004D /* AmTutorialMainVC.swift in Sources */,
-				D6DCDAF024580CCE0090004D /* AmOutlineButton.swift in Sources */,
-				D6DCDAF624580CCE0090004D /* UIButton+Style.swift in Sources */,
-				D6DCDAD424580CCE0090004D /* AmCardMap.swift in Sources */,
-				D6DCDADA24580CCE0090004D /* AmVersionTableController.swift in Sources */,
-				D6DCDB0D24580CCE0090004D /* Date+Format.swift in Sources */,
-				D6DCDAF424580CCE0090004D /* SimpleButtonControlState.swift in Sources */,
-				D6DCDAFC24580CCE0090004D /* AmDefaultButton.swift in Sources */,
-				D6DCDB0E24580CCE0090004D /* UIView+Style.swift in Sources */,
-				D6DCDB1224580CCE0090004D /* UIView+Shake.swift in Sources */,
-				D6DCDADC24580CCE0090004D /* CellVersion.swift in Sources */,
-				D6DCDB1A24580CCE0090004D /* AnimatedField.swift in Sources */,
-				D6DCDAF824580CCE0090004D /* Checkbox.swift in Sources */,
-				D6DCDADB24580CCE0090004D /* CellInfo.swift in Sources */,
-				D6DCDAF124580CCE0090004D /* RadioButton.swift in Sources */,
-				D6DCDB1B24580CCE0090004D /* AnimatedFieldType.swift in Sources */,
-				D6DCDB0224580CCE0090004D /* AmTutorialItem.swift in Sources */,
-				D6DCDB0124580CCE0090004D /* AmContactInfo.swift in Sources */,
-				D6DCDAFE24580CCE0090004D /* AmTextButton.swift in Sources */,
-				D6DCDAD924580CCE0090004D /* AmAboutUsPageController.swift in Sources */,
-				D6DCDB1C24580CCE0090004D /* AnimatedField+TextViewDelegate.swift in Sources */,
-				D6DCDADF24580CCE0090004D /* AmChildVersionVC.swift in Sources */,
-				D6DCDAD524580CCE0090004D /* AmCardStyle.swift in Sources */,
-				D6DCDB1124580CCE0090004D /* CustomTextField.swift in Sources */,
-				D6DCDB0F24580CCE0090004D /* UIFont+Load.swift in Sources */,
-				D6DCDB2324580CCE0090004D /* AmAlert.swift in Sources */,
-				D6DCDAFD24580CCE0090004D /* AmFloatingDefaultButton.swift in Sources */,
-				D6DCDAE624580CCE0090004D /* AmSplash.swift in Sources */,
-				D6DCDAD824580CCE0090004D /* AmContactInfoTableController.swift in Sources */,
-				D6DCDAE224580CCE0090004D /* AmAboutUsStyle.swift in Sources */,
-				D6DCDB1F24580CCE0090004D /* AnimatedField+UIPickerViewDelegate.swift in Sources */,
-				D6DCDB0024580CCE0090004D /* AmAboutInfo.swift in Sources */,
-				D6DCDAE124580CCE0090004D /* AmChildAboutUsVC.swift in Sources */,
-				D6DCDAD024580CCE0090004D /* AmCellMenu.swift in Sources */,
-				D6DCDB1024580CCE0090004D /* String+RegEx.swift in Sources */,
-				D6DCDAFF24580CCE0090004D /* AmVersionInfo.swift in Sources */,
-				D6DCDAF924580CCE0090004D /* AmTextGrayButton.swift in Sources */,
-				D6DCDAD624580CCE0090004D /* IconsLibrary.swift in Sources */,
-				D6DCDAE824580CCE0090004D /* AmTutorialPageController.swift in Sources */,
-				D6DCDB0324580CCE0090004D /* ArqmobToast.swift in Sources */,
-				D6DCDB1724580CCE0090004D /* AmFormWithLabel.swift in Sources */,
-				D6DCDB1D24580CCE0090004D /* AnimatedFieldAlertPosition.swift in Sources */,
-				D6DCDB0C24580CCE0090004D /* Theme.swift in Sources */,
-				D6DCDAD224580CCE0090004D /* AmMenuItem.swift in Sources */,
-				D6DCDAFA24580CCE0090004D /* AmOutlineGrayButton.swift in Sources */,
-				D6DCDAE024580CCE0090004D /* AmChildContactVC.swift in Sources */,
-				D6DCDAEA24580CCE0090004D /* AmTutorialStyle.swift in Sources */,
-				D6DCDAFB24580CCE0090004D /* AmFloatingExtendedButton.swift in Sources */,
-				D6DCDB1424580CCE0090004D /* UIButton+Insents.swift in Sources */,
-				D6DCDAF524580CCE0090004D /* SimpleButton.swift in Sources */,
-				D6DCDAEC24580CCE0090004D /* AmErrorViewStyle.swift in Sources */,
-				D6DCDAEE24580CCE0090004D /* AmErrorView.swift in Sources */,
-				D6DCDAE324580CCE0090004D /* AmAboutUsMainVC.swift in Sources */,
-				D6DCDB1924580CCE0090004D /* AnimatedField+TextFieldDelegate.swift in Sources */,
-				D6DCDAEF24580CCE0090004D /* AmDefaultGrayButton.swift in Sources */,
-				D6DCDAF324580CCE0090004D /* SimpleButtonStateChangeValue.swift in Sources */,
-				D6DCDB1524580CCE0090004D /* DefaultFieldFormat.swift in Sources */,
-				D6DCDB1324580CCE0090004D /* UIView+Nib.swift in Sources */,
-				D6DCDB2024580CCE0090004D /* AnimatedField+Protocols.swift in Sources */,
-				D6DCDAE724580CCE0090004D /* AmTutorialPageVC.swift in Sources */,
+				D69ECB0E24628F13001F17E9 /* UIFont+Utilities.swift in Sources */,
+				D69ECB1C24628F9F001F17E9 /* ArmobTheme.swift in Sources */,
+				D69ECB1F24629002001F17E9 /* ArqmobToast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D6DCDA5A24580BAA0090004D /* Debug */ = {
+		D69ECB0624628ED0001F17E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -818,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		D6DCDA5B24580BAA0090004D /* Release */ = {
+		D69ECB0724628ED0001F17E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -875,10 +326,10 @@
 			};
 			name = Release;
 		};
-		D6DCDA5D24580BAA0090004D /* Debug */ = {
+		D69ECB0924628ED0001F17E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92721378C917A8E5906ED54B /* Pods-XGArqmobUI.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3V8B6EUK67;
@@ -887,6 +338,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = XGArqmobUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -895,15 +347,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = es.sixtema.XGArqmobUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D6DCDA5E24580BAA0090004D /* Release */ = {
+		D69ECB0A24628ED0001F17E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94FEC1BF74F66E5D6244DC9D /* Pods-XGArqmobUI.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3V8B6EUK67;
@@ -912,6 +366,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = XGArqmobUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -920,6 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = es.sixtema.XGArqmobUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -928,25 +384,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6DCDA4E24580BAA0090004D /* Build configuration list for PBXProject "XGArqmobUI" */ = {
+		D69ECAFA24628ED0001F17E9 /* Build configuration list for PBXProject "XGArqmobUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6DCDA5A24580BAA0090004D /* Debug */,
-				D6DCDA5B24580BAA0090004D /* Release */,
+				D69ECB0624628ED0001F17E9 /* Debug */,
+				D69ECB0724628ED0001F17E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6DCDA5C24580BAA0090004D /* Build configuration list for PBXNativeTarget "XGArqmobUI" */ = {
+		D69ECB0824628ED0001F17E9 /* Build configuration list for PBXNativeTarget "XGArqmobUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6DCDA5D24580BAA0090004D /* Debug */,
-				D6DCDA5E24580BAA0090004D /* Release */,
+				D69ECB0924628ED0001F17E9 /* Debug */,
+				D69ECB0A24628ED0001F17E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D6DCDA4B24580BAA0090004D /* Project object */;
+	rootObject = D69ECAF724628ED0001F17E9 /* Project object */;
 }

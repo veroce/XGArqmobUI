@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nwk-L4-MQU">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Menu Controller-->
+        <scene sceneID="8Cb-dy-nl4">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nwk-L4-MQU" customClass="MenuController" customModule="Arqmob_Enoturismo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ecf-2R-glf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Tok-FZ-2OH"/>
+                    </view>
+                    <connections>
+                        <segue destination="a9U-og-UZM" kind="custom" identifier="left" customClass="LGSideMenuSegue" id="p53-D9-Ag3"/>
+                        <segue destination="4mv-b9-kXo" kind="custom" identifier="root" customClass="LGSideMenuSegue" id="X9e-ko-aF6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M8S-uW-E09" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1249" y="130"/>
+        </scene>
+        <!--MenuVC-->
+        <scene sceneID="eUI-i8-skM">
+            <objects>
+                <viewController storyboardIdentifier="MenuVC" id="a9U-og-UZM" customClass="MenuVC" customModule="Arqmob_Enoturismo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="toV-yb-BfU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="J9j-6j-sXf">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="b3P-Qn-v9n">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_manual" translatesAutoresizingMaskIntoConstraints="NO" id="nj4-e2-MrA">
+                                            <rect key="frame" x="16" y="76" width="165" height="64"/>
+                                            <color key="tintColor" name="primaryColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="165" id="3QS-JB-nsJ"/>
+                                                <constraint firstAttribute="height" constant="64" id="RwU-3U-x1m"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="nj4-e2-MrA" secondAttribute="bottom" constant="60" id="ZEm-WR-P5I"/>
+                                        <constraint firstItem="nj4-e2-MrA" firstAttribute="top" secondItem="b3P-Qn-v9n" secondAttribute="top" constant="76" id="kVR-uc-o8k"/>
+                                        <constraint firstItem="nj4-e2-MrA" firstAttribute="leading" secondItem="b3P-Qn-v9n" secondAttribute="leading" constant="16" id="oKw-zI-IRw"/>
+                                    </constraints>
+                                </view>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="pOx-Nm-7Nl">
+                                    <rect key="frame" x="0.0" y="200" width="414" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ros-Nv-hp3">
+                                            <rect key="frame" x="40" y="0.0" width="374" height="60"/>
+                                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                            <color key="tintColor" name="primaryColor"/>
+                                            <state key="normal" title="Mostrar tutorial">
+                                                <color key="titleColor" name="primaryColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btnShowTutorialTouch:" destination="a9U-og-UZM" eventType="touchUpInside" id="2Vy-IV-chK"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="ros-Nv-hp3" firstAttribute="top" secondItem="pOx-Nm-7Nl" secondAttribute="top" id="4rw-8t-3dD"/>
+                                        <constraint firstAttribute="bottom" secondItem="ros-Nv-hp3" secondAttribute="bottom" id="TZV-CB-gTX"/>
+                                        <constraint firstAttribute="trailing" secondItem="ros-Nv-hp3" secondAttribute="trailing" id="Vgq-Cj-4yj"/>
+                                        <constraint firstItem="ros-Nv-hp3" firstAttribute="leading" secondItem="pOx-Nm-7Nl" secondAttribute="leading" constant="40" id="c42-Gw-1rY"/>
+                                    </constraints>
+                                </view>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="enp-e8-bJe" firstAttribute="trailing" secondItem="J9j-6j-sXf" secondAttribute="trailing" id="Bas-h2-w4P"/>
+                            <constraint firstItem="enp-e8-bJe" firstAttribute="bottom" secondItem="J9j-6j-sXf" secondAttribute="bottom" id="HbG-rf-Cmu"/>
+                            <constraint firstItem="J9j-6j-sXf" firstAttribute="leading" secondItem="enp-e8-bJe" secondAttribute="leading" id="aBr-x2-sUU"/>
+                            <constraint firstItem="J9j-6j-sXf" firstAttribute="top" secondItem="enp-e8-bJe" secondAttribute="top" id="ccf-7G-EjB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="enp-e8-bJe"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="J9j-6j-sXf" id="zsR-FG-IXG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zF6-ul-xsp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1249.2753623188407" y="817.63392857142856"/>
+        </scene>
+        <!--Aplicaciones-->
+        <scene sceneID="zzt-Dm-mjM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Aplicaciones" id="4mv-b9-kXo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYP-7e-PW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-505" y="46"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu_manual" width="117" height="46"/>
+        <namedColor name="primaryColor">
+            <color red="0.41200000047683716" green="0.043000001460313797" blue="0.1289999932050705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HVS-iz-Z8q">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Botones MainVC-->
+        <scene sceneID="DxV-ul-lzN">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="HVS-iz-Z8q" customClass="BotonesMainVC" customModule="XGArqmobUIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jgk-8c-qMt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" itemPositioning="centered" translatesAutoresizingMaskIntoConstraints="NO" id="E26-4i-Vuv">
+                                <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="3dY-DP-7o5"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem title="Ejemplo 1" image="example_tab_bar" id="LjF-Nf-n3F"/>
+                                    <tabBarItem title="Ejemplo 2" image="example_tab_bar" id="8Pp-JA-Koj"/>
+                                    <tabBarItem title="Ejemplo 3" image="example_tab_bar" id="9O5-wY-SMO"/>
+                                    <tabBarItem title="Ejemplo 4" image="example_tab_bar" id="l32-5Y-fk2"/>
+                                </items>
+                            </tabBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Dxu-6D-kCa">
+                                <rect key="frame" x="0.0" y="44" width="414" height="758"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CellTypeButton" textLabel="rsE-zi-XF2" style="IBUITableViewCellStyleDefault" id="93s-SQ-M8m">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="93s-SQ-M8m" id="Q6n-i3-Ulw">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rsE-zi-XF2">
+                                                    <rect key="frame" x="20" y="0.0" width="355" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellTabBar" id="pSE-Sc-VoV" customClass="CellTabBar" customModule="XGArqmobUIDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pSE-Sc-VoV" id="Dno-el-PrE">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mostrar tab bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fds-13-30E">
+                                                    <rect key="frame" x="20" y="12" width="305" height="20"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wLf-ua-Bfa">
+                                                    <rect key="frame" x="345" y="6.5" width="51" height="31"/>
+                                                    <color key="onTintColor" name="primaryColor"/>
+                                                    <connections>
+                                                        <action selector="SwitchValueChanged:" destination="pSE-Sc-VoV" eventType="valueChanged" id="aea-ne-qsq"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="wLf-ua-Bfa" firstAttribute="centerY" secondItem="Dno-el-PrE" secondAttribute="centerY" id="LUS-K1-dl1"/>
+                                                <constraint firstItem="fds-13-30E" firstAttribute="leading" secondItem="Dno-el-PrE" secondAttribute="leadingMargin" id="MR0-LU-giL"/>
+                                                <constraint firstItem="wLf-ua-Bfa" firstAttribute="leading" secondItem="fds-13-30E" secondAttribute="trailing" constant="20" id="c1r-z3-Njb"/>
+                                                <constraint firstItem="fds-13-30E" firstAttribute="centerY" secondItem="Dno-el-PrE" secondAttribute="centerY" id="twa-fz-x7t"/>
+                                                <constraint firstAttribute="trailing" secondItem="wLf-ua-Bfa" secondAttribute="trailing" constant="20" id="v8D-rw-1Ms"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lbTitle" destination="fds-13-30E" id="zII-SE-G0d"/>
+                                            <outlet property="switchState" destination="wLf-ua-Bfa" id="eX4-Eu-Vl4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Dxu-6D-kCa" firstAttribute="top" secondItem="ZhR-Al-Mc9" secondAttribute="top" id="9Ha-y9-11I"/>
+                            <constraint firstItem="E26-4i-Vuv" firstAttribute="trailing" secondItem="ZhR-Al-Mc9" secondAttribute="trailing" id="TFQ-xF-9g3"/>
+                            <constraint firstItem="E26-4i-Vuv" firstAttribute="leading" secondItem="ZhR-Al-Mc9" secondAttribute="leading" id="Uu3-mx-XQs"/>
+                            <constraint firstItem="Dxu-6D-kCa" firstAttribute="leading" secondItem="ZhR-Al-Mc9" secondAttribute="leading" id="Ync-9t-bCS"/>
+                            <constraint firstItem="ZhR-Al-Mc9" firstAttribute="trailing" secondItem="Dxu-6D-kCa" secondAttribute="trailing" id="eNa-GO-p0r"/>
+                            <constraint firstItem="ZhR-Al-Mc9" firstAttribute="bottom" secondItem="E26-4i-Vuv" secondAttribute="bottom" id="jVN-vI-rQU"/>
+                            <constraint firstItem="E26-4i-Vuv" firstAttribute="top" secondItem="Dxu-6D-kCa" secondAttribute="bottom" id="oaa-gH-tor"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZhR-Al-Mc9"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="4dr-cV-8JW">
+                        <barButtonItem key="backBarButtonItem" title=" " id="igV-mI-vzM"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tabBar" destination="E26-4i-Vuv" id="x43-Rb-V3L"/>
+                        <outlet property="tableView" destination="Dxu-6D-kCa" id="slo-B9-iOc"/>
+                        <segue destination="5tl-rt-Zj4" kind="show" identifier="showBotonesPorDefecto" id="n5g-D0-WG7"/>
+                        <segue destination="jlh-pd-wkg" kind="show" identifier="showBotonesOutline" id="V0H-xm-RhD"/>
+                        <segue destination="Bsk-Vy-9tT" kind="show" identifier="showBotonesFlotantes" id="4WR-1Y-QGF"/>
+                        <segue destination="TN3-me-0Kp" kind="show" identifier="showBotonesGrises" id="p06-uC-V4L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vD5-fb-vDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1776.8115942028987" y="-358.25892857142856"/>
+        </scene>
+        <!--Botones Por DefectoVC-->
+        <scene sceneID="U9F-E0-vJJ">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="5tl-rt-Zj4" customClass="BotonesPorDefectoVC" customModule="XGArqmobUIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fSG-xu-lHX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por defecto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUH-lv-K97">
+                                <rect key="frame" x="20" y="74" width="374" height="20"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnE-LZ-EB7" customClass="AmDefaultButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="20" y="134" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="YD9-47-yLW"/>
+                                    <constraint firstAttribute="height" constant="44" id="xit-8g-POd"/>
+                                </constraints>
+                                <state key="normal" title="Botón"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJh-5C-M9Z" customClass="AmDefaultButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="179" y="134" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="50e-S7-hxr"/>
+                                    <constraint firstAttribute="height" constant="44" id="B27-Ea-phE"/>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por defecto con texto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hQ-EO-HH8">
+                                <rect key="frame" x="20" y="218" width="374" height="20"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xk-Qk-NOl" customClass="AmTextButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="20" y="258" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="ASV-Ud-3xk"/>
+                                    <constraint firstAttribute="height" constant="44" id="xoD-b0-Tph"/>
+                                </constraints>
+                                <state key="normal" title="BOTÓN"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQH-1l-RQg" customClass="AmTextButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="179" y="258" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Y9w-WG-FXo"/>
+                                    <constraint firstAttribute="height" constant="44" id="rPh-u6-sdh"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yQH-1l-RQg" firstAttribute="top" secondItem="1xk-Qk-NOl" secondAttribute="top" id="EIA-5t-nyo"/>
+                            <constraint firstItem="1xk-Qk-NOl" firstAttribute="top" secondItem="9hQ-EO-HH8" secondAttribute="bottom" constant="20" id="Ei1-k2-DWE"/>
+                            <constraint firstItem="ZJh-5C-M9Z" firstAttribute="top" secondItem="hnE-LZ-EB7" secondAttribute="top" id="IJD-at-4qj"/>
+                            <constraint firstItem="4xX-d7-iO1" firstAttribute="trailing" secondItem="9hQ-EO-HH8" secondAttribute="trailing" constant="20" id="KLQ-Qs-UEI"/>
+                            <constraint firstItem="hnE-LZ-EB7" firstAttribute="top" secondItem="qUH-lv-K97" secondAttribute="bottom" constant="40" id="L1a-TP-fQ7"/>
+                            <constraint firstItem="4xX-d7-iO1" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZJh-5C-M9Z" secondAttribute="trailing" constant="20" id="Qdn-eh-FlO"/>
+                            <constraint firstItem="9hQ-EO-HH8" firstAttribute="leading" secondItem="4xX-d7-iO1" secondAttribute="leading" constant="20" id="Sfw-la-cbH"/>
+                            <constraint firstItem="1xk-Qk-NOl" firstAttribute="leading" secondItem="4xX-d7-iO1" secondAttribute="leading" constant="20" id="VjN-yl-bXt"/>
+                            <constraint firstItem="yQH-1l-RQg" firstAttribute="leading" secondItem="1xk-Qk-NOl" secondAttribute="trailing" constant="15" id="WTo-lD-Slx"/>
+                            <constraint firstItem="4xX-d7-iO1" firstAttribute="trailing" secondItem="qUH-lv-K97" secondAttribute="trailing" constant="20" id="YmP-wy-vOa"/>
+                            <constraint firstItem="4xX-d7-iO1" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yQH-1l-RQg" secondAttribute="trailing" constant="20" id="agr-hQ-54W"/>
+                            <constraint firstItem="hnE-LZ-EB7" firstAttribute="leading" secondItem="4xX-d7-iO1" secondAttribute="leading" constant="20" id="bPZ-Qj-r9V"/>
+                            <constraint firstItem="9hQ-EO-HH8" firstAttribute="top" secondItem="hnE-LZ-EB7" secondAttribute="bottom" constant="40" id="pCL-lB-BP5"/>
+                            <constraint firstItem="qUH-lv-K97" firstAttribute="top" secondItem="4xX-d7-iO1" secondAttribute="top" constant="30" id="uK7-pN-BGH"/>
+                            <constraint firstItem="ZJh-5C-M9Z" firstAttribute="leading" secondItem="hnE-LZ-EB7" secondAttribute="trailing" constant="15" id="x46-rj-W7D"/>
+                            <constraint firstItem="qUH-lv-K97" firstAttribute="leading" secondItem="4xX-d7-iO1" secondAttribute="leading" constant="20" id="yrz-xo-Pzb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4xX-d7-iO1"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="QiF-b0-FI9">
+                        <barButtonItem key="backBarButtonItem" title=" " id="GK7-Qv-efq"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnDefault" destination="hnE-LZ-EB7" id="T0w-10-h3J"/>
+                        <outlet property="btnDefaultLoading" destination="ZJh-5C-M9Z" id="y21-7W-cbM"/>
+                        <outlet property="btnTextButton" destination="1xk-Qk-NOl" id="Q2Y-hn-6Hs"/>
+                        <outlet property="btnTextButtonLoading" destination="yQH-1l-RQg" id="SP5-59-vod"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L3I-E2-qDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1970" y="-1037"/>
+        </scene>
+        <!--Botones FlotantesVC-->
+        <scene sceneID="fjs-03-9gY">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Bsk-Vy-9tT" customClass="BotonesFlotantesVC" customModule="XGArqmobUIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hX3-Vj-ccs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkI-Nu-fec" customClass="AmFloatingButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="328" y="766" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="6a0-nU-pwc"/>
+                                    <constraint firstAttribute="height" constant="56" id="R4D-bw-nnr"/>
+                                </constraints>
+                                <state key="normal" image="plus" catalog="system"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="q9o-nZ-7Dk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="758"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellFloatingButton" textLabel="Ikc-E5-yuV" style="IBUITableViewCellStyleDefault" id="KfW-5H-BTq">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KfW-5H-BTq" id="kXK-SU-JPe">
+                                            <rect key="frame" x="0.0" y="0.0" width="370" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ikc-E5-yuV">
+                                                    <rect key="frame" x="20" y="0.0" width="342" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITa-Ql-fig" customClass="AmFloatingExtendedButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="298" y="778" width="86" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="zPx-1Q-x9x"/>
+                                </constraints>
+                                <state key="normal" title="PULSAR" image="plus" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KMC-8l-tD1" firstAttribute="trailing" secondItem="bkI-Nu-fec" secondAttribute="trailing" constant="30" id="8nm-aL-ZA5"/>
+                            <constraint firstItem="q9o-nZ-7Dk" firstAttribute="leading" secondItem="KMC-8l-tD1" secondAttribute="leading" id="JaD-fN-IDA"/>
+                            <constraint firstItem="ITa-Ql-fig" firstAttribute="top" secondItem="q9o-nZ-7Dk" secondAttribute="bottom" constant="20" id="MEf-xA-8GU"/>
+                            <constraint firstItem="KMC-8l-tD1" firstAttribute="bottom" secondItem="bkI-Nu-fec" secondAttribute="bottom" constant="40" id="QbX-dU-C2Y"/>
+                            <constraint firstItem="KMC-8l-tD1" firstAttribute="bottom" secondItem="ITa-Ql-fig" secondAttribute="bottom" constant="40" id="SLR-Lp-qV8"/>
+                            <constraint firstItem="q9o-nZ-7Dk" firstAttribute="top" secondItem="hX3-Vj-ccs" secondAttribute="top" id="eFt-yi-5wL"/>
+                            <constraint firstItem="KMC-8l-tD1" firstAttribute="trailing" secondItem="ITa-Ql-fig" secondAttribute="trailing" constant="30" id="pyq-li-5HQ"/>
+                            <constraint firstItem="q9o-nZ-7Dk" firstAttribute="trailing" secondItem="KMC-8l-tD1" secondAttribute="trailing" id="vOh-P6-Lz2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KMC-8l-tD1"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="8s1-TY-yKX">
+                        <barButtonItem key="backBarButtonItem" title=" " id="zMT-Ej-a9q"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnExtendedButton" destination="ITa-Ql-fig" id="O71-55-LS3"/>
+                        <outlet property="btnMiniButton" destination="bkI-Nu-fec" id="Ac8-cw-Kma"/>
+                        <outlet property="tableView" destination="q9o-nZ-7Dk" id="HOb-lz-rCj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R3Q-EN-17n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1145" y="518"/>
+        </scene>
+        <!--Botones GrisVC-->
+        <scene sceneID="7xk-nH-s6E">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="TN3-me-0Kp" customClass="BotonesGrisVC" customModule="XGArqmobUIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8N4-Wk-CWu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gris" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AH2-b5-EmT">
+                                <rect key="frame" x="20" y="74" width="374" height="20"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cri-CG-Kws" customClass="AmDefaultGrayButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="20" y="124" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="THh-Os-KgN"/>
+                                    <constraint firstAttribute="width" constant="144" id="i3w-zS-H4V"/>
+                                </constraints>
+                                <state key="normal" title="Botón"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTq-YG-gn6" customClass="AmDefaultGrayButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="179" y="124" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="3GJ-vD-FxD"/>
+                                    <constraint firstAttribute="height" constant="44" id="uVq-CM-bTZ"/>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gris con texto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tvm-4K-Jv5">
+                                <rect key="frame" x="20" y="208" width="374" height="20"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBG-ri-18c" customClass="AmTextGrayButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="20" y="258" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="4XL-PM-NAL"/>
+                                    <constraint firstAttribute="height" constant="44" id="5qT-br-gr7"/>
+                                </constraints>
+                                <state key="normal" title="Botón"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nio-t5-FIA" customClass="AmTextGrayButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="179" y="258" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aVz-4c-P5d"/>
+                                    <constraint firstAttribute="width" constant="144" id="h6q-Qw-ggn"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Tvm-4K-Jv5" firstAttribute="leading" secondItem="nA3-Gy-bKu" secondAttribute="leading" constant="20" id="1CL-7P-TSb"/>
+                            <constraint firstItem="BTq-YG-gn6" firstAttribute="leading" secondItem="cri-CG-Kws" secondAttribute="trailing" constant="15" id="2PB-er-6bz"/>
+                            <constraint firstItem="nio-t5-FIA" firstAttribute="top" secondItem="Tvm-4K-Jv5" secondAttribute="bottom" constant="30" id="2pE-t3-Xd8"/>
+                            <constraint firstItem="Tvm-4K-Jv5" firstAttribute="top" secondItem="cri-CG-Kws" secondAttribute="bottom" constant="40" id="4Ui-sx-g3w"/>
+                            <constraint firstItem="cri-CG-Kws" firstAttribute="leading" secondItem="nA3-Gy-bKu" secondAttribute="leading" constant="20" id="AIs-RY-wVg"/>
+                            <constraint firstItem="nA3-Gy-bKu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BTq-YG-gn6" secondAttribute="trailing" constant="20" id="Egh-MM-BR3"/>
+                            <constraint firstItem="AH2-b5-EmT" firstAttribute="top" secondItem="nA3-Gy-bKu" secondAttribute="top" constant="30" id="PNg-xC-58c"/>
+                            <constraint firstItem="AH2-b5-EmT" firstAttribute="leading" secondItem="nA3-Gy-bKu" secondAttribute="leading" constant="20" id="Q9C-eA-QqE"/>
+                            <constraint firstItem="nA3-Gy-bKu" firstAttribute="trailing" secondItem="Tvm-4K-Jv5" secondAttribute="trailing" constant="20" id="W4q-K0-bGv"/>
+                            <constraint firstItem="NBG-ri-18c" firstAttribute="leading" secondItem="nA3-Gy-bKu" secondAttribute="leading" constant="20" id="aVU-3D-2A1"/>
+                            <constraint firstItem="cri-CG-Kws" firstAttribute="top" secondItem="AH2-b5-EmT" secondAttribute="bottom" constant="30" id="d3I-PJ-q5L"/>
+                            <constraint firstItem="nA3-Gy-bKu" firstAttribute="trailing" secondItem="AH2-b5-EmT" secondAttribute="trailing" constant="20" id="r23-0W-ojE"/>
+                            <constraint firstItem="NBG-ri-18c" firstAttribute="top" secondItem="Tvm-4K-Jv5" secondAttribute="bottom" constant="30" id="s9M-QB-hej"/>
+                            <constraint firstItem="BTq-YG-gn6" firstAttribute="top" secondItem="AH2-b5-EmT" secondAttribute="bottom" constant="30" id="vHL-kj-HXf"/>
+                            <constraint firstItem="nA3-Gy-bKu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nio-t5-FIA" secondAttribute="trailing" constant="20" id="wDS-TZ-xOf"/>
+                            <constraint firstItem="nio-t5-FIA" firstAttribute="leading" secondItem="NBG-ri-18c" secondAttribute="trailing" constant="15" id="x2I-cw-4dL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nA3-Gy-bKu"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Yki-NF-a7W">
+                        <barButtonItem key="backBarButtonItem" title=" " id="NJ2-qs-Yxc"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnGris" destination="cri-CG-Kws" id="frl-eP-DHq"/>
+                        <outlet property="btnGrisLoading" destination="BTq-YG-gn6" id="7sZ-IY-zBc"/>
+                        <outlet property="btnGrisText" destination="NBG-ri-18c" id="XsD-Mh-fLS"/>
+                        <outlet property="btnGrisTextoLoading" destination="nio-t5-FIA" id="v0D-ll-1qG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y4N-Vk-e20" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3679.7101449275365" y="141.96428571428569"/>
+        </scene>
+        <!--Botones OutlineVC-->
+        <scene sceneID="Lhc-Nx-VKo">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="jlh-pd-wkg" customClass="BotonesOutlineVC" customModule="XGArqmobUIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OQO-xC-VSc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Outline" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAz-Hd-8SH">
+                                <rect key="frame" x="20" y="74" width="374" height="20"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gris Outline" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0N-tu-x56">
+                                <rect key="frame" x="20" y="208" width="374" height="20"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eay-tl-Cjw" customClass="AmOutlineButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="20" y="124" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="jNc-we-yg3"/>
+                                    <constraint firstAttribute="width" constant="144" id="p64-sQ-Mhz"/>
+                                </constraints>
+                                <state key="normal" title="Botón"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGA-9c-E1v" customClass="AmOutlineButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="179" y="124" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4wp-hH-HlU"/>
+                                    <constraint firstAttribute="width" constant="140" id="6iM-x3-fy6"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TS-Q4-IJ0" customClass="AmOutlineGrayButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="20" y="248" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="5mH-yn-z3X"/>
+                                    <constraint firstAttribute="height" constant="44" id="L4j-TC-Fdw"/>
+                                </constraints>
+                                <state key="normal" title="Botón"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aL-fF-0FJ" customClass="AmOutlineGrayButton" customModule="XGArqmobUI">
+                                <rect key="frame" x="179" y="248" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="lXr-1p-DZW"/>
+                                    <constraint firstAttribute="height" constant="44" id="pbr-TB-hQa"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8TS-Q4-IJ0" firstAttribute="leading" secondItem="XJ6-nJ-EkQ" secondAttribute="leading" constant="20" id="74y-9l-kdv"/>
+                            <constraint firstItem="8TS-Q4-IJ0" firstAttribute="top" secondItem="c0N-tu-x56" secondAttribute="bottom" constant="20" id="8im-jd-YD8"/>
+                            <constraint firstItem="c0N-tu-x56" firstAttribute="leading" secondItem="XJ6-nJ-EkQ" secondAttribute="leading" constant="20" id="H1c-Rm-UAb"/>
+                            <constraint firstItem="XJ6-nJ-EkQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xGA-9c-E1v" secondAttribute="trailing" constant="20" id="HvA-p3-4Ey"/>
+                            <constraint firstItem="XJ6-nJ-EkQ" firstAttribute="trailing" secondItem="c0N-tu-x56" secondAttribute="trailing" constant="20" id="IxK-Kz-OGP"/>
+                            <constraint firstItem="XJ6-nJ-EkQ" firstAttribute="trailing" secondItem="CAz-Hd-8SH" secondAttribute="trailing" constant="20" id="JxN-Ib-0Ip"/>
+                            <constraint firstItem="CAz-Hd-8SH" firstAttribute="leading" secondItem="XJ6-nJ-EkQ" secondAttribute="leading" constant="20" id="MTd-xC-5y1"/>
+                            <constraint firstItem="xGA-9c-E1v" firstAttribute="top" secondItem="CAz-Hd-8SH" secondAttribute="bottom" constant="30" id="Ucq-cL-jtB"/>
+                            <constraint firstItem="xGA-9c-E1v" firstAttribute="leading" secondItem="eay-tl-Cjw" secondAttribute="trailing" constant="15" id="cCb-5N-nTP"/>
+                            <constraint firstItem="1aL-fF-0FJ" firstAttribute="leading" secondItem="8TS-Q4-IJ0" secondAttribute="trailing" constant="15" id="ewB-CA-B3K"/>
+                            <constraint firstItem="CAz-Hd-8SH" firstAttribute="top" secondItem="XJ6-nJ-EkQ" secondAttribute="top" constant="30" id="joA-1z-b9h"/>
+                            <constraint firstItem="1aL-fF-0FJ" firstAttribute="top" secondItem="c0N-tu-x56" secondAttribute="bottom" constant="20" id="kRP-wk-aVa"/>
+                            <constraint firstItem="eay-tl-Cjw" firstAttribute="top" secondItem="CAz-Hd-8SH" secondAttribute="bottom" constant="30" id="nLp-AP-ntj"/>
+                            <constraint firstItem="c0N-tu-x56" firstAttribute="top" secondItem="eay-tl-Cjw" secondAttribute="bottom" constant="40" id="nYI-T0-hlS"/>
+                            <constraint firstItem="eay-tl-Cjw" firstAttribute="leading" secondItem="XJ6-nJ-EkQ" secondAttribute="leading" constant="20" id="pzF-sp-L0w"/>
+                            <constraint firstItem="XJ6-nJ-EkQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1aL-fF-0FJ" secondAttribute="trailing" constant="20" id="voV-NG-AMt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XJ6-nJ-EkQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="rxB-Nh-aMW">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Qcu-As-JaR"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnOutline" destination="eay-tl-Cjw" id="OyB-YC-aGc"/>
+                        <outlet property="btnOutlineGray" destination="8TS-Q4-IJ0" id="M6j-NU-jdw"/>
+                        <outlet property="btnOutlineGrayLoading" destination="1aL-fF-0FJ" id="gGj-vL-7cN"/>
+                        <outlet property="btnOutlineLoading" destination="xGA-9c-E1v" id="w9S-zn-vjj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8NI-OH-meU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3679.7101449275365" y="-520.3125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="example_tab_bar" width="22" height="22"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <namedColor name="primaryColor">
+            <color red="0.0" green="0.62352941176470589" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

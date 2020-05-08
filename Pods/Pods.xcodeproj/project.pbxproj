@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07238A66531C0FAB334C1467676B7AE5 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B8836489FA21AB14D9837386D60F2990 /* LGSideMenuSegue.m */; };
+		132D8D4F74A13110DEAF581475C1FD4B /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B3B83CC6F9F3E96EFCB3311929D2DF /* LGSideMenuHelper.m */; };
+		1385D505420CC45874CE677264D2422F /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7061D46166D6D73674ADCF60CCEDF7DE /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		189D8B4CDBFD90EFEA8D3D6F245AC9E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		18F184DD9786103EA238D0424D6DE434 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67557BC0743045D6E61D6B4A5215527 /* UIViewController+LGSideMenuController.m */; };
+		1CF176CCBFE439CF36C4B5E1F892186A /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EA1BCF054C9FE01D6A0E95538AAC24 /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E3191BF224EEFE1CFFA5728DA48A950 /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EA1BCF054C9FE01D6A0E95538AAC24 /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F581A026A2CAB00153B95EAA068E96E /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0111E228E55BF907897295D899D3BE33 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31FE0D70D7156F9F9BDD39FBD03F7073 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D92A86E555E8C149B4E9ECEB922F72B /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33642118F67AF6B1578B435D11D0FE52 /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 445BA80666C3E042C2332D414DEC6651 /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		425397BBAB8D5DB92C18E4C3FA946572 /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 445BA80666C3E042C2332D414DEC6651 /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4685184C7B39413ED072887B03B8C8 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D92A86E555E8C149B4E9ECEB922F72B /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F8087FEF09ADA26C0E93EC00956EB94 /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0CDD4AADC6BE37914C5D25D610FBEC /* LGSideMenuGesturesHandler.m */; };
+		74E413434DFB2C97D090A78B85AAF815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		75FC5EC1A8167C6F4D3858C93C78B2F2 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D93507127466E7B9BA1845B877B74 /* LGSideMenuController.m */; };
+		7B5DF55ED41F1DE1723A307E477DCC0D /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9234B6914F1739DDD13C6AC557CDC4 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88A226FDDDD15746EB49205F7B59167D /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9234B6914F1739DDD13C6AC557CDC4 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1846182AB164071FF90F156B4139C2 /* Pods-XGArqmobUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F02E6D6802FF534C7AAC877D07DFF3A /* Pods-XGArqmobUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AAEEDFAA98B6AEFEDBD29F3DFD8463A /* Pods-XGArqmobUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B601430BB7B4D03BA9BE555B1A871CDD /* Pods-XGArqmobUI-dummy.m */; };
+		9AB827E79360C919DAE0F4D2C87F322F /* Pods-XGArqmobUIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16937BF3C13FB1D6591B3CD6358F85 /* Pods-XGArqmobUIDemo-dummy.m */; };
+		A14FA0DEA4B52C8686D0E7A334EBF123 /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B3B83CC6F9F3E96EFCB3311929D2DF /* LGSideMenuHelper.m */; };
+		A7E30BD907FCF941338485003EC0A3AF /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B1E601A5EF3D3B669F794BEB8F61B4 /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30DBD827AEA017764FB9B1A1FD93761 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F299A00AC0A367063BD15FBCE1F3D0 /* LGSideMenuView.m */; };
+		B76396D6AA640C4BD4E1DDD1545E9D09 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F299A00AC0A367063BD15FBCE1F3D0 /* LGSideMenuView.m */; };
+		C265A35DD833471A6C1D5C06EAEFB905 /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7061D46166D6D73674ADCF60CCEDF7DE /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5058915D70D20EBEB83145E7E56F547 /* LGSideMenuController-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D22BE6CD02486572A6F89C59759606A6 /* LGSideMenuController-library-dummy.m */; };
+		C82B45DAAC23322B7862694B50ECF68C /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0CDD4AADC6BE37914C5D25D610FBEC /* LGSideMenuGesturesHandler.m */; };
+		CAD688EC50564B2C20FDFE18FCB2432E /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D93507127466E7B9BA1845B877B74 /* LGSideMenuController.m */; };
+		D5069C755FDFFD7283ECE1E7CC715327 /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A2D4E5D7E8198B5EF28F1244ABA45 /* LGSideMenuBorderView.m */; };
+		E34AD36AD39F68512AADD6ED9A47DC9F /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A2D4E5D7E8198B5EF28F1244ABA45 /* LGSideMenuBorderView.m */; };
+		E376B5FA625C8F882B7E7807DD296056 /* LGSideMenuController-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0F91570712BCBB91EBEE8AA0706910 /* LGSideMenuController-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC6A607C104F1E88E0A611894569B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EE6C54481F0721CCFC94C569B9230758 /* LGSideMenuController-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC94BE4F8387F7DA05A7C30343F7F6 /* LGSideMenuController-framework-dummy.m */; };
+		F4DB5C528EE4432DD551C820FF1F903A /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67557BC0743045D6E61D6B4A5215527 /* UIViewController+LGSideMenuController.m */; };
+		FBCD22CB36055C9089A53752ACE8BEB8 /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B1E601A5EF3D3B669F794BEB8F61B4 /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDA30708A72ED8164D6726F05BFF3961 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B8836489FA21AB14D9837386D60F2990 /* LGSideMenuSegue.m */; };
+		FFC105E4163251425AC6DC6FF1A231D9 /* Pods-XGArqmobUIDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A56CA3994019B350BC217B046A9E6B /* Pods-XGArqmobUIDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFEE2E01CECEFE641C4EBAF4A7DB2B36 /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0111E228E55BF907897295D899D3BE33 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BAE2DAFCDA4D92183EC8929C65F5681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA14E7AB8AAA2A45DC8214E98423F0E;
+			remoteInfo = "LGSideMenuController-framework";
+		};
+		7F62178D36BB7F09AD2DC308BB6F7C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA14E7AB8AAA2A45DC8214E98423F0E;
+			remoteInfo = "LGSideMenuController-framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009B04C6A65993DBCDBBCC6E6769AEE0 /* Pods-XGArqmobUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0111E228E55BF907897295D899D3BE33 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LGSideMenuController.h"; path = "LGSideMenuController/UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		03229E54112DF49A520043FD246F7284 /* LGSideMenuController-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGSideMenuController-framework-Info.plist"; sourceTree = "<group>"; };
+		0AA52D917F8C4482F41EDAF2F641AC5A /* Pods_XGArqmobUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XGArqmobUI.framework; path = "Pods-XGArqmobUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9234B6914F1739DDD13C6AC557CDC4 /* LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuController.h; path = LGSideMenuController/LGSideMenuController.h; sourceTree = "<group>"; };
+		159DEC0B99247ED4103E26C0C8F56052 /* Pods-XGArqmobUIDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUIDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1664E616BE222CE2189CB2AB7DCB5122 /* Pods-XGArqmobUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUI.debug.xcconfig"; sourceTree = "<group>"; };
+		16F24102D8DB7B16AEE4B0DABDCB20CB /* Pods-XGArqmobUIDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGArqmobUIDemo.modulemap"; sourceTree = "<group>"; };
+		1C91A37B93754ADD4C8011294A4BA79C /* Pods-XGArqmobUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUI.release.xcconfig"; sourceTree = "<group>"; };
+		267406E3DB6F59BD005AB98082E1D012 /* LGSideMenuController-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGSideMenuController-library-prefix.pch"; path = "../LGSideMenuController-library/LGSideMenuController-library-prefix.pch"; sourceTree = "<group>"; };
+		26B8FA128ACC9C193D497BF25C11B90D /* Pods-XGArqmobUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		28D0F07460BD6999BD7F6269FC90C60B /* Pods-XGArqmobUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUI-Info.plist"; sourceTree = "<group>"; };
+		2F02E6D6802FF534C7AAC877D07DFF3A /* Pods-XGArqmobUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGArqmobUI-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D2A2D4E5D7E8198B5EF28F1244ABA45 /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuBorderView.m; path = LGSideMenuController/LGSideMenuBorderView.m; sourceTree = "<group>"; };
+		42AAE340D2DED41B443F3870868B5595 /* Pods-XGArqmobUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGArqmobUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		445BA80666C3E042C2332D414DEC6651 /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuGesturesHandler.h; path = LGSideMenuController/LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
+		44A70168C9DD67863680D5D8A96668D9 /* LGSideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGSideMenuController.framework; path = "LGSideMenuController-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D92A86E555E8C149B4E9ECEB922F72B /* LGSideMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuSegue.h; path = LGSideMenuController/LGSideMenuSegue.h; sourceTree = "<group>"; };
+		66B1E601A5EF3D3B669F794BEB8F61B4 /* LGSideMenuHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuHelper.h; path = LGSideMenuController/LGSideMenuHelper.h; sourceTree = "<group>"; };
+		694D93507127466E7B9BA1845B877B74 /* LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuController.m; path = LGSideMenuController/LGSideMenuController.m; sourceTree = "<group>"; };
+		69657F7EAE8EBA7A8B59F34AC8BA65F0 /* Pods-XGArqmobUIDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUIDemo-Info.plist"; sourceTree = "<group>"; };
+		6D12BD991FDE83903C5AA7B685B2EA1E /* Pods_XGArqmobUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XGArqmobUIDemo.framework; path = "Pods-XGArqmobUIDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70241FD0E717BD84EAEFAD0075A7BF09 /* Pods-XGArqmobUIDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XGArqmobUIDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7061D46166D6D73674ADCF60CCEDF7DE /* LGSideMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuView.h; path = LGSideMenuController/LGSideMenuView.h; sourceTree = "<group>"; };
+		71A56CA3994019B350BC217B046A9E6B /* Pods-XGArqmobUIDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGArqmobUIDemo-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3EA1BCF054C9FE01D6A0E95538AAC24 /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuBorderView.h; path = LGSideMenuController/LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		AB8E52D92CDC28FE7582D6CE0F4EB66D /* Pods-XGArqmobUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		B216110B487CDB6AF2D8D1175E97773F /* libLGSideMenuController-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libLGSideMenuController-library.a"; path = "libLGSideMenuController-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B601430BB7B4D03BA9BE555B1A871CDD /* Pods-XGArqmobUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGArqmobUI-dummy.m"; sourceTree = "<group>"; };
+		B8836489FA21AB14D9837386D60F2990 /* LGSideMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuSegue.m; path = LGSideMenuController/LGSideMenuSegue.m; sourceTree = "<group>"; };
+		BB78BEC8BAE31FD5EA56D7406648BE9E /* Pods-XGArqmobUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGArqmobUI.modulemap"; sourceTree = "<group>"; };
+		BBB3442E97F9C8FB537F21D253F00149 /* LGSideMenuController-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LGSideMenuController-framework.release.xcconfig"; sourceTree = "<group>"; };
+		BC0F91570712BCBB91EBEE8AA0706910 /* LGSideMenuController-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-framework-umbrella.h"; sourceTree = "<group>"; };
+		BE6507BFD302D186DACF968E5D6B20C9 /* LGSideMenuController-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LGSideMenuController-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		BFDEF086F6787EAB6E7D8F56358EC4CB /* LGSideMenuController-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-framework-prefix.pch"; sourceTree = "<group>"; };
+		C67557BC0743045D6E61D6B4A5215527 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LGSideMenuController.m"; path = "LGSideMenuController/UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		C9B3B83CC6F9F3E96EFCB3311929D2DF /* LGSideMenuHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuHelper.m; path = LGSideMenuController/LGSideMenuHelper.m; sourceTree = "<group>"; };
+		CB00F02D0DBF3CC7D242FABDC34BB58C /* Pods-XGArqmobUIDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGArqmobUIDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFAFC75CAB5D89A93D698D96C5AE873C /* LGSideMenuController-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LGSideMenuController-library.debug.xcconfig"; path = "../LGSideMenuController-library/LGSideMenuController-library.debug.xcconfig"; sourceTree = "<group>"; };
+		D22BE6CD02486572A6F89C59759606A6 /* LGSideMenuController-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGSideMenuController-library-dummy.m"; path = "../LGSideMenuController-library/LGSideMenuController-library-dummy.m"; sourceTree = "<group>"; };
+		DE0CDD4AADC6BE37914C5D25D610FBEC /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuGesturesHandler.m; path = LGSideMenuController/LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		DE16937BF3C13FB1D6591B3CD6358F85 /* Pods-XGArqmobUIDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGArqmobUIDemo-dummy.m"; sourceTree = "<group>"; };
+		E056D3C3CD225A44766E570E88D08F90 /* LGSideMenuController-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LGSideMenuController-framework.modulemap"; sourceTree = "<group>"; };
+		E31873468857659AAD6F39D825229E9F /* LGSideMenuController-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LGSideMenuController-library.release.xcconfig"; path = "../LGSideMenuController-library/LGSideMenuController-library.release.xcconfig"; sourceTree = "<group>"; };
+		E6F299A00AC0A367063BD15FBCE1F3D0 /* LGSideMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuView.m; path = LGSideMenuController/LGSideMenuView.m; sourceTree = "<group>"; };
+		F6AC94BE4F8387F7DA05A7C30343F7F6 /* LGSideMenuController-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSideMenuController-framework-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1D22CFEAEBCC7C24198E94CE68EB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D8B4CDBFD90EFEA8D3D6F245AC9E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CC84172194B2122A2D917CD998220B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E614589F62802D2AA51D2297ECA4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6A607C104F1E88E0A611894569B7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08263035BF5BBD0D46A4B1313464FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E413434DFB2C97D090A78B85AAF815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD0EA2D534C80C676891A267990D221 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68CCA34EF2F6AADA522300F78AD5863C /* Pods-XGArqmobUI */,
+				EEA139240451C9C33B79740CAED9A112 /* Pods-XGArqmobUIDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0DE76922B51399FED03BD7399EB21BE6 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				A3EA1BCF054C9FE01D6A0E95538AAC24 /* LGSideMenuBorderView.h */,
+				3D2A2D4E5D7E8198B5EF28F1244ABA45 /* LGSideMenuBorderView.m */,
+				0D9234B6914F1739DDD13C6AC557CDC4 /* LGSideMenuController.h */,
+				694D93507127466E7B9BA1845B877B74 /* LGSideMenuController.m */,
+				445BA80666C3E042C2332D414DEC6651 /* LGSideMenuGesturesHandler.h */,
+				DE0CDD4AADC6BE37914C5D25D610FBEC /* LGSideMenuGesturesHandler.m */,
+				66B1E601A5EF3D3B669F794BEB8F61B4 /* LGSideMenuHelper.h */,
+				C9B3B83CC6F9F3E96EFCB3311929D2DF /* LGSideMenuHelper.m */,
+				4D92A86E555E8C149B4E9ECEB922F72B /* LGSideMenuSegue.h */,
+				B8836489FA21AB14D9837386D60F2990 /* LGSideMenuSegue.m */,
+				7061D46166D6D73674ADCF60CCEDF7DE /* LGSideMenuView.h */,
+				E6F299A00AC0A367063BD15FBCE1F3D0 /* LGSideMenuView.m */,
+				0111E228E55BF907897295D899D3BE33 /* UIViewController+LGSideMenuController.h */,
+				C67557BC0743045D6E61D6B4A5215527 /* UIViewController+LGSideMenuController.m */,
+				8B1272D02CB29B0A324622A242AF9C1C /* Support Files */,
+			);
+			name = LGSideMenuController;
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		68CCA34EF2F6AADA522300F78AD5863C /* Pods-XGArqmobUI */ = {
+			isa = PBXGroup;
+			children = (
+				BB78BEC8BAE31FD5EA56D7406648BE9E /* Pods-XGArqmobUI.modulemap */,
+				42AAE340D2DED41B443F3870868B5595 /* Pods-XGArqmobUI-acknowledgements.markdown */,
+				AB8E52D92CDC28FE7582D6CE0F4EB66D /* Pods-XGArqmobUI-acknowledgements.plist */,
+				B601430BB7B4D03BA9BE555B1A871CDD /* Pods-XGArqmobUI-dummy.m */,
+				28D0F07460BD6999BD7F6269FC90C60B /* Pods-XGArqmobUI-Info.plist */,
+				2F02E6D6802FF534C7AAC877D07DFF3A /* Pods-XGArqmobUI-umbrella.h */,
+				1664E616BE222CE2189CB2AB7DCB5122 /* Pods-XGArqmobUI.debug.xcconfig */,
+				1C91A37B93754ADD4C8011294A4BA79C /* Pods-XGArqmobUI.release.xcconfig */,
+			);
+			name = "Pods-XGArqmobUI";
+			path = "Target Support Files/Pods-XGArqmobUI";
+			sourceTree = "<group>";
+		};
+		85266740CCF91893940478E8D24F8752 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DE76922B51399FED03BD7399EB21BE6 /* LGSideMenuController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B1272D02CB29B0A324622A242AF9C1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E056D3C3CD225A44766E570E88D08F90 /* LGSideMenuController-framework.modulemap */,
+				F6AC94BE4F8387F7DA05A7C30343F7F6 /* LGSideMenuController-framework-dummy.m */,
+				03229E54112DF49A520043FD246F7284 /* LGSideMenuController-framework-Info.plist */,
+				BFDEF086F6787EAB6E7D8F56358EC4CB /* LGSideMenuController-framework-prefix.pch */,
+				BC0F91570712BCBB91EBEE8AA0706910 /* LGSideMenuController-framework-umbrella.h */,
+				BE6507BFD302D186DACF968E5D6B20C9 /* LGSideMenuController-framework.debug.xcconfig */,
+				BBB3442E97F9C8FB537F21D253F00149 /* LGSideMenuController-framework.release.xcconfig */,
+				D22BE6CD02486572A6F89C59759606A6 /* LGSideMenuController-library-dummy.m */,
+				267406E3DB6F59BD005AB98082E1D012 /* LGSideMenuController-library-prefix.pch */,
+				CFAFC75CAB5D89A93D698D96C5AE873C /* LGSideMenuController-library.debug.xcconfig */,
+				E31873468857659AAD6F39D825229E9F /* LGSideMenuController-library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGSideMenuController-framework";
+			sourceTree = "<group>";
+		};
+		AEF931B899A3076242B9F4406C21481E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A70168C9DD67863680D5D8A96668D9 /* LGSideMenuController.framework */,
+				B216110B487CDB6AF2D8D1175E97773F /* libLGSideMenuController-library.a */,
+				0AA52D917F8C4482F41EDAF2F641AC5A /* Pods_XGArqmobUI.framework */,
+				6D12BD991FDE83903C5AA7B685B2EA1E /* Pods_XGArqmobUIDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				85266740CCF91893940478E8D24F8752 /* Pods */,
+				AEF931B899A3076242B9F4406C21481E /* Products */,
+				0CD0EA2D534C80C676891A267990D221 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA139240451C9C33B79740CAED9A112 /* Pods-XGArqmobUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				16F24102D8DB7B16AEE4B0DABDCB20CB /* Pods-XGArqmobUIDemo.modulemap */,
+				CB00F02D0DBF3CC7D242FABDC34BB58C /* Pods-XGArqmobUIDemo-acknowledgements.markdown */,
+				159DEC0B99247ED4103E26C0C8F56052 /* Pods-XGArqmobUIDemo-acknowledgements.plist */,
+				DE16937BF3C13FB1D6591B3CD6358F85 /* Pods-XGArqmobUIDemo-dummy.m */,
+				70241FD0E717BD84EAEFAD0075A7BF09 /* Pods-XGArqmobUIDemo-frameworks.sh */,
+				69657F7EAE8EBA7A8B59F34AC8BA65F0 /* Pods-XGArqmobUIDemo-Info.plist */,
+				71A56CA3994019B350BC217B046A9E6B /* Pods-XGArqmobUIDemo-umbrella.h */,
+				009B04C6A65993DBCDBBCC6E6769AEE0 /* Pods-XGArqmobUIDemo.debug.xcconfig */,
+				26B8FA128ACC9C193D497BF25C11B90D /* Pods-XGArqmobUIDemo.release.xcconfig */,
+			);
+			name = "Pods-XGArqmobUIDemo";
+			path = "Target Support Files/Pods-XGArqmobUIDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A794955CEA8CEE6F8A716E06BEF9986 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1846182AB164071FF90F156B4139C2 /* Pods-XGArqmobUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E897D507DBA2F64E536D465E5BC3030 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC105E4163251425AC6DC6FF1A231D9 /* Pods-XGArqmobUIDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B6D7506560B405EDA3EB137FDC171F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3191BF224EEFE1CFFA5728DA48A950 /* LGSideMenuBorderView.h in Headers */,
+				E376B5FA625C8F882B7E7807DD296056 /* LGSideMenuController-framework-umbrella.h in Headers */,
+				88A226FDDDD15746EB49205F7B59167D /* LGSideMenuController.h in Headers */,
+				425397BBAB8D5DB92C18E4C3FA946572 /* LGSideMenuGesturesHandler.h in Headers */,
+				A7E30BD907FCF941338485003EC0A3AF /* LGSideMenuHelper.h in Headers */,
+				6D4685184C7B39413ED072887B03B8C8 /* LGSideMenuSegue.h in Headers */,
+				C265A35DD833471A6C1D5C06EAEFB905 /* LGSideMenuView.h in Headers */,
+				FFEE2E01CECEFE641C4EBAF4A7DB2B36 /* UIViewController+LGSideMenuController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43BFBEA0ED6A35878535FBBD4DD3172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF176CCBFE439CF36C4B5E1F892186A /* LGSideMenuBorderView.h in Headers */,
+				7B5DF55ED41F1DE1723A307E477DCC0D /* LGSideMenuController.h in Headers */,
+				33642118F67AF6B1578B435D11D0FE52 /* LGSideMenuGesturesHandler.h in Headers */,
+				FBCD22CB36055C9089A53752ACE8BEB8 /* LGSideMenuHelper.h in Headers */,
+				31FE0D70D7156F9F9BDD39FBD03F7073 /* LGSideMenuSegue.h in Headers */,
+				1385D505420CC45874CE677264D2422F /* LGSideMenuView.h in Headers */,
+				1F581A026A2CAB00153B95EAA068E96E /* UIViewController+LGSideMenuController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09E09E78B539F027BC7FCAE56C83752C /* Pods-XGArqmobUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4F20C7A0E407B23FB933860A306761 /* Build configuration list for PBXNativeTarget "Pods-XGArqmobUIDemo" */;
+			buildPhases = (
+				3E897D507DBA2F64E536D465E5BC3030 /* Headers */,
+				7EE69C43A0B0B46540C5FE593CDA167A /* Sources */,
+				76E614589F62802D2AA51D2297ECA4DE /* Frameworks */,
+				DEF630CA897FE9F92EB1B6C1F6C7E6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96D3B3179EF59ACAF742017185258377 /* PBXTargetDependency */,
+			);
+			name = "Pods-XGArqmobUIDemo";
+			productName = "Pods-XGArqmobUIDemo";
+			productReference = 6D12BD991FDE83903C5AA7B685B2EA1E /* Pods_XGArqmobUIDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23DACCEB74C30995F78B39ED76387F3D /* Pods-XGArqmobUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA0A7CA9E831AE9E0A7DA7562D104D9 /* Build configuration list for PBXNativeTarget "Pods-XGArqmobUI" */;
+			buildPhases = (
+				0A794955CEA8CEE6F8A716E06BEF9986 /* Headers */,
+				46CD855A22A7FF0CD79EF481FCB4D69C /* Sources */,
+				7D08263035BF5BBD0D46A4B1313464FD /* Frameworks */,
+				F8BA776B0D2204A963E90B26A669713F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9432E643C5F542FE384687DCBB123071 /* PBXTargetDependency */,
+			);
+			name = "Pods-XGArqmobUI";
+			productName = "Pods-XGArqmobUI";
+			productReference = 0AA52D917F8C4482F41EDAF2F641AC5A /* Pods_XGArqmobUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE4F6C49580B6AEF9E7F39C801F9B167 /* LGSideMenuController-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB1C27D46C3EC821BA9AC01F0516897 /* Build configuration list for PBXNativeTarget "LGSideMenuController-library" */;
+			buildPhases = (
+				F43BFBEA0ED6A35878535FBBD4DD3172 /* Headers */,
+				86D3FE8F72DA7F09D31FD6303FAE01C3 /* Sources */,
+				15CC84172194B2122A2D917CD998220B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGSideMenuController-library";
+			productName = "LGSideMenuController-library";
+			productReference = B216110B487CDB6AF2D8D1175E97773F /* libLGSideMenuController-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BAA14E7AB8AAA2A45DC8214E98423F0E /* LGSideMenuController-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E25B5169B92E4E970460366527F807 /* Build configuration list for PBXNativeTarget "LGSideMenuController-framework" */;
+			buildPhases = (
+				88B6D7506560B405EDA3EB137FDC171F /* Headers */,
+				62439CF5BA55940B64987821DB374C3D /* Sources */,
+				0C1D22CFEAEBCC7C24198E94CE68EB53 /* Frameworks */,
+				2D756E2077B16223C1BFE3885FE9F895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGSideMenuController-framework";
+			productName = "LGSideMenuController-framework";
+			productReference = 44A70168C9DD67863680D5D8A96668D9 /* LGSideMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AEF931B899A3076242B9F4406C21481E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA14E7AB8AAA2A45DC8214E98423F0E /* LGSideMenuController-framework */,
+				AE4F6C49580B6AEF9E7F39C801F9B167 /* LGSideMenuController-library */,
+				23DACCEB74C30995F78B39ED76387F3D /* Pods-XGArqmobUI */,
+				09E09E78B539F027BC7FCAE56C83752C /* Pods-XGArqmobUIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D756E2077B16223C1BFE3885FE9F895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF630CA897FE9F92EB1B6C1F6C7E6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BA776B0D2204A963E90B26A669713F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46CD855A22A7FF0CD79EF481FCB4D69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAEEDFAA98B6AEFEDBD29F3DFD8463A /* Pods-XGArqmobUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62439CF5BA55940B64987821DB374C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34AD36AD39F68512AADD6ED9A47DC9F /* LGSideMenuBorderView.m in Sources */,
+				EE6C54481F0721CCFC94C569B9230758 /* LGSideMenuController-framework-dummy.m in Sources */,
+				75FC5EC1A8167C6F4D3858C93C78B2F2 /* LGSideMenuController.m in Sources */,
+				6F8087FEF09ADA26C0E93EC00956EB94 /* LGSideMenuGesturesHandler.m in Sources */,
+				132D8D4F74A13110DEAF581475C1FD4B /* LGSideMenuHelper.m in Sources */,
+				FDA30708A72ED8164D6726F05BFF3961 /* LGSideMenuSegue.m in Sources */,
+				B76396D6AA640C4BD4E1DDD1545E9D09 /* LGSideMenuView.m in Sources */,
+				F4DB5C528EE4432DD551C820FF1F903A /* UIViewController+LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE69C43A0B0B46540C5FE593CDA167A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB827E79360C919DAE0F4D2C87F322F /* Pods-XGArqmobUIDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D3FE8F72DA7F09D31FD6303FAE01C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5069C755FDFFD7283ECE1E7CC715327 /* LGSideMenuBorderView.m in Sources */,
+				C5058915D70D20EBEB83145E7E56F547 /* LGSideMenuController-library-dummy.m in Sources */,
+				CAD688EC50564B2C20FDFE18FCB2432E /* LGSideMenuController.m in Sources */,
+				C82B45DAAC23322B7862694B50ECF68C /* LGSideMenuGesturesHandler.m in Sources */,
+				A14FA0DEA4B52C8686D0E7A334EBF123 /* LGSideMenuHelper.m in Sources */,
+				07238A66531C0FAB334C1467676B7AE5 /* LGSideMenuSegue.m in Sources */,
+				B30DBD827AEA017764FB9B1A1FD93761 /* LGSideMenuView.m in Sources */,
+				18F184DD9786103EA238D0424D6DE434 /* UIViewController+LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9432E643C5F542FE384687DCBB123071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LGSideMenuController-framework";
+			target = BAA14E7AB8AAA2A45DC8214E98423F0E /* LGSideMenuController-framework */;
+			targetProxy = 7F62178D36BB7F09AD2DC308BB6F7C1D /* PBXContainerItemProxy */;
+		};
+		96D3B3179EF59ACAF742017185258377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LGSideMenuController-framework";
+			target = BAA14E7AB8AAA2A45DC8214E98423F0E /* LGSideMenuController-framework */;
+			targetProxy = 5BAE2DAFCDA4D92183EC8929C65F5681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		235FE5B484BA9E568E32896319F767E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31873468857659AAD6F39D825229E9F /* LGSideMenuController-library.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-library/LGSideMenuController-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = "LGSideMenuController-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		52D5E4B29F5F2FADBCBFAC8A25D36C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6507BFD302D186DACF968E5D6B20C9 /* LGSideMenuController-framework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-framework/LGSideMenuController-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSideMenuController-framework/LGSideMenuController-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LGSideMenuController-framework/LGSideMenuController-framework.modulemap";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = LGSideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5732FF7379800651360FFEE3B085B3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009B04C6A65993DBCDBBCC6E6769AEE0 /* Pods-XGArqmobUIDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F86963991851CF2D69ACAA64D31309B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B8FA128ACC9C193D497BF25C11B90D /* Pods-XGArqmobUIDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78D62D0B7DD4BEAF83C2DDDEEF1DB77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAFC75CAB5D89A93D698D96C5AE873C /* LGSideMenuController-library.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-library/LGSideMenuController-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = "LGSideMenuController-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88230983A2B8686428A6AD3E34FEB1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1664E616BE222CE2189CB2AB7DCB5122 /* Pods-XGArqmobUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B6DD8A9AE4042F437C151BF7A29D50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C91A37B93754ADD4C8011294A4BA79C /* Pods-XGArqmobUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC00DCEE18D1739C88B399A7402BB008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB3442E97F9C8FB537F21D253F00149 /* LGSideMenuController-framework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-framework/LGSideMenuController-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSideMenuController-framework/LGSideMenuController-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LGSideMenuController-framework/LGSideMenuController-framework.modulemap";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = LGSideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4F20C7A0E407B23FB933860A306761 /* Build configuration list for PBXNativeTarget "Pods-XGArqmobUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5732FF7379800651360FFEE3B085B3B7 /* Debug */,
+				6F86963991851CF2D69ACAA64D31309B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA0A7CA9E831AE9E0A7DA7562D104D9 /* Build configuration list for PBXNativeTarget "Pods-XGArqmobUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88230983A2B8686428A6AD3E34FEB1B2 /* Debug */,
+				8B6DD8A9AE4042F437C151BF7A29D50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E25B5169B92E4E970460366527F807 /* Build configuration list for PBXNativeTarget "LGSideMenuController-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D5E4B29F5F2FADBCBFAC8A25D36C79 /* Debug */,
+				AC00DCEE18D1739C88B399A7402BB008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB1C27D46C3EC821BA9AC01F0516897 /* Build configuration list for PBXNativeTarget "LGSideMenuController-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D62D0B7DD4BEAF83C2DDDEEF1DB77B /* Debug */,
+				235FE5B484BA9E568E32896319F767E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

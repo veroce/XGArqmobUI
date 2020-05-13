@@ -8,7 +8,7 @@ s.summary = "XGArqmobUI componentes ui para las aplicaciones"
 s.requires_arc = true
 
 # 2
-s.version = "0.3.7"
+s.version = "0.3.8"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -26,7 +26,7 @@ s.source = { :git => "https://github.com/veroce/XGArqmobUI.git",
 # 7
 s.framework = 'UIKit', 'QuartzCore', 'CoreText'
 s.dependency 'LGSideMenuController', '~> 2.1'
-s.dependency 'Kingfisher', '~> 5.0'
+s.dependency 'Kingfisher', '~> 5.14'
 
 # 8
 s.source_files = "XGArqmobUI/**/*.{swift}"

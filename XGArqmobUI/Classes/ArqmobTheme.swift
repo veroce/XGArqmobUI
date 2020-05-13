@@ -10,6 +10,10 @@ import UIKit
 @objc(ArmobTheme)
 open class ArmobTheme: NSObject {
     
+   @objc public class func currentInstance() -> ArmobTheme {
+       return ArmobTheme.current
+     }
+    
     public static let current = ArmobTheme()
     
     public var navigationLargeFontTitle =  UIFont(name: "Raleway-Bold", size: 28)

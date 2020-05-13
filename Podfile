@@ -18,3 +18,10 @@ target 'XGArqmobUIDemo' do
   # Pods for XGArqmobUIDemo
 
 end
+target 'XGArqmobUIDemo-Objc' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for XGArqmobUIDemo
+
+end

@@ -1,16 +1,22 @@
 PODS:
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
   - LGSideMenuController (2.1.1)
 
 DEPENDENCIES:
+  - Kingfisher (~> 5.0)
   - LGSideMenuController
 
 SPEC REPOS:
   trunk:
+    - Kingfisher
     - LGSideMenuController
 
 SPEC CHECKSUMS:
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
   LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
 
-PODFILE CHECKSUM: b428041c593e963ca27304ef7428eeaf5a8a3585
+PODFILE CHECKSUM: 5d1082460a6b0474ef29abb2977a7985089145c9
 
 COCOAPODS: 1.9.1

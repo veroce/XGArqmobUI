@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Kingfisher
 open class AmCardMap: UIView {
     
     @IBOutlet weak var imgElemento: UIImageView!
@@ -57,7 +57,7 @@ open class AmCardMap: UIView {
         viewContainer.layer.shadowColor = style.shadowColor.cgColor
         
     }
-    open func loadData(title: String, image: String, location: String, category: String? = nil){
+    open func loadData(title: String, image: String, location: String, category: String? = nil, placeholder: String? = nil){
         lbTitle.text = title
         lbLocation.text = location
         lbCategory.text = category?.uppercased()
@@ -66,6 +66,9 @@ open class AmCardMap: UIView {
             imgElemento.image = image
         }else{
             // Enlace a una url
+            if let url = URL(string: image) {
+                imgElemento.kf.setImage(with: url)
+            }
             
         }
     }

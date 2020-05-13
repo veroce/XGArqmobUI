@@ -7,8 +7,9 @@
 //
 
 import UIKit
-public struct AmErrorViewStyle {
-    public init() {
+@objc
+public class AmErrorViewStyle: NSObject {
+    @objc public override init() {
         if #available(iOS 13.0, *) {
             backgroundColor = .systemBackground
         }
@@ -16,31 +17,31 @@ public struct AmErrorViewStyle {
     /**
      The title color. Default is `secondaryElevationColor` .
      */
-    public var titleColor: UIColor = UIColor(named: "textColorErrorView") ?? UIColor(named: "textColorErrorView", in: Bundle(for: ArmobTheme.self), compatibleWith: nil) ?? .darkGray
+    @objc public var titleColor: UIColor = UIColor(named: "textColorErrorView") ?? UIColor(named: "textColorErrorView", in: Bundle(for: ArmobTheme.self), compatibleWith: nil) ?? .darkGray
     /**
      The background color. Default is `.systemBackground` .
      */
-    public var backgroundColor: UIColor = .white
+    @objc public var backgroundColor: UIColor = .white
     /**
      The message color. Default is `secondaryElevationColor` .
      */
-    public var messageColor: UIColor = UIColor(named: "textColorErrorView") ?? UIColor(named: "textColorErrorView", in: Bundle(for: ArmobTheme.self), compatibleWith: nil) ?? UIColor.darkGray
+    @objc public var messageColor: UIColor = UIColor(named: "textColorErrorView") ?? UIColor(named: "textColorErrorView", in: Bundle(for: ArmobTheme.self), compatibleWith: nil) ?? UIColor.darkGray
     /**
      The title color. Default is `secondaryElevationColor` .
      */
-    public var emptyResultsColor: UIColor = UIColor(named: "textColorErrorView") ?? UIColor(named: "textColorErrorView", in: Bundle(for: ArmobTheme.self), compatibleWith: nil) ?? UIColor.darkGray
+    @objc public var emptyResultsColor: UIColor = UIColor(named: "textColorErrorView") ?? UIColor(named: "textColorErrorView", in: Bundle(for: ArmobTheme.self), compatibleWith: nil) ?? UIColor.darkGray
     /**
      The title font. Default is `Theme.current.title1Bold`.
      */
-    public var titleFont: UIFont = UIFont.title1Bold()
+    @objc public var titleFont: UIFont = UIFont.title1Bold()
     
     /**
      The message font. Default is `Theme.current.bodyRegular`.
      */
-    public var messageFont: UIFont = UIFont.bodyRegular()
+    @objc public var messageFont: UIFont = UIFont.bodyRegular()
     /**
      The empty results font. Default is `Theme.current.bodyRegular`.
      */
-    public var emptyResultsFont: UIFont = UIFont.bodyBold()
+    @objc public var emptyResultsFont: UIFont = UIFont.bodyBold()
 
 }

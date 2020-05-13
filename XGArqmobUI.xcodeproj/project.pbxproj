@@ -166,6 +166,7 @@
 		D6B9F77224654760002AAD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F77124654760002AAD70 /* Assets.xcassets */; };
 		D6B9F77524654760002AAD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F77324654760002AAD70 /* LaunchScreen.storyboard */; };
 		D6B9F77824654760002AAD70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F77724654760002AAD70 /* main.m */; };
+		D6E4BD5B246C190000A57FFC /* AmFloatingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4BD5A246C18FF00A57FFC /* AmFloatingButtonStyle.swift */; };
 		F2B5860D120B54554E35D87F /* Pods_XGArqmobUIDemo_Objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C342DDE9C8186D3FDCDF8C04 /* Pods_XGArqmobUIDemo_Objc.framework */; };
 		FA6C6C68DE807798695E9151 /* Pods_XGArqmobUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC628B9C256A81313F0BF009 /* Pods_XGArqmobUIDemo.framework */; };
 /* End PBXBuildFile section */
@@ -345,6 +346,7 @@
 		D6B9F77424654760002AAD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B9F77624654760002AAD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B9F77724654760002AAD70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6E4BD5A246C18FF00A57FFC /* AmFloatingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmFloatingButtonStyle.swift; sourceTree = "<group>"; };
 		EC628B9C256A81313F0BF009 /* Pods_XGArqmobUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGArqmobUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F612662AF54CB884D33E7E78 /* Pods-XGArqmobUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -977,6 +979,7 @@
 			children = (
 				D69ECC082462D2C2001F17E9 /* AmFloatingExtendedButton.swift */,
 				D69ECC0A2462D2C2001F17E9 /* AmFloatingDefaultButton.swift */,
+				D6E4BD5A246C18FF00A57FFC /* AmFloatingButtonStyle.swift */,
 			);
 			path = Floating;
 			sourceTree = "<group>";
@@ -1309,6 +1312,7 @@
 				D6B9F6C82464242B002AAD70 /* AnimatedField+TextFieldDelegate.swift in Sources */,
 				D69ECC262462D2C2001F17E9 /* AmDefaultGrayButton.swift in Sources */,
 				D69ECC332462D2C2001F17E9 /* AmDefaultButton.swift in Sources */,
+				D6E4BD5B246C190000A57FFC /* AmFloatingButtonStyle.swift in Sources */,
 				D6B9F6CC2464242B002AAD70 /* AnimatedFieldAlertPosition.swift in Sources */,
 				D6B9F6F924643B23002AAD70 /* AmOutlineDefaultGrayButtonStyle.swift in Sources */,
 				D69ECC1C2462D2C2001F17E9 /* CellInfo.swift in Sources */,

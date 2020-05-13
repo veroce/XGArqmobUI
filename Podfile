@@ -2,7 +2,8 @@
  platform :ios, '11.0'
  
   pod 'LGSideMenuController'
-  
+  pod 'Kingfisher', '~> 5.0'
+
 target 'XGArqmobUI' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!

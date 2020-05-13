@@ -9,29 +9,27 @@
 import UIKit
 @objc
 @IBDesignable
-open class AmFloatingButton: UIButton {
+open class AmFloatingButton: SimpleButton {
     private var shadowLayer: CAShapeLayer!
-
-    open override func draw(_ rect: CGRect) {
-        // Drawing code
-        
+    
+    open var style = AmFloatingButtonStyle() {
+        didSet {
+            configureButtonStyles()
+        }
+    }
+    open override func configureButtonStyles() {
+        super.configureButtonStyles()
+       setBackgroundColor(style.backgroundColorNormal, for: .normal, animated: true, animationDuration: 0.2)
+        setBackgroundColor(style.backgroundColorHighlighted, for: .highlighted, animated: false)
+        setBackgroundColor(style.backgroundColorDisabled, for: .disabled, animated: false)
+        setBackgroundColor(color: style.backgroundColorDisabled, forState: SimpleButtonControlState.loading)
+        setTitleColor(style.titleColorNormal, for:.normal)
+        setTitleColor(style.titleColorHighlighted, for: .highlighted)
+        setTitleColor(style.titleColorDisabled, for: .disabled)
+        titleLabel?.font = style.titleFont
         clipsToBounds = true
-        setTitleColor(UIColor.white, for:.normal)
-        setTitleColor(UIColor.white, for: .highlighted)
-        setTitleColor(.white, for: .disabled)
-        tintColor = .white
-        titleLabel?.font = UIFont(name: "Raleway-Semibold", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.semibold)
         layer.cornerRadius = frame.height / 2
         imageView?.contentMode = .scaleAspectFit
-        setBackgroundColor(color: UIColor(named: "buttonEnableColor", in: Bundle(for: AmFloatingButton.self), compatibleWith: nil) ?? .clear, forState: .normal)
-        setBackgroundColor(color: UIColor(named: "buttonDisabledColor", in: Bundle(for: AmFloatingButton.self), compatibleWith: nil) ?? .clear, forState: .disabled)
     }
-    
-     override open var isHighlighted: Bool {
-           didSet {
-               backgroundColor = isHighlighted ? UIColor(named: "buttonHighlightedColor") : UIColor(named: "buttonEnableColor")
-           }
-       }
-    
     
 }

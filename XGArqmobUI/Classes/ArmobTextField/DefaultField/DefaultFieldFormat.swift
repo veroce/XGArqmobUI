@@ -11,31 +11,31 @@ import UIKit
 public class DefaultFieldFormat: NSObject {
     
     /// Font for title label
-    public var titleFont = UIFont.bodyRegular()
+    @objc public var titleFont = UIFont.bodyRegular()
     
     /// Font for text field
-    public var textFont = UIFont.bodyRegular()
+    @objc public var textFont = UIFont.bodyRegular()
     
     /// Text field background 
-    public var backgroundColor = UIColor.clear
+    @objc public var backgroundColor = UIColor.clear
     
     /// Title label text color
-    public var titleColor =  UIColor(named: "primaryTextColor") ?? UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var titleColor =  UIColor(named: "primaryTextColor") ?? UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
     /// TextField text color
-    public var textColor = UIColor(named: "primaryTextColor") ??  UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var textColor = UIColor(named: "primaryTextColor") ??  UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
     /// Font for alert label
-    public var alertFont = UIFont.caption1Regular()
+    @objc public var alertFont = UIFont.caption1Regular()
     
     /// Alert status color
-    public var alertColor = UIColor(named: "errorColor") ?? UIColor(named: "errorColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var alertColor = UIColor(named: "errorColor") ?? UIColor(named: "errorColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
     /// Secure icon image (On status)
-   // public var visibleOnImage = IconsLibrary.imageOfEye(color: .red)
+   // @objc public var visibleOnImage = IconsLibrary.imageOfEye(color: .red)
     
     /// Secure icon image (Off status)
-    //public var visibleOffImage = IconsLibrary.imageOfEyeoff(color: .red)
+    //@objc public var visibleOffImage = IconsLibrary.imageOfEyeoff(color: .red)
     
-    public override init() {}
+    @objc public override init() {}
 }

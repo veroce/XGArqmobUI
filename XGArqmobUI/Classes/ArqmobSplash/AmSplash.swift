@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import Kingfisher
 @objc
 open class AmSplash: UIView {
-
+    
     @IBOutlet weak var logoAplicacion: UIImageView!
     @IBOutlet weak var imgFondo: UIImageView!
     override init(frame: CGRect) {
@@ -41,7 +42,9 @@ open class AmSplash: UIView {
         if let image = UIImage(named: logo) {
             logoAplicacion.image = image
         }else{
-            // Enlace a una url
+            if let url = URL(string: image) {
+                logoAplicacion.kf.setImage(with: url)
+            }
             
         }
         

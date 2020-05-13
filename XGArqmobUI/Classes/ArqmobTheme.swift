@@ -10,36 +10,36 @@ import UIKit
 @objc(ArmobTheme)
 open class ArmobTheme: NSObject {
     
-   @objc public class func currentInstance() -> ArmobTheme {
-       return ArmobTheme.current
-     }
+    @objc public class func currentInstance() -> ArmobTheme {
+        return ArmobTheme.current
+    }
     
     public static let current = ArmobTheme()
     
-    public var navigationLargeFontTitle =  UIFont(name: "Raleway-Bold", size: 28)
+    @objc public var navigationLargeFontTitle =  UIFont(name: "Raleway-Bold", size: 28)
     
-    public var navigationFontTitle =  UIFont(name: "Raleway-Bold", size: 20)
+    @objc public var navigationFontTitle =  UIFont(name: "Raleway-Bold", size: 20)
     
-    public var navigationLargeTitlecColor = UIColor(named:"primaryTextColor") ?? UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var navigationLargeTitleColor = UIColor.white
     
-    public var navigationTitlecColor = UIColor(named:"primaryTextColor") ?? UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var navigationTitleColor = UIColor.white
     
-    public var navigationBackgroundColor = UIColor(named: "primaryColor") ?? UIColor(named: "primaryColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var navigationBackgroundColor = UIColor(named: "primaryColor") ?? UIColor(named: "primaryColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
-    public var tabBarSelectedItemColor = UIColor(named: "primaryColor") ?? UIColor(named: "primaryColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var tabBarSelectedItemColor = UIColor(named: "primaryColor") ?? UIColor(named: "primaryColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     /**
-            Si el dispositivo tiene ios 13, en caso de no tener ios 13, en cada uno de los view controller hay que poner
-             navigationBar.isTranslucent = false
-             navigationBar.setBackgroundImage(UIImage(), for: .default)
-             navigationBar.shadowImage = UIImage()
-    */
-    public var hideShadow: Bool = false
+     Si el dispositivo tiene ios 13, en caso de no tener ios 13, en cada uno de los view controller hay que poner
+     navigationBar.isTranslucent = false
+     navigationBar.setBackgroundImage(UIImage(), for: .default)
+     navigationBar.shadowImage = UIImage()
+     */
+    @objc public var hideShadow: Bool = false
     
-    public var tabBarUnselectedItemColor = UIColor(named: "secondaryTextColor") ?? UIColor(named: "secondaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var tabBarUnselectedItemColor = UIColor(named: "secondaryTextColor") ?? UIColor(named: "secondaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
-    public var tabBarBackgroundColor = UIColor(named: "backgroundTabBarColor") ?? UIColor(named: "backgroundTabBarColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var tabBarBackgroundColor = UIColor(named: "backgroundTabBarColor") ?? UIColor(named: "backgroundTabBarColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
-    public var tabBarFontTitle =  UIFont(name: "Raleway-Bold", size: 20)
+    @objc public var tabBarFontTitle =  UIFont(name: "Raleway-Bold", size: 20)
     
     /**
      Inicializa los estilos por defecto de la aplicación (navigation, tabbar, ...)
@@ -74,19 +74,15 @@ open class ArmobTheme: NSObject {
             let navBarAppearance = UINavigationBarAppearance()
             navBarAppearance.configureWithOpaqueBackground()
             
-            if let titleColor = navigationLargeTitlecColor, let titleFont = navigationLargeFontTitle {
-                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: titleColor, .font: titleFont]
-            }else if let titleColor = navigationLargeTitlecColor {
-                 navBarAppearance.largeTitleTextAttributes = [.foregroundColor: titleColor]
-            }else if let titleFont = navigationLargeFontTitle{
-                 navBarAppearance.largeTitleTextAttributes = [.font: titleFont]
+            if  let titleFont = navigationLargeFontTitle {
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: navigationLargeTitleColor, .font: titleFont]
+            }else  {
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: navigationLargeTitleColor]
             }
-            if let titleColor = navigationTitlecColor, let titleFont = navigationFontTitle {
-                navBarAppearance.titleTextAttributes = [.foregroundColor: titleColor, .font: titleFont]
-            }else if let titleColor = navigationTitlecColor {
-                navBarAppearance.titleTextAttributes = [.foregroundColor: titleColor]
-            }else if  let titleFont = navigationFontTitle {
-                 navBarAppearance.titleTextAttributes = [.font: titleFont]
+            if let titleFont = navigationFontTitle {
+                navBarAppearance.titleTextAttributes = [.foregroundColor: navigationTitleColor, .font: titleFont]
+            }else {
+                navBarAppearance.titleTextAttributes = [.foregroundColor: navigationTitleColor]
             }
             if hideShadow {
                 navBarAppearance.shadowColor = .clear
@@ -97,19 +93,15 @@ open class ArmobTheme: NSObject {
             UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
             
         }else {
-            if let navigationTitleFont = navigationLargeFontTitle, let titleColor = navigationLargeTitlecColor {
-                UINavigationBar.appearance().largeTitleTextAttributes = [.font: navigationTitleFont, .foregroundColor: titleColor]
-            }else if let navigationTitleFont = navigationLargeFontTitle {
-                UINavigationBar.appearance().largeTitleTextAttributes = [.font: navigationTitleFont]
-            }else if let titleColor = navigationLargeTitlecColor {
-                UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: titleColor]
+            if let navigationTitleFont = navigationLargeFontTitle{
+                UINavigationBar.appearance().largeTitleTextAttributes = [.font: navigationTitleFont, .foregroundColor: navigationLargeTitleColor]
+            }else{
+                UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: navigationLargeTitleColor]
             }
-            if let navigationTitleFont = navigationFontTitle, let titleColor = navigationTitlecColor {
-                UINavigationBar.appearance().titleTextAttributes = [.font: navigationTitleFont, .foregroundColor: titleColor]
-            }else if let navigationTitleFont = navigationFontTitle {
-                UINavigationBar.appearance().titleTextAttributes = [.font: navigationTitleFont]
-            }else if let titleColor = navigationTitlecColor  {
-                UINavigationBar.appearance().titleTextAttributes = [ .foregroundColor: titleColor]
+            if let navigationTitleFont = navigationFontTitle {
+                UINavigationBar.appearance().titleTextAttributes = [.font: navigationTitleFont, .foregroundColor: navigationTitleColor]
+            }else{
+                UINavigationBar.appearance().titleTextAttributes = [ .foregroundColor: navigationTitleColor]
             }
             UINavigationBar.appearance().barTintColor = navigationBackgroundColor
         }

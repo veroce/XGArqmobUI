@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-//@import XGArqmobUI;
+@import XGArqmobUI;
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    [[ArmobTheme currentInstance] setNavigationTitlecColor: [UIColor whiteColor]];
+    [[ArmobTheme currentInstance] apply];
+
     return YES;
 }
 

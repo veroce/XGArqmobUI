@@ -12,76 +12,76 @@ import UIKit
 open class AnimatedFieldFormat: NSObject {
     
     /// Title always visible
-    public var titleAlwaysVisible = false
+    @objc public var titleAlwaysVisible = false
     
     /// Font for title label
-    public var titleFont = UIFont.caption1Semibold()
+    @objc public var titleFont = UIFont.caption1Semibold()
     
     /// Font for text field
-    public var textFont = UIFont.bodyRegular()
+    @objc public var textFont = UIFont.bodyRegular()
     
     /// Font for counter
-    public var counterFont = UIFont.caption2Regular()
+   @objc public var counterFont = UIFont.caption2Regular()
     
     /// Line color
-    public var lineColor = UIColor(named: "lineTextFieldColor")
+    @objc public var lineColor = UIColor(named: "lineTextFieldColor")
     
     /// Title label text color
-    public var titleColor =  UIColor(named: "primaryTextColor")
+    @objc public var titleColor =  UIColor(named: "primaryTextColor")
     
     /// TextField text color
-    public var textColor = UIColor(named: "primaryTextColor")
+    @objc public var textColor = UIColor(named: "primaryTextColor")
     
     /// Counter text color
-    public var counterColor = UIColor.darkGray
+    @objc public var counterColor = UIColor.darkGray
     
     /// Enable alert
-    public var alertEnabled = true
+    @objc public var alertEnabled = true
     
     /// Font for alert label
-    public var alertFont = UIFont.caption1Regular()
+    @objc public var alertFont = UIFont.caption1Regular()
     
     /// Alert status color
-    public var alertColor = UIColor(named: "errorColor")
+    @objc public var alertColor = UIColor(named: "errorColor")
     
     /// Colored alert field text
-    public var alertFieldActive = true
+    @objc public var alertFieldActive = true
     
     /// Colored alert line
-    public var alertLineActive = true
+    @objc public var alertLineActive = true
     
     /// Colored alert title
-    public var alertTitleActive = true
+    @objc public var alertTitleActive = true
     
     /// Alert position
-    public var alertPosition = AnimatedFieldAlertPosition.bottom
+     public var alertPosition = AnimatedFieldAlertPosition.bottom
     
     /// Secure icon image (On status)
-    //public var visibleOnImage = IconsLibrary.imageOfEye(color: .red)
+    //@objc public var visibleOnImage = IconsLibrary.imageOfEye(color: .red)
     
     /// Secure icon image (Off status)
-    //public var visibleOffImage = IconsLibrary.imageOfEyeoff(color: .red)
+    //@objc public var visibleOffImage = IconsLibrary.imageOfEyeoff(color: .red)
     
     /// Enable counter label
-    public var counterEnabled = false
+    @objc public var counterEnabled = false
     
     /// Set count down if counter is enabled
-    public var countDown = false
+    @objc public var countDown = false
     
     /// Enable counter animation on change
-    public var counterAnimation = false
+    @objc public var counterAnimation = false
     
     /// Highlight color when becomes active
-    public var highlightColor: UIColor? = UIColor(named: "primaryColor") ?? UIColor(named: "primaryColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+    @objc public var highlightColor: UIColor? = UIColor(named: "primaryColor") ?? UIColor(named: "primaryColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
     /// Left icon image status
-    public var visibleLeftImage = true
+    @objc public var visibleLeftImage = true
     
     /// Left icon image
-    public var leftImage: UIImage?
+    @objc public var leftImage: UIImage?
     
     /// Tint color left icon
-       public var leftIconColor: UIColor? = UIColor(named: "primaryTextColor") ?? UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
+       @objc public var leftIconColor: UIColor? = UIColor(named: "primaryTextColor") ?? UIColor(named: "primaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
-    public override init() {}
+    @objc public override init() {}
 }

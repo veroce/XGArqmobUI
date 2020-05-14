@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		01356B75985EB9A42484F4B43849058A /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB684C880AF625EE7D12497570FA7 /* Storage.swift */; };
+		0271B560FC8863B1447E39360B3963DC /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F3872161A00CB3F39F00BDC46B7EAA /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0654168F7D1D6CE94998ED06B8F54933 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24773F358056BE77BD00332447214E71 /* CacheSerializer.swift */; };
 		068E28A4C326BBA84549D7FC82208D39 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06775226763783388349AD2E5325C27 /* Indicator.swift */; };
-		07238A66531C0FAB334C1467676B7AE5 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C6CCA7DA0401650D8F3F6EE533878 /* LGSideMenuSegue.m */; };
 		085C4DC2B0FA20E200A6C50433820659 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484E538CBF1F713A172257872469DCC /* Source.swift */; };
 		0981A4BE8A5F11E35B83E32D8DD92099 /* Kingfisher-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8288279ED9FE70F5D83D109C46A96A93 /* Kingfisher-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09F5E033C0F7923BAE49E39512D64398 /* NSButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6031EFFF71FB509626B3ADEA50974 /* NSButton+Kingfisher.swift */; };
+		09F60D8EF538E02DA349FDB2251CC47E /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14BF63979BF89065C984A71B3FB2188 /* LGSideMenuController.m */; };
 		0C1777EC4FF50188F5506D5B7B6199D4 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B4E647C89CAFEDBFF2D081E79095A7 /* RedirectHandler.swift */; };
 		0C8B920EA2DA07158FFB611BA9FE26D7 /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1019325D984FDEC2FB5A7503B4A5E8A0 /* AuthenticationChallengeResponsable.swift */; };
 		0DB7D3BF462E8DC7DE4714B8914F904A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED619983F0A5EDAD0A7D9F19DF093704 /* ImageDownloader.swift */; };
@@ -23,32 +24,29 @@
 		1157E789C166D234AC0BF023A2DF4147 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E352C76E6B5765A8F2CC7C368F9EC1 /* Filter.swift */; };
 		11F5E4BC81C7C30E1DA0834696BF92F3 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC2D03AF1A779CB5B3E7CD20330D96 /* AnimatedImageView.swift */; };
 		124F18A77BF0AF8022B06F815FA2ED25 /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41130DA725CBCE3ED50D670A0306A53A /* GIFAnimatedImage.swift */; };
-		132D8D4F74A13110DEAF581475C1FD4B /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 299EE5459364A1D70A24906C8BB62944 /* LGSideMenuHelper.m */; };
-		1385D505420CC45874CE677264D2422F /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF105F14BAE2BD517B663716C4254EC8 /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		132D8D4F74A13110DEAF581475C1FD4B /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 327BF1F497F0C8E54CEA784365ED3F04 /* LGSideMenuHelper.m */; };
 		1484D8985F1DDB5D4F4B8488B0E528BD /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8EE129F6742BC9F3D6FE8D9FA6E1D /* DiskStorage.swift */; };
 		16EB818C6EA298BDC360845BE07ABCF7 /* Pods-XGArqmobUIDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D32EDB8AAAA335F0AE16AFD535852B /* Pods-XGArqmobUIDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		189D8B4CDBFD90EFEA8D3D6F245AC9E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */; };
-		18F184DD9786103EA238D0424D6DE434 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0FB80F1DB6DE34C1925A4ED6F2DCF /* UIViewController+LGSideMenuController.m */; };
 		1AC8BCB889D5D70CD345860FD14A90F4 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC8322588421C5C052CEDDF2FC00E5 /* ImageDownloaderDelegate.swift */; };
 		1B16F9D097546AB4E8E26A9C83FC61DB /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24773F358056BE77BD00332447214E71 /* CacheSerializer.swift */; };
-		1CF176CCBFE439CF36C4B5E1F892186A /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C18AA2B296677DAF85451A150788B9 /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E1EE1A08E2DC04EB9F63408C506A5B6 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC487DBE106F9000A16012290A4DD1D7 /* ImageCache.swift */; };
-		1E3191BF224EEFE1CFFA5728DA48A950 /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C18AA2B296677DAF85451A150788B9 /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F581A026A2CAB00153B95EAA068E96E /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = EED693255CE6EB134776A96749ECC188 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E3191BF224EEFE1CFFA5728DA48A950 /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D86FB33EF0D0959F1E037A92549FE73 /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227E2A2C6C06DC6003B4E5E7861DC883 /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8279FA578A5E0B8BE413167179ECAE /* WKInterfaceImage+Kingfisher.swift */; };
 		22ED3EF40FF570A5B689FDAD39109E52 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02F64517BDAE60A378E36FC9A9F9E3 /* ImageTransition.swift */; };
+		246699EEBB7DE381BCC9D5ACB677BF0F /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D548FE5077A38304D50D53A9E39193 /* LGSideMenuBorderView.m */; };
 		2588327ABBE509A23E05F225FB58C5CF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C9CC46C04B908FF8708A6DE7FF5419 /* Accelerate.framework */; };
+		2751112C0EB40E7B6FAA75601C40AD17 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D244B636854879A27AC43C4926429BB /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		29E434635ACE4620C6033C94C9CC7B5F /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671889E7480B0708FBACC96AFB229EBA /* SessionDataTask.swift */; };
 		2AC8A56E0F284C24766097FB3CA39737 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC2D03AF1A779CB5B3E7CD20330D96 /* AnimatedImageView.swift */; };
 		2F6FF223C3F73799179383ED82BACBA4 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF906D9193613A3E0E20522A98FB93 /* ImageProcessor.swift */; };
 		31DC86F6447F95EADFB0DEFF84F26853 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F30B7165683BA2D7AE626F39B043B8 /* RequestModifier.swift */; };
-		31FE0D70D7156F9F9BDD39FBD03F7073 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B0BBFD19DD0B1AEFE89471EA905E77 /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		33642118F67AF6B1578B435D11D0FE52 /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8634BDC4E28C5374BDE3CCE49A3C4BD9 /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		344E7ADA2DCD2E3BE3720126F61905F0 /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9A2FD9C2123FF8420F58A41A5493A /* KingfisherError.swift */; };
 		3675D0748897AABB6F14674FE5C9B3FB /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA07D08E26C1D548564B3E011BDA59 /* ImageDataProvider.swift */; };
 		3B32CE6C99DDC51B3F4795B2A0B83F4A /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC8322588421C5C052CEDDF2FC00E5 /* ImageDownloaderDelegate.swift */; };
 		405610041D038C5AB2245C4F46BB1627 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4043B89F724ABD688B74B075D92C83 /* Box.swift */; };
-		425397BBAB8D5DB92C18E4C3FA946572 /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8634BDC4E28C5374BDE3CCE49A3C4BD9 /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F3CC848FD7C9C0554AC12F14AA79F4 /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 327BF1F497F0C8E54CEA784365ED3F04 /* LGSideMenuHelper.m */; };
+		425397BBAB8D5DB92C18E4C3FA946572 /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7CDAB49C312EE9D9FF44326642FCA6 /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		432F5D0CAEC4B7E55BA19752491E8452 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02F64517BDAE60A378E36FC9A9F9E3 /* ImageTransition.swift */; };
 		43C6259B57C6D4834FE66CFAC184811E /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278B2AFD10DC042285B163C0CFB2BC3 /* Placeholder.swift */; };
 		45E81988798D0E41669D524D6C962DC5 /* Kingfisher-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184071DC45CE8F38E7F010AA876E943B /* Kingfisher-library-dummy.m */; };
@@ -56,7 +54,10 @@
 		47093E049D9A1D16C82B98C84F264DB1 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4043B89F724ABD688B74B075D92C83 /* Box.swift */; };
 		48458BFC7E22AC5D09C8C56098D91724 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5B4540BD0996707337E69879E327F /* ImageModifier.swift */; };
 		4A38DFCEEBCAAA7C4801253B4FFC28B0 /* SizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B052B40C39C633795A5384128B0A8E /* SizeExtensions.swift */; };
+		4A7886691BE22A9A04649DA69B67308E /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C4E2AE989F4E0C3EB713D2BA384E60 /* LGSideMenuSegue.m */; };
+		4C3453BB325502FC181BC225A5023B2C /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674A09F04540B08EC872ED9C577E899A /* UIViewController+LGSideMenuController.m */; };
 		4ED0DCAE92589C2EEADC33720151D552 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79418E8954F2E942F823742992C1E105 /* FormatIndicatedCacheSerializer.swift */; };
+		50496B83724937355573C5517F50C998 /* LGSideMenuController-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8028A9D306325C0231051A117517D652 /* LGSideMenuController-library-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		50DEFCA1D7EC801E860B5BB00A113021 /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BF95DD0FD70555166AA0B79C7AC90 /* ImageDataProcessor.swift */; };
 		540328CD58C60D4AA04F79F709FD494C /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7CB0953ED2BBC28AB6D31BFB6FA120 /* ExtensionHelpers.swift */; };
 		55C03EDBDCDD23CE246EA2FEE33D4896 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAFB5FF86D54148BD8F3E9EB6307FDF /* MemoryStorage.swift */; };
@@ -74,17 +75,18 @@
 		6BDB4376896A3931C7ED61A04B7B2165 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3D1FB48B631596BFD7064A0290551 /* SessionDelegate.swift */; };
 		6C37C8ECB83882A8ACB9C3D10E10D5CB /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7CB0953ED2BBC28AB6D31BFB6FA120 /* ExtensionHelpers.swift */; };
 		6D0846275E426305246441C41BD5329A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED619983F0A5EDAD0A7D9F19DF093704 /* ImageDownloader.swift */; };
-		6D4685184C7B39413ED072887B03B8C8 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B0BBFD19DD0B1AEFE89471EA905E77 /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4685184C7B39413ED072887B03B8C8 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D244B636854879A27AC43C4926429BB /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DA706A7DD3D67543143AFF27149701C /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F30B7165683BA2D7AE626F39B043B8 /* RequestModifier.swift */; };
-		6F8087FEF09ADA26C0E93EC00956EB94 /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CDACA604A8775292608A314F778FE052 /* LGSideMenuGesturesHandler.m */; };
+		6F8087FEF09ADA26C0E93EC00956EB94 /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7054CFC7C83A1311FBABA4AE9C142AD4 /* LGSideMenuGesturesHandler.m */; };
+		710166BAEA76728227757C4583ECDE98 /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E1008A7C9429D5DD587C56167674E85C /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		727FCC3EAF2099500232A22A6F182CD7 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50996DE34648FE130C17783C846F9B0F /* KingfisherManager.swift */; };
 		753FD3108AF32D2D848A633A074F413B /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250812C8EBAE158706FD2131EA14574 /* Delegate.swift */; };
-		75FC5EC1A8167C6F4D3858C93C78B2F2 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9935C41034EEC2990CD60AA2A06E6 /* LGSideMenuController.m */; };
+		75FC5EC1A8167C6F4D3858C93C78B2F2 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14BF63979BF89065C984A71B3FB2188 /* LGSideMenuController.m */; };
 		77334532724DEB6791876D35C124C98B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB684C880AF625EE7D12497570FA7 /* Storage.swift */; };
 		792FD41558E3790A3E6319E54716C7C5 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06775226763783388349AD2E5325C27 /* Indicator.swift */; };
-		7B5DF55ED41F1DE1723A307E477DCC0D /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E74A512C80AA6AB3F4EB5EE7613EE4 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7E613637454A761656CDAE9E79A7B6ED /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278B2AFD10DC042285B163C0CFB2BC3 /* Placeholder.swift */; };
-		88A226FDDDD15746EB49205F7B59167D /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E74A512C80AA6AB3F4EB5EE7613EE4 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A226FDDDD15746EB49205F7B59167D /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D54AAE10AF4CC66BE8EEC54C0A4BA92 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CBE5E999E14E10DDD59CF74125FC1FE /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = E242CA7F75DD504214C33977EF4634F5 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E882CFBC4DC13B92E926751A6DF9A9D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F87ED7410AE484824FF18A39E26E2 /* Image.swift */; };
 		8FB7F22DF62F3B35D9BD37241FE3DF3E /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41130DA725CBCE3ED50D670A0306A53A /* GIFAnimatedImage.swift */; };
 		92A99BE28D298BB7044A7E681DA2FF33 /* Kingfisher-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D2AD36A8A727DA62D7178D0149E29A /* Kingfisher-library-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -97,36 +99,33 @@
 		9D9992D7F9630CDBCD00B8316E0202AE /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8EE129F6742BC9F3D6FE8D9FA6E1D /* DiskStorage.swift */; };
 		9E3A491D8A7744E9D3B36571B038AAAA /* Pods-XGArqmobUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3242F02B669A16B9BC2C85E42CDAFD02 /* Pods-XGArqmobUI-dummy.m */; };
 		A0AC1CF1F6E893617CA93A0D27E55E47 /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8279FA578A5E0B8BE413167179ECAE /* WKInterfaceImage+Kingfisher.swift */; };
-		A14FA0DEA4B52C8686D0E7A334EBF123 /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 299EE5459364A1D70A24906C8BB62944 /* LGSideMenuHelper.m */; };
+		A22510D68FA95138E5B7674B1D55EFD3 /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D54AAE10AF4CC66BE8EEC54C0A4BA92 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5817EFBB7C066ABD191829DD6B54821 /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648226215D15294806AF1E1F820AFDB /* ImageProgressive.swift */; };
-		A7E30BD907FCF941338485003EC0A3AF /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4EA5F041ADE5FF3818625F9E1E044C /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E30BD907FCF941338485003EC0A3AF /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E1008A7C9429D5DD587C56167674E85C /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A90255FE970A7F10B5A27BE519A23F7B /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484E538CBF1F713A172257872469DCC /* Source.swift */; };
 		AD55EBEA41CF5DB90F0F451480F9801C /* Pods-XGArqmobUIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 356681C533D3D92BADFF73671E195147 /* Pods-XGArqmobUIDemo-dummy.m */; };
 		ADBCA64602051F19FA1C299BB4B186C1 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9079F5AFE8B08AD7A1B0A5395548C6A /* CallbackQueue.swift */; };
 		AF154EFFC82A005FD0F64D299E142197 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E33B9A04EE77BBD7947E900E856F9B /* Resource.swift */; };
 		AF316AEF6FD4B4368B297C4625C52187 /* SizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B052B40C39C633795A5384128B0A8E /* SizeExtensions.swift */; };
-		B30DBD827AEA017764FB9B1A1FD93761 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D547956DE2CD35C540BBDC230977B /* LGSideMenuView.m */; };
 		B3A5727866DCE0D8D5626C7EB8A56D94 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0FB472430B5A121980784A29E2BC4E /* ImagePrefetcher.swift */; };
 		B45F18E6601796D914CA457C09A6BA16 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0FB472430B5A121980784A29E2BC4E /* ImagePrefetcher.swift */; };
 		B51DEF6A030BF42A3A6B3137036C981A /* Pods-XGArqmobUIDemo-Objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B940F252D2929816724578228E0FB64B /* Pods-XGArqmobUIDemo-Objc-dummy.m */; };
-		B76396D6AA640C4BD4E1DDD1545E9D09 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D547956DE2CD35C540BBDC230977B /* LGSideMenuView.m */; };
+		B76396D6AA640C4BD4E1DDD1545E9D09 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF468DFF0ECBCB7B10E95549C9659893 /* LGSideMenuView.m */; };
+		B7FBAAF78D9E988CA7A1F192395A811C /* LGSideMenuController-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7A6E8B5983594D0A945678C52D568 /* LGSideMenuController-library-dummy.m */; };
 		B8F5DFE3B38488C349809D202862DCEE /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50996DE34648FE130C17783C846F9B0F /* KingfisherManager.swift */; };
 		BB7BD774AAD58EAC3B4748D1C3FF43DC /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378938244B21615A8BCD99979DD1A5DD /* String+MD5.swift */; };
 		BC2ABB8AF21F63D7EF0DC8EFFC65578F /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79418E8954F2E942F823742992C1E105 /* FormatIndicatedCacheSerializer.swift */; };
 		BC5C8A670EE5E304DBBC5437C77A37D5 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC487DBE106F9000A16012290A4DD1D7 /* ImageCache.swift */; };
-		C265A35DD833471A6C1D5C06EAEFB905 /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF105F14BAE2BD517B663716C4254EC8 /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5058915D70D20EBEB83145E7E56F547 /* LGSideMenuController-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D88148F433D7C7B6DFB56EB2810435D /* LGSideMenuController-library-dummy.m */; };
+		C265A35DD833471A6C1D5C06EAEFB905 /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F3872161A00CB3F39F00BDC46B7EAA /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C51060C3BA725A29CEA39DCB244BEBD8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F87ED7410AE484824FF18A39E26E2 /* Image.swift */; };
 		C6B057AB73A443D2BFE34EE9AF9BF9C5 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB417877FF7702FD7AE7A81D2D13A9D /* KingfisherOptionsInfo.swift */; };
 		C7F86CECD84A5A7CD496C41233745311 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA07D08E26C1D548564B3E011BDA59 /* ImageDataProvider.swift */; };
-		C82B45DAAC23322B7862694B50ECF68C /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CDACA604A8775292608A314F778FE052 /* LGSideMenuGesturesHandler.m */; };
-		CAD688EC50564B2C20FDFE18FCB2432E /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9935C41034EEC2990CD60AA2A06E6 /* LGSideMenuController.m */; };
+		CCABFEC021D1D38CC442D16A23B9EB4D /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7054CFC7C83A1311FBABA4AE9C142AD4 /* LGSideMenuGesturesHandler.m */; };
 		CDDC01D48911C793165A69CB3E0E1F71 /* Kingfisher-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FDA317E5C270F733FD8B3085FEDAF1 /* Kingfisher-framework-dummy.m */; };
 		D114BF9CDA4AF694FAEE7C137C0771CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */; };
 		D147119429BC34E4DA90CB02B80F75A2 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB417877FF7702FD7AE7A81D2D13A9D /* KingfisherOptionsInfo.swift */; };
 		D1E4019BB9750B7EBA71BFC20BAD3DAD /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC63FE2FABAC161DE90BBB2C19C3B4 /* Kingfisher.swift */; };
 		D2A694358079F370E20E905C0A4C4E4F /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85508C2D8FE97B07BB9D591D00D9CF72 /* UIButton+Kingfisher.swift */; };
-		D5069C755FDFFD7283ECE1E7CC715327 /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04F8A1B40B3B806183862E988FC8E7 /* LGSideMenuBorderView.m */; };
 		D670651C8F2238DD440A48EA1CE99EC6 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C8587C45A7A046CED9185896997A5 /* ImageView+Kingfisher.swift */; };
 		D6EE361D3B2522BA0DD4862A543A4F58 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC63FE2FABAC161DE90BBB2C19C3B4 /* Kingfisher.swift */; };
 		D6F44CE540DB8BD24667426A9D4AF57C /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9986DF95DD060B0C3179645997B07B /* ImageFormat.swift */; };
@@ -137,22 +136,24 @@
 		DB46949FA6F57DD959AC029C2BB73099 /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A58EA7973CFEAC8779E0B6A12024B7 /* ImageDrawing.swift */; };
 		DD4103EBB58F71B81E6D8958E625993D /* RetryStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6984F8FD8D646865413428388F3E84C2 /* RetryStrategy.swift */; };
 		E02974B9BE39FD27F3CD81D1F9DFBE2F /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAFB5FF86D54148BD8F3E9EB6307FDF /* MemoryStorage.swift */; };
-		E34AD36AD39F68512AADD6ED9A47DC9F /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04F8A1B40B3B806183862E988FC8E7 /* LGSideMenuBorderView.m */; };
-		E376B5FA625C8F882B7E7807DD296056 /* LGSideMenuController-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8446FFD2FF68ACD5E1FE8B770DBB35F0 /* LGSideMenuController-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34AD36AD39F68512AADD6ED9A47DC9F /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D548FE5077A38304D50D53A9E39193 /* LGSideMenuBorderView.m */; };
+		E376B5FA625C8F882B7E7807DD296056 /* LGSideMenuController-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F241CD85EB2FD39F798FBFD34952EF01 /* LGSideMenuController-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40E39DD8CC5E430B8CE7956A2296BB3 /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D86FB33EF0D0959F1E037A92549FE73 /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E65B467272C59CBF332455E9369D3E72 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9079F5AFE8B08AD7A1B0A5395548C6A /* CallbackQueue.swift */; };
 		E807D9439B1FBE414626E0AA2DF9A3BD /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A6D1E4CEE8CC6B9261BD1B63319013 /* Kingfisher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E83C7204CE937252B1FB166A0FFC1305 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378938244B21615A8BCD99979DD1A5DD /* String+MD5.swift */; };
 		E98FFC1B044271F931E0CDEB12436EEA /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85508C2D8FE97B07BB9D591D00D9CF72 /* UIButton+Kingfisher.swift */; };
-		EE6C54481F0721CCFC94C569B9230758 /* LGSideMenuController-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FEFF8B7E9F817A19440BE871805AFD /* LGSideMenuController-framework-dummy.m */; };
+		EAD05EC3A4CD455DCB13C2C718A904BE /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF468DFF0ECBCB7B10E95549C9659893 /* LGSideMenuView.m */; };
+		EE6C54481F0721CCFC94C569B9230758 /* LGSideMenuController-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8169861C064621CB3D10F3019C1E4B17 /* LGSideMenuController-framework-dummy.m */; };
+		EE9F44A7259A0FADD0C8EC568A1289E9 /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7CDAB49C312EE9D9FF44326642FCA6 /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F2FB1A340EBBC2C2BCF2E3F41170FC35 /* Pods-XGArqmobUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C665D8AD42A834CCB3BBD010D12D1FEE /* Pods-XGArqmobUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4DB5C528EE4432DD551C820FF1F903A /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0FB80F1DB6DE34C1925A4ED6F2DCF /* UIViewController+LGSideMenuController.m */; };
-		FBCD22CB36055C9089A53752ACE8BEB8 /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4EA5F041ADE5FF3818625F9E1E044C /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4DB5C528EE4432DD551C820FF1F903A /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674A09F04540B08EC872ED9C577E899A /* UIViewController+LGSideMenuController.m */; };
 		FBD477B8C81B665D643BE9F185A37CBC /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3D1FB48B631596BFD7064A0290551 /* SessionDelegate.swift */; };
 		FC7E7916E3A53AFD5733CF921D5EE74C /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43476A7CE26A337F00F22F12A318257 /* Deprecated.swift */; };
 		FD435AADA571891542708246F16AF7BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */; };
-		FDA30708A72ED8164D6726F05BFF3961 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C6CCA7DA0401650D8F3F6EE533878 /* LGSideMenuSegue.m */; };
+		FDA30708A72ED8164D6726F05BFF3961 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C4E2AE989F4E0C3EB713D2BA384E60 /* LGSideMenuSegue.m */; };
 		FE7C7618AF17C75260C9B338FB4CF07F /* RetryStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6984F8FD8D646865413428388F3E84C2 /* RetryStrategy.swift */; };
-		FFEE2E01CECEFE641C4EBAF4A7DB2B36 /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = EED693255CE6EB134776A96749ECC188 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFEE2E01CECEFE641C4EBAF4A7DB2B36 /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = E242CA7F75DD504214C33977EF4634F5 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,73 +204,76 @@
 /* Begin PBXFileReference section */
 		0250812C8EBAE158706FD2131EA14574 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/Utility/Delegate.swift; sourceTree = "<group>"; };
 		06D32EDB8AAAA335F0AE16AFD535852B /* Pods-XGArqmobUIDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGArqmobUIDemo-umbrella.h"; sourceTree = "<group>"; };
+		0918FD0A06DDD6440ED6F1F77967113F /* LGSideMenuController-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LGSideMenuController-framework.debug.xcconfig"; sourceTree = "<group>"; };
 		0AA52D917F8C4482F41EDAF2F641AC5A /* Pods_XGArqmobUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XGArqmobUI.framework; path = "Pods-XGArqmobUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9D8E4414D6A030372F78F6C3231D90 /* Pods-XGArqmobUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUI.release.xcconfig"; sourceTree = "<group>"; };
 		1019325D984FDEC2FB5A7503B4A5E8A0 /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
 		12BF906D9193613A3E0E20522A98FB93 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		12FB3A907B14474A8CE10511C22106CE /* Pods-XGArqmobUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUI-Info.plist"; sourceTree = "<group>"; };
+		15D548FE5077A38304D50D53A9E39193 /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuBorderView.m; path = LGSideMenuController/LGSideMenuBorderView.m; sourceTree = "<group>"; };
 		16B052B40C39C633795A5384128B0A8E /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
 		184071DC45CE8F38E7F010AA876E943B /* Kingfisher-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Kingfisher-library-dummy.m"; path = "../Kingfisher-library/Kingfisher-library-dummy.m"; sourceTree = "<group>"; };
+		1A7CDAB49C312EE9D9FF44326642FCA6 /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuGesturesHandler.h; path = LGSideMenuController/LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
 		1B5F87ED7410AE484824FF18A39E26E2 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image/Image.swift; sourceTree = "<group>"; };
-		1D88148F433D7C7B6DFB56EB2810435D /* LGSideMenuController-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGSideMenuController-library-dummy.m"; path = "../LGSideMenuController-library/LGSideMenuController-library-dummy.m"; sourceTree = "<group>"; };
-		1D9D547956DE2CD35C540BBDC230977B /* LGSideMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuView.m; path = LGSideMenuController/LGSideMenuView.m; sourceTree = "<group>"; };
+		218DD10221FA9F00DF83C286C64553D3 /* LGSideMenuController-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LGSideMenuController-framework.release.xcconfig"; sourceTree = "<group>"; };
 		22612C461CF724EB05BE2EEB591F3B5F /* Pods-XGArqmobUIDemo-Objc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUIDemo-Objc-Info.plist"; sourceTree = "<group>"; };
 		23B4E647C89CAFEDBFF2D081E79095A7 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
 		23ECF569E093A837E5372907B929EE98 /* Pods-XGArqmobUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		24773F358056BE77BD00332447214E71 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
 		25A5091CAE910B454361CFB90BC0B37A /* Kingfisher-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-framework-Info.plist"; sourceTree = "<group>"; };
 		28B7EC38AADA36E029C95EC4519D113C /* Pods-XGArqmobUIDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGArqmobUIDemo.modulemap"; sourceTree = "<group>"; };
-		299EE5459364A1D70A24906C8BB62944 /* LGSideMenuHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuHelper.m; path = LGSideMenuController/LGSideMenuHelper.m; sourceTree = "<group>"; };
-		2A04F8A1B40B3B806183862E988FC8E7 /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuBorderView.m; path = LGSideMenuController/LGSideMenuBorderView.m; sourceTree = "<group>"; };
 		2B377D44016F68511DD0D50090EDFA4D /* Pods-XGArqmobUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		2C4EA5F041ADE5FF3818625F9E1E044C /* LGSideMenuHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuHelper.h; path = LGSideMenuController/LGSideMenuHelper.h; sourceTree = "<group>"; };
 		2C7CB0953ED2BBC28AB6D31BFB6FA120 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
 		30E352C76E6B5765A8F2CC7C368F9EC1 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
 		3242F02B669A16B9BC2C85E42CDAFD02 /* Pods-XGArqmobUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGArqmobUI-dummy.m"; sourceTree = "<group>"; };
+		327BF1F497F0C8E54CEA784365ED3F04 /* LGSideMenuHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuHelper.m; path = LGSideMenuController/LGSideMenuHelper.m; sourceTree = "<group>"; };
 		356681C533D3D92BADFF73671E195147 /* Pods-XGArqmobUIDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGArqmobUIDemo-dummy.m"; sourceTree = "<group>"; };
 		364BF95DD0FD70555166AA0B79C7AC90 /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
 		376D437957DFEB25E57A0C7FFE6FC372 /* Pods-XGArqmobUIDemo-Objc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGArqmobUIDemo-Objc-acknowledgements.markdown"; sourceTree = "<group>"; };
 		378938244B21615A8BCD99979DD1A5DD /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
-		37B0BBFD19DD0B1AEFE89471EA905E77 /* LGSideMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuSegue.h; path = LGSideMenuController/LGSideMenuSegue.h; sourceTree = "<group>"; };
-		3CE9935C41034EEC2990CD60AA2A06E6 /* LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuController.m; path = LGSideMenuController/LGSideMenuController.m; sourceTree = "<group>"; };
 		41130DA725CBCE3ED50D670A0306A53A /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
 		425F1C3BFDB912C4B86E03CEC13AFFED /* Kingfisher-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Kingfisher-library-prefix.pch"; path = "../Kingfisher-library/Kingfisher-library-prefix.pch"; sourceTree = "<group>"; };
 		4439BCA8312E4998EABBB5B2F5D9C8D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		44A70168C9DD67863680D5D8A96668D9 /* LGSideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGSideMenuController.framework; path = "LGSideMenuController-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C9CC46C04B908FF8708A6DE7FF5419 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		49C4E2AE989F4E0C3EB713D2BA384E60 /* LGSideMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuSegue.m; path = LGSideMenuController/LGSideMenuSegue.m; sourceTree = "<group>"; };
 		4ABA07D08E26C1D548564B3E011BDA59 /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
+		4CF7A6E8B5983594D0A945678C52D568 /* LGSideMenuController-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGSideMenuController-library-dummy.m"; path = "../LGSideMenuController-library/LGSideMenuController-library-dummy.m"; sourceTree = "<group>"; };
+		4D86FB33EF0D0959F1E037A92549FE73 /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuBorderView.h; path = LGSideMenuController/LGSideMenuBorderView.h; sourceTree = "<group>"; };
 		4F2ED0A42254FB84FBA2CEDA62325821 /* Pods-XGArqmobUIDemo-Objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUIDemo-Objc.debug.xcconfig"; sourceTree = "<group>"; };
 		50996DE34648FE130C17783C846F9B0F /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
 		51B58DD1BACD3B69362FFA1568511056 /* Kingfisher-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Kingfisher-library.debug.xcconfig"; path = "../Kingfisher-library/Kingfisher-library.debug.xcconfig"; sourceTree = "<group>"; };
 		538DA535F4E0B06B3AB83332E9EE1076 /* Pods-XGArqmobUIDemo-Objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUIDemo-Objc.release.xcconfig"; sourceTree = "<group>"; };
 		5484E538CBF1F713A172257872469DCC /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
-		54C18AA2B296677DAF85451A150788B9 /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuBorderView.h; path = LGSideMenuController/LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		5552C03B01B90D947DCBB1849A41B90A /* LGSideMenuController-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LGSideMenuController-library.release.xcconfig"; path = "../LGSideMenuController-library/LGSideMenuController-library.release.xcconfig"; sourceTree = "<group>"; };
 		556B346725AAC757A279AB7B5E7B5A67 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = "Kingfisher-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F5B4540BD0996707337E69879E327F /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
+		56FA1CD5AA03A9D6C5AB0AA56D262879 /* LGSideMenuController-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-framework-prefix.pch"; sourceTree = "<group>"; };
 		5FD2FEAED583505456065354CC845987 /* Pods-XGArqmobUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUI-acknowledgements.plist"; sourceTree = "<group>"; };
 		671889E7480B0708FBACC96AFB229EBA /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
+		674A09F04540B08EC872ED9C577E899A /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LGSideMenuController.m"; path = "LGSideMenuController/UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
 		6984F8FD8D646865413428388F3E84C2 /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Networking/RetryStrategy.swift; sourceTree = "<group>"; };
 		6BD6031EFFF71FB509626B3ADEA50974 /* NSButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSButton+Kingfisher.swift"; path = "Sources/Extensions/NSButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		6C9C6CCA7DA0401650D8F3F6EE533878 /* LGSideMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuSegue.m; path = LGSideMenuController/LGSideMenuSegue.m; sourceTree = "<group>"; };
 		6D12BD991FDE83903C5AA7B685B2EA1E /* Pods_XGArqmobUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XGArqmobUIDemo.framework; path = "Pods-XGArqmobUIDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E2DE41B77B27E42F6853C67B7E34393 /* LGSideMenuController-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LGSideMenuController-framework.modulemap"; sourceTree = "<group>"; };
+		6D244B636854879A27AC43C4926429BB /* LGSideMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuSegue.h; path = LGSideMenuController/LGSideMenuSegue.h; sourceTree = "<group>"; };
 		700FB684C880AF625EE7D12497570FA7 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
-		724B4ABD21BE377CFD58487A5F6D78D9 /* LGSideMenuController-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGSideMenuController-framework-Info.plist"; sourceTree = "<group>"; };
+		7054CFC7C83A1311FBABA4AE9C142AD4 /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuGesturesHandler.m; path = LGSideMenuController/LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		70FC53D9BA481DF00A2A1C40711E6759 /* LGSideMenuController-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LGSideMenuController-library.debug.xcconfig"; path = "../LGSideMenuController-library/LGSideMenuController-library.debug.xcconfig"; sourceTree = "<group>"; };
 		79418E8954F2E942F823742992C1E105 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		7B8279FA578A5E0B8BE413167179ECAE /* WKInterfaceImage+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKInterfaceImage+Kingfisher.swift"; path = "Sources/Extensions/WKInterfaceImage+Kingfisher.swift"; sourceTree = "<group>"; };
+		7D54AAE10AF4CC66BE8EEC54C0A4BA92 /* LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuController.h; path = LGSideMenuController/LGSideMenuController.h; sourceTree = "<group>"; };
+		8028A9D306325C0231051A117517D652 /* LGSideMenuController-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGSideMenuController-library-umbrella.h"; path = "../LGSideMenuController-library/LGSideMenuController-library-umbrella.h"; sourceTree = "<group>"; };
 		80D2AD36A8A727DA62D7178D0149E29A /* Kingfisher-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Kingfisher-library-umbrella.h"; path = "../Kingfisher-library/Kingfisher-library-umbrella.h"; sourceTree = "<group>"; };
+		8169861C064621CB3D10F3019C1E4B17 /* LGSideMenuController-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSideMenuController-framework-dummy.m"; sourceTree = "<group>"; };
 		8288279ED9FE70F5D83D109C46A96A93 /* Kingfisher-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-framework-umbrella.h"; sourceTree = "<group>"; };
 		82F30B7165683BA2D7AE626F39B043B8 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
-		8446FFD2FF68ACD5E1FE8B770DBB35F0 /* LGSideMenuController-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-framework-umbrella.h"; sourceTree = "<group>"; };
 		84FC82059BDE39E73509462528DA7B7E /* Pods-XGArqmobUIDemo-Objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGArqmobUIDemo-Objc.modulemap"; sourceTree = "<group>"; };
 		85508C2D8FE97B07BB9D591D00D9CF72 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		8634BDC4E28C5374BDE3CCE49A3C4BD9 /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuGesturesHandler.h; path = LGSideMenuController/LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
 		8D3BF06BD92238CB43628415C234BF25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8D952DF86BD72B796E1DBB3664568098 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
 		8E4043B89F724ABD688B74B075D92C83 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
-		8E559A565FB2EDDA8C7E8A4499D9B760 /* LGSideMenuController-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-framework-prefix.pch"; sourceTree = "<group>"; };
 		92C2C1414F6AD850A9B438D751677ECB /* Pods-XGArqmobUIDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XGArqmobUIDemo-frameworks.sh"; sourceTree = "<group>"; };
-		9324E01A6D23E9A70927D6D6FD85E538 /* LGSideMenuController-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LGSideMenuController-framework.release.xcconfig"; sourceTree = "<group>"; };
+		932BA19AE93C04FF35DFA7AEB0D8F599 /* LGSideMenuController-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGSideMenuController-library-prefix.pch"; path = "../LGSideMenuController-library/LGSideMenuController-library-prefix.pch"; sourceTree = "<group>"; };
 		95029625E31A5279304B9E2DF1C1EC8C /* Pods-XGArqmobUIDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUIDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		99AFB244C76F7E2F8DA4789EA46EAA12 /* Kingfisher-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Kingfisher-framework.debug.xcconfig"; sourceTree = "<group>"; };
 		9BCC63FE2FABAC161DE90BBB2C19C3B4 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
@@ -278,13 +282,15 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAFB5FF86D54148BD8F3E9EB6307FDF /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
 		A0A58EA7973CFEAC8779E0B6A12024B7 /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
+		A2F3872161A00CB3F39F00BDC46B7EAA /* LGSideMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuView.h; path = LGSideMenuController/LGSideMenuView.h; sourceTree = "<group>"; };
 		AB9764E192383DA63388347BBC8751BC /* Pods-XGArqmobUIDemo-Objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGArqmobUIDemo-Objc-umbrella.h"; sourceTree = "<group>"; };
 		AC487DBE106F9000A16012290A4DD1D7 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/Cache/ImageCache.swift; sourceTree = "<group>"; };
 		AE02F64517BDAE60A378E36FC9A9F9E3 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
+		B1716BB6F308ABACB90472D529687A42 /* LGSideMenuController-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGSideMenuController-framework-Info.plist"; sourceTree = "<group>"; };
 		B216110B487CDB6AF2D8D1175E97773F /* libLGSideMenuController-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libLGSideMenuController-library.a"; path = "libLGSideMenuController-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B278B2AFD10DC042285B163C0CFB2BC3 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
 		B43476A7CE26A337F00F22F12A318257 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/General/Deprecated.swift; sourceTree = "<group>"; };
-		B5C0FB80F1DB6DE34C1925A4ED6F2DCF /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LGSideMenuController.m"; path = "LGSideMenuController/UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		B4670086470DD26DE55AD4D7D05E8565 /* LGSideMenuController-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LGSideMenuController-framework.modulemap"; sourceTree = "<group>"; };
 		B7433003AE0BD79DD96A97EED4B6979C /* Pods-XGArqmobUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGArqmobUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B940F252D2929816724578228E0FB64B /* Pods-XGArqmobUIDemo-Objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGArqmobUIDemo-Objc-dummy.m"; sourceTree = "<group>"; };
 		B9A8EE129F6742BC9F3D6FE8D9FA6E1D /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
@@ -296,35 +302,32 @@
 		C4A6D1E4CEE8CC6B9261BD1B63319013 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
 		C665D8AD42A834CCB3BBD010D12D1FEE /* Pods-XGArqmobUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGArqmobUI-umbrella.h"; sourceTree = "<group>"; };
 		C6C28C48CA1AF3A3929BD54F0F47EA67 /* Pods-XGArqmobUIDemo-Objc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUIDemo-Objc-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDACA604A8775292608A314F778FE052 /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuGesturesHandler.m; path = LGSideMenuController/LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
 		D04F2FB9566A76FCF2B0994872051E30 /* Pods-XGArqmobUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGArqmobUI.debug.xcconfig"; sourceTree = "<group>"; };
 		D0B86D7A5F38A3686B10080605268F68 /* Pods-XGArqmobUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGArqmobUI.modulemap"; sourceTree = "<group>"; };
 		D11C8587C45A7A046CED9185896997A5 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		D17B81D48996073C005405EEEEA4C398 /* LGSideMenuController-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "LGSideMenuController-library.modulemap"; path = "../LGSideMenuController-library/LGSideMenuController-library.modulemap"; sourceTree = "<group>"; };
 		D1E33B9A04EE77BBD7947E900E856F9B /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		D57F21316FB8A5BAE869C0A4A7949545 /* Kingfisher-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Kingfisher-library.modulemap"; path = "../Kingfisher-library/Kingfisher-library.modulemap"; sourceTree = "<group>"; };
 		D7EC8322588421C5C052CEDDF2FC00E5 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
-		D8F94490FC537161CE5F61750F028989 /* LGSideMenuController-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LGSideMenuController-library.debug.xcconfig"; path = "../LGSideMenuController-library/LGSideMenuController-library.debug.xcconfig"; sourceTree = "<group>"; };
 		DCAC2D03AF1A779CB5B3E7CD20330D96 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
 		DEF81D0AA05B78AC5A99D89DE7E56F8B /* Pods-XGArqmobUIDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGArqmobUIDemo-Info.plist"; sourceTree = "<group>"; };
 		DFD3D1FB48B631596BFD7064A0290551 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
+		E1008A7C9429D5DD587C56167674E85C /* LGSideMenuHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuHelper.h; path = LGSideMenuController/LGSideMenuHelper.h; sourceTree = "<group>"; };
+		E242CA7F75DD504214C33977EF4634F5 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LGSideMenuController.h"; path = "LGSideMenuController/UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
 		E2EF9871CCAB46A8477A42FEC4201200 /* Kingfisher-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Kingfisher-framework.modulemap"; sourceTree = "<group>"; };
-		E4E74A512C80AA6AB3F4EB5EE7613EE4 /* LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuController.h; path = LGSideMenuController/LGSideMenuController.h; sourceTree = "<group>"; };
 		E4FDA317E5C270F733FD8B3085FEDAF1 /* Kingfisher-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-framework-dummy.m"; sourceTree = "<group>"; };
 		E648226215D15294806AF1E1F820AFDB /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
 		E9079F5AFE8B08AD7A1B0A5395548C6A /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
 		EAAF4CD437BED0294A24EFAA1DB5D2FD /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		EAB417877FF7702FD7AE7A81D2D13A9D /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		ED619983F0A5EDAD0A7D9F19DF093704 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
-		EED693255CE6EB134776A96749ECC188 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LGSideMenuController.h"; path = "LGSideMenuController/UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		EF468DFF0ECBCB7B10E95549C9659893 /* LGSideMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuView.m; path = LGSideMenuController/LGSideMenuView.m; sourceTree = "<group>"; };
 		F043880EE278E200BAAB23A353A858C6 /* Pods-XGArqmobUIDemo-Objc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XGArqmobUIDemo-Objc-frameworks.sh"; sourceTree = "<group>"; };
-		F07235FFFAFA4ABE66E420357C700BB2 /* LGSideMenuController-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LGSideMenuController-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		F14BF63979BF89065C984A71B3FB2188 /* LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuController.m; path = LGSideMenuController/LGSideMenuController.m; sourceTree = "<group>"; };
+		F241CD85EB2FD39F798FBFD34952EF01 /* LGSideMenuController-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-framework-umbrella.h"; sourceTree = "<group>"; };
 		F28E4EBBB14C484BC70F2787716AE2C6 /* Pods-XGArqmobUIDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGArqmobUIDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F474FC98CF99D0B594708AB00583B7C9 /* libKingfisher-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libKingfisher-library.a"; path = "libKingfisher-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6A5C52ED673A211A8FCC3521F8366D2 /* LGSideMenuController-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGSideMenuController-library-prefix.pch"; path = "../LGSideMenuController-library/LGSideMenuController-library-prefix.pch"; sourceTree = "<group>"; };
-		F8FEFF8B7E9F817A19440BE871805AFD /* LGSideMenuController-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSideMenuController-framework-dummy.m"; sourceTree = "<group>"; };
 		F9E9A2FD9C2123FF8420F58A41A5493A /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
-		FDE14D322CE537471F17CA82123A6763 /* LGSideMenuController-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LGSideMenuController-library.release.xcconfig"; path = "../LGSideMenuController-library/LGSideMenuController-library.release.xcconfig"; sourceTree = "<group>"; };
-		FF105F14BAE2BD517B663716C4254EC8 /* LGSideMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuView.h; path = LGSideMenuController/LGSideMenuView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,13 +336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				189D8B4CDBFD90EFEA8D3D6F245AC9E1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15CC84172194B2122A2D917CD998220B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +380,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD780FFBB2E4F413491A4F0AEE590EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -403,29 +406,6 @@
 			);
 			name = Kingfisher;
 			path = Kingfisher;
-			sourceTree = "<group>";
-		};
-		3CA786014DD6D34EE99FF2B71E7489B9 /* LGSideMenuController */ = {
-			isa = PBXGroup;
-			children = (
-				54C18AA2B296677DAF85451A150788B9 /* LGSideMenuBorderView.h */,
-				2A04F8A1B40B3B806183862E988FC8E7 /* LGSideMenuBorderView.m */,
-				E4E74A512C80AA6AB3F4EB5EE7613EE4 /* LGSideMenuController.h */,
-				3CE9935C41034EEC2990CD60AA2A06E6 /* LGSideMenuController.m */,
-				8634BDC4E28C5374BDE3CCE49A3C4BD9 /* LGSideMenuGesturesHandler.h */,
-				CDACA604A8775292608A314F778FE052 /* LGSideMenuGesturesHandler.m */,
-				2C4EA5F041ADE5FF3818625F9E1E044C /* LGSideMenuHelper.h */,
-				299EE5459364A1D70A24906C8BB62944 /* LGSideMenuHelper.m */,
-				37B0BBFD19DD0B1AEFE89471EA905E77 /* LGSideMenuSegue.h */,
-				6C9C6CCA7DA0401650D8F3F6EE533878 /* LGSideMenuSegue.m */,
-				FF105F14BAE2BD517B663716C4254EC8 /* LGSideMenuView.h */,
-				1D9D547956DE2CD35C540BBDC230977B /* LGSideMenuView.m */,
-				EED693255CE6EB134776A96749ECC188 /* UIViewController+LGSideMenuController.h */,
-				B5C0FB80F1DB6DE34C1925A4ED6F2DCF /* UIViewController+LGSideMenuController.m */,
-				A0E7BFD8973216B33F8ED3A83BF750EB /* Support Files */,
-			);
-			name = LGSideMenuController;
-			path = LGSideMenuController;
 			sourceTree = "<group>";
 		};
 		53261096362CEA4516B1F81B919FF588 /* Pods-XGArqmobUIDemo-Objc */ = {
@@ -459,25 +439,27 @@
 			isa = PBXGroup;
 			children = (
 				3C82BFF23B4C88C14CF92B07E0D69FA2 /* Kingfisher */,
-				3CA786014DD6D34EE99FF2B71E7489B9 /* LGSideMenuController */,
+				C63C4FA7F23B4F3021C16F14276D7A59 /* LGSideMenuController */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A0E7BFD8973216B33F8ED3A83BF750EB /* Support Files */ = {
+		9CA5614CA8E66FFACFD2DC65F1779608 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E2DE41B77B27E42F6853C67B7E34393 /* LGSideMenuController-framework.modulemap */,
-				F8FEFF8B7E9F817A19440BE871805AFD /* LGSideMenuController-framework-dummy.m */,
-				724B4ABD21BE377CFD58487A5F6D78D9 /* LGSideMenuController-framework-Info.plist */,
-				8E559A565FB2EDDA8C7E8A4499D9B760 /* LGSideMenuController-framework-prefix.pch */,
-				8446FFD2FF68ACD5E1FE8B770DBB35F0 /* LGSideMenuController-framework-umbrella.h */,
-				F07235FFFAFA4ABE66E420357C700BB2 /* LGSideMenuController-framework.debug.xcconfig */,
-				9324E01A6D23E9A70927D6D6FD85E538 /* LGSideMenuController-framework.release.xcconfig */,
-				1D88148F433D7C7B6DFB56EB2810435D /* LGSideMenuController-library-dummy.m */,
-				F6A5C52ED673A211A8FCC3521F8366D2 /* LGSideMenuController-library-prefix.pch */,
-				D8F94490FC537161CE5F61750F028989 /* LGSideMenuController-library.debug.xcconfig */,
-				FDE14D322CE537471F17CA82123A6763 /* LGSideMenuController-library.release.xcconfig */,
+				B4670086470DD26DE55AD4D7D05E8565 /* LGSideMenuController-framework.modulemap */,
+				8169861C064621CB3D10F3019C1E4B17 /* LGSideMenuController-framework-dummy.m */,
+				B1716BB6F308ABACB90472D529687A42 /* LGSideMenuController-framework-Info.plist */,
+				56FA1CD5AA03A9D6C5AB0AA56D262879 /* LGSideMenuController-framework-prefix.pch */,
+				F241CD85EB2FD39F798FBFD34952EF01 /* LGSideMenuController-framework-umbrella.h */,
+				0918FD0A06DDD6440ED6F1F77967113F /* LGSideMenuController-framework.debug.xcconfig */,
+				218DD10221FA9F00DF83C286C64553D3 /* LGSideMenuController-framework.release.xcconfig */,
+				D17B81D48996073C005405EEEEA4C398 /* LGSideMenuController-library.modulemap */,
+				4CF7A6E8B5983594D0A945678C52D568 /* LGSideMenuController-library-dummy.m */,
+				932BA19AE93C04FF35DFA7AEB0D8F599 /* LGSideMenuController-library-prefix.pch */,
+				8028A9D306325C0231051A117517D652 /* LGSideMenuController-library-umbrella.h */,
+				70FC53D9BA481DF00A2A1C40711E6759 /* LGSideMenuController-library.debug.xcconfig */,
+				5552C03B01B90D947DCBB1849A41B90A /* LGSideMenuController-library.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LGSideMenuController-framework";
@@ -575,6 +557,29 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kingfisher-framework";
+			sourceTree = "<group>";
+		};
+		C63C4FA7F23B4F3021C16F14276D7A59 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				4D86FB33EF0D0959F1E037A92549FE73 /* LGSideMenuBorderView.h */,
+				15D548FE5077A38304D50D53A9E39193 /* LGSideMenuBorderView.m */,
+				7D54AAE10AF4CC66BE8EEC54C0A4BA92 /* LGSideMenuController.h */,
+				F14BF63979BF89065C984A71B3FB2188 /* LGSideMenuController.m */,
+				1A7CDAB49C312EE9D9FF44326642FCA6 /* LGSideMenuGesturesHandler.h */,
+				7054CFC7C83A1311FBABA4AE9C142AD4 /* LGSideMenuGesturesHandler.m */,
+				E1008A7C9429D5DD587C56167674E85C /* LGSideMenuHelper.h */,
+				327BF1F497F0C8E54CEA784365ED3F04 /* LGSideMenuHelper.m */,
+				6D244B636854879A27AC43C4926429BB /* LGSideMenuSegue.h */,
+				49C4E2AE989F4E0C3EB713D2BA384E60 /* LGSideMenuSegue.m */,
+				A2F3872161A00CB3F39F00BDC46B7EAA /* LGSideMenuView.h */,
+				EF468DFF0ECBCB7B10E95549C9659893 /* LGSideMenuView.m */,
+				E242CA7F75DD504214C33977EF4634F5 /* UIViewController+LGSideMenuController.h */,
+				674A09F04540B08EC872ED9C577E899A /* UIViewController+LGSideMenuController.m */,
+				9CA5614CA8E66FFACFD2DC65F1779608 /* Support Files */,
+			);
+			name = LGSideMenuController;
+			path = LGSideMenuController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -680,17 +685,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F43BFBEA0ED6A35878535FBBD4DD3172 /* Headers */ = {
+		E4811AA9FE49383B0DAED91F8CBA5299 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF176CCBFE439CF36C4B5E1F892186A /* LGSideMenuBorderView.h in Headers */,
-				7B5DF55ED41F1DE1723A307E477DCC0D /* LGSideMenuController.h in Headers */,
-				33642118F67AF6B1578B435D11D0FE52 /* LGSideMenuGesturesHandler.h in Headers */,
-				FBCD22CB36055C9089A53752ACE8BEB8 /* LGSideMenuHelper.h in Headers */,
-				31FE0D70D7156F9F9BDD39FBD03F7073 /* LGSideMenuSegue.h in Headers */,
-				1385D505420CC45874CE677264D2422F /* LGSideMenuView.h in Headers */,
-				1F581A026A2CAB00153B95EAA068E96E /* UIViewController+LGSideMenuController.h in Headers */,
+				E40E39DD8CC5E430B8CE7956A2296BB3 /* LGSideMenuBorderView.h in Headers */,
+				50496B83724937355573C5517F50C998 /* LGSideMenuController-library-umbrella.h in Headers */,
+				A22510D68FA95138E5B7674B1D55EFD3 /* LGSideMenuController.h in Headers */,
+				EE9F44A7259A0FADD0C8EC568A1289E9 /* LGSideMenuGesturesHandler.h in Headers */,
+				710166BAEA76728227757C4583ECDE98 /* LGSideMenuHelper.h in Headers */,
+				2751112C0EB40E7B6FAA75601C40AD17 /* LGSideMenuSegue.h in Headers */,
+				0271B560FC8863B1447E39360B3963DC /* LGSideMenuView.h in Headers */,
+				8CBE5E999E14E10DDD59CF74125FC1FE /* UIViewController+LGSideMenuController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,11 +791,11 @@
 		};
 		AE4F6C49580B6AEF9E7F39C801F9B167 /* LGSideMenuController-library */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBB1C27D46C3EC821BA9AC01F0516897 /* Build configuration list for PBXNativeTarget "LGSideMenuController-library" */;
+			buildConfigurationList = 016565795139F0DB64D8B57AC1B1EE3D /* Build configuration list for PBXNativeTarget "LGSideMenuController-library" */;
 			buildPhases = (
-				F43BFBEA0ED6A35878535FBBD4DD3172 /* Headers */,
-				86D3FE8F72DA7F09D31FD6303FAE01C3 /* Sources */,
-				15CC84172194B2122A2D917CD998220B /* Frameworks */,
+				E4811AA9FE49383B0DAED91F8CBA5299 /* Headers */,
+				124B6CC677AA34C666047DBBA958F12C /* Sources */,
+				FD780FFBB2E4F413491A4F0AEE590EFE /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -935,6 +941,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		124B6CC677AA34C666047DBBA958F12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246699EEBB7DE381BCC9D5ACB677BF0F /* LGSideMenuBorderView.m in Sources */,
+				B7FBAAF78D9E988CA7A1F192395A811C /* LGSideMenuController-library-dummy.m in Sources */,
+				09F60D8EF538E02DA349FDB2251CC47E /* LGSideMenuController.m in Sources */,
+				CCABFEC021D1D38CC442D16A23B9EB4D /* LGSideMenuGesturesHandler.m in Sources */,
+				40F3CC848FD7C9C0554AC12F14AA79F4 /* LGSideMenuHelper.m in Sources */,
+				4A7886691BE22A9A04649DA69B67308E /* LGSideMenuSegue.m in Sources */,
+				EAD05EC3A4CD455DCB13C2C718A904BE /* LGSideMenuView.m in Sources */,
+				4C3453BB325502FC181BC225A5023B2C /* UIViewController+LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3242840D2EBC5F273B39DB8A120F3A02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1011,21 +1032,6 @@
 				FDA30708A72ED8164D6726F05BFF3961 /* LGSideMenuSegue.m in Sources */,
 				B76396D6AA640C4BD4E1DDD1545E9D09 /* LGSideMenuView.m in Sources */,
 				F4DB5C528EE4432DD551C820FF1F903A /* UIViewController+LGSideMenuController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86D3FE8F72DA7F09D31FD6303FAE01C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5069C755FDFFD7283ECE1E7CC715327 /* LGSideMenuBorderView.m in Sources */,
-				C5058915D70D20EBEB83145E7E56F547 /* LGSideMenuController-library-dummy.m in Sources */,
-				CAD688EC50564B2C20FDFE18FCB2432E /* LGSideMenuController.m in Sources */,
-				C82B45DAAC23322B7862694B50ECF68C /* LGSideMenuGesturesHandler.m in Sources */,
-				A14FA0DEA4B52C8686D0E7A334EBF123 /* LGSideMenuHelper.m in Sources */,
-				07238A66531C0FAB334C1467676B7AE5 /* LGSideMenuSegue.m in Sources */,
-				B30DBD827AEA017764FB9B1A1FD93761 /* LGSideMenuView.m in Sources */,
-				18F184DD9786103EA238D0424D6DE434 /* UIViewController+LGSideMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1257,6 +1263,32 @@
 			};
 			name = Release;
 		};
+		12D7FFF1EBBEDA1FC22EE5633D0BFF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5552C03B01B90D947DCBB1849A41B90A /* LGSideMenuController-library.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-library/LGSideMenuController-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/LGSideMenuController/LGSideMenuController-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = "LGSideMenuController-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		17549F5F8AD42CD7E0F19EA278E53710 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F2ED0A42254FB84FBA2CEDA62325821 /* Pods-XGArqmobUIDemo-Objc.debug.xcconfig */;
@@ -1331,31 +1363,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		235FE5B484BA9E568E32896319F767E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDE14D322CE537471F17CA82123A6763 /* LGSideMenuController-library.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-library/LGSideMenuController-library-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = LGSideMenuController;
-				PRODUCT_NAME = "LGSideMenuController-library";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1487,7 +1494,7 @@
 		};
 		52D5E4B29F5F2FADBCBFAC8A25D36C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F07235FFFAFA4ABE66E420357C700BB2 /* LGSideMenuController-framework.debug.xcconfig */;
+			baseConfigurationReference = 0918FD0A06DDD6440ED6F1F77967113F /* LGSideMenuController-framework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1558,33 +1565,9 @@
 			};
 			name = Debug;
 		};
-		78D62D0B7DD4BEAF83C2DDDEEF1DB77B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8F94490FC537161CE5F61750F028989 /* LGSideMenuController-library.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-library/LGSideMenuController-library-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = LGSideMenuController;
-				PRODUCT_NAME = "LGSideMenuController-library";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		AC00DCEE18D1739C88B399A7402BB008 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9324E01A6D23E9A70927D6D6FD85E538 /* LGSideMenuController-framework.release.xcconfig */;
+			baseConfigurationReference = 218DD10221FA9F00DF83C286C64553D3 /* LGSideMenuController-framework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1617,6 +1600,31 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		AC302D15F48442A9B65C5D398D462FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FC53D9BA481DF00A2A1C40711E6759 /* LGSideMenuController-library.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController-library/LGSideMenuController-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/LGSideMenuController/LGSideMenuController-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = "LGSideMenuController-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1749,6 +1757,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		016565795139F0DB64D8B57AC1B1EE3D /* Build configuration list for PBXNativeTarget "LGSideMenuController-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC302D15F48442A9B65C5D398D462FED /* Debug */,
+				12D7FFF1EBBEDA1FC22EE5633D0BFF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		022FFEF867A74D9554DA502201191123 /* Build configuration list for PBXNativeTarget "Pods-XGArqmobUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1808,15 +1825,6 @@
 			buildConfigurations = (
 				52D5E4B29F5F2FADBCBFAC8A25D36C79 /* Debug */,
 				AC00DCEE18D1739C88B399A7402BB008 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EBB1C27D46C3EC821BA9AC01F0516897 /* Build configuration list for PBXNativeTarget "LGSideMenuController-library" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78D62D0B7DD4BEAF83C2DDDEEF1DB77B /* Debug */,
-				235FE5B484BA9E568E32896319F767E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

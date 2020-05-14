@@ -1,0 +1,6 @@
+module LGSideMenuController {
+  umbrella header "LGSideMenuController-library-umbrella.h"
+
+  export *
+  module * { export * }
+}

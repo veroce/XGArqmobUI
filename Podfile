@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '11.0'
  
-  pod 'LGSideMenuController'
+  pod 'LGSideMenuController', '~> 2.1.1', :modular_headers => true
   pod 'Kingfisher', '~> 5.0'
 
 target 'XGArqmobUI' do

@@ -9,7 +9,7 @@
 import UIKit
 @objc
 public protocol AmErrorViewDelegate {
-    func buttonTouch()
+    @objc func buttonTouch()
 }
 @objc
 open class AmErrorView: UIView {
@@ -19,7 +19,7 @@ open class AmErrorView: UIView {
     @IBOutlet weak var lbMensaje: UILabel!
     @IBOutlet weak var btnReintentar: AmDefaultGrayButton!
     @IBOutlet weak var viewError: UIView!
-    public var delegate: AmErrorViewDelegate?
+    @objc public var delegate: AmErrorViewDelegate?
     @IBOutlet weak var viewEmpty: UIView!
     @IBOutlet weak var lbNoResults: UILabel!
     @IBOutlet weak var imgNoResults: UIImageView!
@@ -63,63 +63,76 @@ open class AmErrorView: UIView {
         
         
     }
-    open func showErrorConnectionWithTitle(_ title: String, message: String, image: String? = nil){
+    @objc open func showErrorConnectionWithTitle(_ title: String, message: String, image: String? = nil){
         viewEmpty.isHidden = true
         lbMensaje.text = message
         lbTitle.text = title
         btnReintentar.setTitle("Reintentar", for: .normal)
+        let bundle = Bundle(for: AmErrorView.self)
         if let image = image {
             if let uiimage = UIImage(named: image) {
                 ilustracion.image = uiimage
             }else{
+                ilustracion.image =   UIImage(named: "AmNotConnection", in: bundle, compatibleWith: nil)
                 
             }
         }else{
-            ilustracion.image = UIImage(named:"notConnection")
+            ilustracion.image =   UIImage(named: "AmNotConnection", in: bundle, compatibleWith: nil)
         }
     }
-    open func showErrorNotFoundWithTitle(_ title: String, message: String, image: String? = nil){
+    @objc open func showErrorNotFoundWithTitle(_ title: String, message: String, image: String? = nil){
         viewEmpty.isHidden = true
         lbMensaje.text = message
         lbTitle.text = title
+        let bundle = Bundle(for: AmErrorView.self)
+        
         btnReintentar.setTitle("Reintentar", for: .normal)
         if let image = image {
             if let uiimage = UIImage(named: image) {
                 ilustracion.image = uiimage
             }else{
+                ilustracion.image =   UIImage(named: "AmNotFound", in: bundle, compatibleWith: nil)
                 
             }
         }else{
-            ilustracion.image = UIImage(named:"notFound")
-        }
-    }
-    open func showErrorUnknownWithTitle(_ title: String, message: String, image: String? = nil){
-        viewEmpty.isHidden = true
-        lbMensaje.text = message
-        lbTitle.text = title
-        btnReintentar.setTitle("Reintentar", for: .normal)
-        if let image = image {
-            if let uiimage = UIImage(named: image) {
-                ilustracion.image = uiimage
-            }else{
-                
-            }
-        }else{
-            ilustracion.image = UIImage(named:"unknown")
+            ilustracion.image =   UIImage(named: "AmNotFound", in: bundle, compatibleWith: nil)
             
         }
     }
-    open func showEmptyDataWithTitle(_ title: String, image: String? = nil){
+    @objc open func showErrorUnknownWithTitle(_ title: String, message: String, image: String? = nil){
+        viewEmpty.isHidden = true
+        lbMensaje.text = message
+        lbTitle.text = title
+        let bundle = Bundle(for: AmErrorView.self)
+        
+        btnReintentar.setTitle("Reintentar", for: .normal)
+        if let image = image {
+            if let uiimage = UIImage(named: image) {
+                ilustracion.image = uiimage
+            }else{
+                ilustracion.image =   UIImage(named: "AmUnknown", in: bundle, compatibleWith: nil)
+                
+            }
+        }else{
+            ilustracion.image =   UIImage(named: "AmUnknown", in: bundle, compatibleWith: nil)
+            
+            
+        }
+    }
+    @objc open func showEmptyDataWithTitle(_ title: String, image: String? = nil){
         viewError.isHidden = true
         lbNoResults.text = title
+        let bundle = Bundle(for: AmErrorView.self)
+        
         if let image = image {
             if let uiimage = UIImage(named: image) {
                 imgNoResults.image = uiimage
             }else{
-                
+                imgNoResults.image =   UIImage(named: "AmEmptyData", in: bundle, compatibleWith: nil)
             }
         }else{
-            imgNoResults.image = UIImage(named:"emptyData")
+            imgNoResults.image =   UIImage(named: "AmEmptyData", in: bundle, compatibleWith: nil)
+            
         }
     }
     

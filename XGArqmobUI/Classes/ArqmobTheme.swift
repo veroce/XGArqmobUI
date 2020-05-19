@@ -35,6 +35,8 @@ open class ArmobTheme: NSObject {
      */
     @objc public var hideShadow: Bool = false
     
+    @objc public var statusBarLight: Bool = false
+    
     @objc public var tabBarUnselectedItemColor = UIColor(named: "secondaryTextColor") ?? UIColor(named: "secondaryTextColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
     
     @objc public var tabBarBackgroundColor = UIColor(named: "backgroundTabBarColor") ?? UIColor(named: "backgroundTabBarColor", in: Bundle(for: ArmobTheme.self), compatibleWith: nil)
@@ -87,6 +89,9 @@ open class ArmobTheme: NSObject {
             if hideShadow {
                 navBarAppearance.shadowColor = .clear
             }
+            if statusBarLight {
+                UINavigationBar.appearance().barStyle = .black
+            }
             
             navBarAppearance.backgroundColor = navigationBackgroundColor
             UINavigationBar.appearance().standardAppearance = navBarAppearance
@@ -102,6 +107,9 @@ open class ArmobTheme: NSObject {
                 UINavigationBar.appearance().titleTextAttributes = [.font: navigationTitleFont, .foregroundColor: navigationTitleColor]
             }else{
                 UINavigationBar.appearance().titleTextAttributes = [ .foregroundColor: navigationTitleColor]
+            }
+            if statusBarLight {
+                UINavigationBar.appearance().barStyle = .black
             }
             UINavigationBar.appearance().barTintColor = navigationBackgroundColor
         }

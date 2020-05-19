@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "ExampleVC.h"
 @import XGArqmobUI;
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet AmErrorView *errorView;
 
 @end
 
@@ -17,10 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
- //   UIFont * font =  [UIFont bodyBold];
+    [self.errorView showErrorConnectionWithTitle:@"Error de conexión" message: @"Sin conexión" image:nil];
 }
 
-
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    
+    ExampleVC * vc = [[ExampleVC alloc] initWithNibName:@"ExampleVC" bundle:nil];
+    UINavigationController * nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    nc.navigationBar.prefersLargeTitles = true;
+    nc.modalPresentationStyle = UIModalPresentationOverFullScreen;
+    [self presentViewController:nc animated:YES completion:nil];
+    
+}
 - (void) showErrorView {
 /*
  let page1 = AmTutorialItem(image: "page1", title: "¡Bienvenidos!", body: "¡Hola! Estás a punto de entrar en el Manual de estilos para las Aplicaciones de Turismo de Galicia")

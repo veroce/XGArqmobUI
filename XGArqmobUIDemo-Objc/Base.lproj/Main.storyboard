@@ -15,10 +15,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qoq-GQ-XI2" customClass="AmErrorView" customModule="XGArqmobUI">
+                                <rect key="frame" x="0.0" y="88" width="414" height="631"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nOt-fe-FgV">
+                                <rect key="frame" x="0.0" y="779" width="414" height="83"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="Evz-R9-aZs"/>
+                                    <tabBarItem systemItem="more" id="sIA-w5-x9o"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nOt-fe-FgV" firstAttribute="top" secondItem="qoq-GQ-XI2" secondAttribute="bottom" constant="60" id="6bo-BN-nEX"/>
+                            <constraint firstItem="nOt-fe-FgV" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AJP-yS-WEM"/>
+                            <constraint firstItem="nOt-fe-FgV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="E3z-My-PDW"/>
+                            <constraint firstItem="nOt-fe-FgV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Unf-Dv-0IB"/>
+                            <constraint firstItem="qoq-GQ-XI2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l9N-07-gqQ"/>
+                            <constraint firstItem="qoq-GQ-XI2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="m5Z-dl-tpo"/>
+                            <constraint firstItem="qoq-GQ-XI2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pQ7-un-wd7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Casa" id="yxp-su-EnW"/>
+                    <connections>
+                        <outlet property="errorView" destination="qoq-GQ-XI2" id="qiU-84-wKh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

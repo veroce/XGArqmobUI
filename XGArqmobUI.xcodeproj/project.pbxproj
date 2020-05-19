@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		70253D41C9BA43A76882ACA4 /* Pods_XGArqmobUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D809A1DEB90A74AD427D32 /* Pods_XGArqmobUI.framework */; };
+		D661D5D42473D7F00062BF69 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D661D5D22473D7F00062BF69 /* ExampleVC.m */; };
+		D661D5D52473D7F00062BF69 /* ExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D661D5D32473D7F00062BF69 /* ExampleVC.xib */; };
 		D69ECB0524628ED0001F17E9 /* XGArqmobUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D69ECB0324628ED0001F17E9 /* XGArqmobUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D69ECB1524628F8C001F17E9 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB0F24628F8C001F17E9 /* Raleway-Bold.ttf */; };
 		D69ECB1624628F8C001F17E9 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1024628F8C001F17E9 /* Raleway-BoldItalic.ttf */; };
@@ -179,6 +181,9 @@
 		84E1F487024F1A114223FE00 /* Pods-XGArqmobUIDemo-Objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUIDemo-Objc.debug.xcconfig"; path = "Target Support Files/Pods-XGArqmobUIDemo-Objc/Pods-XGArqmobUIDemo-Objc.debug.xcconfig"; sourceTree = "<group>"; };
 		A93F7AE1A2EDA24855A98FB2 /* Pods-XGArqmobUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUI.release.xcconfig"; path = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI.release.xcconfig"; sourceTree = "<group>"; };
 		C342DDE9C8186D3FDCDF8C04 /* Pods_XGArqmobUIDemo_Objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGArqmobUIDemo_Objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D661D5D12473D7F00062BF69 /* ExampleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = "<group>"; };
+		D661D5D22473D7F00062BF69 /* ExampleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleVC.m; sourceTree = "<group>"; };
+		D661D5D32473D7F00062BF69 /* ExampleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleVC.xib; sourceTree = "<group>"; };
 		D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XGArqmobUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69ECB0324628ED0001F17E9 /* XGArqmobUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGArqmobUI.h; sourceTree = "<group>"; };
 		D69ECB0424628ED0001F17E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -998,6 +1003,9 @@
 				D6B9F77324654760002AAD70 /* LaunchScreen.storyboard */,
 				D6B9F77624654760002AAD70 /* Info.plist */,
 				D6B9F77724654760002AAD70 /* main.m */,
+				D661D5D12473D7F00062BF69 /* ExampleVC.h */,
+				D661D5D22473D7F00062BF69 /* ExampleVC.m */,
+				D661D5D32473D7F00062BF69 /* ExampleVC.xib */,
 			);
 			path = "XGArqmobUIDemo-Objc";
 			sourceTree = "<group>";
@@ -1180,6 +1188,7 @@
 				D6B9F77524654760002AAD70 /* LaunchScreen.storyboard in Resources */,
 				D6B9F77224654760002AAD70 /* Assets.xcassets in Resources */,
 				D6B9F7702465475E002AAD70 /* Main.storyboard in Resources */,
+				D661D5D52473D7F00062BF69 /* ExampleVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1419,6 +1428,7 @@
 				D6B9F7672465475E002AAD70 /* AppDelegate.m in Sources */,
 				D6B9F77824654760002AAD70 /* main.m in Sources */,
 				D6B9F76A2465475E002AAD70 /* SceneDelegate.m in Sources */,
+				D661D5D42473D7F00062BF69 /* ExampleVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[ArmobTheme currentInstance] setNavigationTitlecColor: [UIColor whiteColor]];
+    [[ArmobTheme currentInstance] setNavigationTitleColor: [UIColor whiteColor]];
     [[ArmobTheme currentInstance] apply];
 
     return YES;

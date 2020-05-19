@@ -76,7 +76,6 @@
 		D6B9F62824641C32002AAD70 /* AmSplash.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F61F24641C32002AAD70 /* AmSplash.xib */; };
 		D6B9F62924641C32002AAD70 /* AmSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F62024641C32002AAD70 /* AmSplash.swift */; };
 		D6B9F62A24641C32002AAD70 /* AmErrorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F62224641C32002AAD70 /* AmErrorViewStyle.swift */; };
-		D6B9F62B24641C32002AAD70 /* AmErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F62324641C32002AAD70 /* AmErrorView.xib */; };
 		D6B9F62C24641C32002AAD70 /* AmErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F62424641C32002AAD70 /* AmErrorView.swift */; };
 		D6B9F67624641D1A002AAD70 /* MapaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F63024641D1A002AAD70 /* MapaVC.swift */; };
 		D6B9F67724641D1A002AAD70 /* MapaAreasServicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F63224641D1A002AAD70 /* MapaAreasServicioController.swift */; };
@@ -169,6 +168,7 @@
 		D6B9F77524654760002AAD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F77324654760002AAD70 /* LaunchScreen.storyboard */; };
 		D6B9F77824654760002AAD70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F77724654760002AAD70 /* main.m */; };
 		D6E4BD5B246C190000A57FFC /* AmFloatingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4BD5A246C18FF00A57FFC /* AmFloatingButtonStyle.swift */; };
+		D6F5CEB724741082002029EF /* AmErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F5CEB624741082002029EF /* AmErrorView.xib */; };
 		F2B5860D120B54554E35D87F /* Pods_XGArqmobUIDemo_Objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C342DDE9C8186D3FDCDF8C04 /* Pods_XGArqmobUIDemo_Objc.framework */; };
 		FA6C6C68DE807798695E9151 /* Pods_XGArqmobUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC628B9C256A81313F0BF009 /* Pods_XGArqmobUIDemo.framework */; };
 /* End PBXBuildFile section */
@@ -254,7 +254,6 @@
 		D6B9F61F24641C32002AAD70 /* AmSplash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmSplash.xib; sourceTree = "<group>"; };
 		D6B9F62024641C32002AAD70 /* AmSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmSplash.swift; sourceTree = "<group>"; };
 		D6B9F62224641C32002AAD70 /* AmErrorViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmErrorViewStyle.swift; sourceTree = "<group>"; };
-		D6B9F62324641C32002AAD70 /* AmErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmErrorView.xib; sourceTree = "<group>"; };
 		D6B9F62424641C32002AAD70 /* AmErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmErrorView.swift; sourceTree = "<group>"; };
 		D6B9F63024641D1A002AAD70 /* MapaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaVC.swift; sourceTree = "<group>"; };
 		D6B9F63224641D1A002AAD70 /* MapaAreasServicioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaAreasServicioController.swift; sourceTree = "<group>"; };
@@ -352,6 +351,7 @@
 		D6B9F77624654760002AAD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B9F77724654760002AAD70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6E4BD5A246C18FF00A57FFC /* AmFloatingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmFloatingButtonStyle.swift; sourceTree = "<group>"; };
+		D6F5CEB624741082002029EF /* AmErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmErrorView.xib; sourceTree = "<group>"; };
 		EC628B9C256A81313F0BF009 /* Pods_XGArqmobUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGArqmobUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F612662AF54CB884D33E7E78 /* Pods-XGArqmobUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -643,8 +643,8 @@
 		D6B9F62124641C32002AAD70 /* ArqmobErrorView */ = {
 			isa = PBXGroup;
 			children = (
+				D6F5CEB624741082002029EF /* AmErrorView.xib */,
 				D6B9F62224641C32002AAD70 /* AmErrorViewStyle.swift */,
-				D6B9F62324641C32002AAD70 /* AmErrorView.xib */,
 				D6B9F62424641C32002AAD70 /* AmErrorView.swift */,
 			);
 			path = ArqmobErrorView;
@@ -1131,7 +1131,6 @@
 				D69ECC1E2462D2C2001F17E9 /* CellVersion.xib in Resources */,
 				D69ECB2224629093001F17E9 /* AmIconos.xcassets in Resources */,
 				D6B9F62624641C32002AAD70 /* AmAlert.xib in Resources */,
-				D6B9F62B24641C32002AAD70 /* AmErrorView.xib in Resources */,
 				D69ECB1724628F8C001F17E9 /* Raleway-SemiBoldItalic.ttf in Resources */,
 				D6B9F6CD2464242B002AAD70 /* AnimatedField.xib in Resources */,
 				D6B9F62824641C32002AAD70 /* AmSplash.xib in Resources */,
@@ -1144,6 +1143,7 @@
 				D69ECB1924628F8C001F17E9 /* Raleway-Italic.ttf in Resources */,
 				D69ECB1824628F8C001F17E9 /* Raleway-SemiBold.ttf in Resources */,
 				D6B9F61924641AB1002AAD70 /* AmCardMap.xib in Resources */,
+				D6F5CEB724741082002029EF /* AmErrorView.xib in Resources */,
 				D69ECC252462D2C2001F17E9 /* AmAboutUs.storyboard in Resources */,
 				D69ECB2324629093001F17E9 /* AmColors.xcassets in Resources */,
 				D69ECB1524628F8C001F17E9 /* Raleway-Bold.ttf in Resources */,

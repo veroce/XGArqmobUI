@@ -25,11 +25,20 @@ class BotonesFlotantesVC: UIViewController {
         tableView.dataSource = self
         tableView.tintColor = UIColor(named: "primaryColor")
         navigationItem.backBarButtonItem?.title = ""
+        let appearance = AmFloatingButtonStyle()
+        appearance.backgroundColorNormal = .red
+        appearance.backgroundColorHighlighted = .green
+        appearance.backgroundColorDisabled = .brown
+        appearance.titleColorNormal = .white
+        btnMiniButton.style = appearance
+        btnMiniButton.tintColor = .white
+        
         showButton()
+        
         // Do any additional setup after loading the view.
         
     }
-
+    
     
     func showButton() {
         if itemSelected == 0 {

@@ -26,4 +26,15 @@ extension UIButton {
             right: -imageTitlePadding
         )
     }
+    func dropShadowFAB(color: UIColor? = nil) {
+        layer.masksToBounds = false
+        if color == nil {
+            layer.shadowColor = UIColor.darkGray.cgColor
+        }else{
+            layer.shadowColor = color!.cgColor
+            
+        }
+        layer.shadowOpacity = 0.5
+        layer.shadowOffset = CGSize(width: 1.0, height: 4.0)
+    }
 }

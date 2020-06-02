@@ -8,7 +8,6 @@
 
 import UIKit
 @objc
-@IBDesignable
 open class AmFloatingButton: SimpleButton {
     private var shadowLayer: CAShapeLayer!
     
@@ -19,7 +18,7 @@ open class AmFloatingButton: SimpleButton {
     }
     open override func configureButtonStyles() {
         super.configureButtonStyles()
-       setBackgroundColor(style.backgroundColorNormal, for: .normal, animated: true, animationDuration: 0.2)
+        setBackgroundColor(style.backgroundColorNormal, for: .normal, animated: true, animationDuration: 0.2)
         setBackgroundColor(style.backgroundColorHighlighted, for: .highlighted, animated: false)
         setBackgroundColor(style.backgroundColorDisabled, for: .disabled, animated: false)
         setBackgroundColor(color: style.backgroundColorDisabled, forState: SimpleButtonControlState.loading)
@@ -30,6 +29,9 @@ open class AmFloatingButton: SimpleButton {
         clipsToBounds = true
         layer.cornerRadius = frame.height / 2
         imageView?.contentMode = .scaleAspectFit
+        tintColor = style.titleColorNormal
+        dropShadowFAB()
+        
     }
     
 }

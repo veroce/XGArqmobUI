@@ -7,10 +7,8 @@
 //
 
 import UIKit
-import XGArqmobUI
 class ViewController: UIViewController {
 
-    @IBOutlet weak var cardMap: AmCardMap!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,12 +16,10 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        loadCardView()
     }
 
     
-    func loadCardView() {
-    }
+    
 
 }
 

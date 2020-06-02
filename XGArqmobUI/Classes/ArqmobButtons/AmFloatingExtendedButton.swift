@@ -8,48 +8,32 @@
 
 import UIKit
 @objc
-@IBDesignable
-open class AmFloatingExtendedButton: UIButton {
+open class AmFloatingExtendedButton: SimpleButton {
     private var shadowLayer: CAShapeLayer!
-
-    open override func draw(_ rect: CGRect) {
-        // Drawing code
-        super.draw(rect)
+    open var style = AmFloatingButtonStyle() {
+        didSet {
+            configureButtonStyles()
+        }
+    }
+    open override func configureButtonStyles() {
+        super.configureButtonStyles()
+        setBackgroundColor(style.backgroundColorNormal, for: .normal, animated: true, animationDuration: 0.2)
+        setBackgroundColor(style.backgroundColorHighlighted, for: .highlighted, animated: false)
+        setBackgroundColor(style.backgroundColorDisabled, for: .disabled, animated: false)
+        setBackgroundColor(color: style.backgroundColorDisabled, forState: SimpleButtonControlState.loading)
+        setTitleColor(style.titleColorNormal, for:.normal)
+        setTitleColor(style.titleColorHighlighted, for: .highlighted)
+        setTitleColor(style.titleColorDisabled, for: .disabled)
+        titleLabel?.font = style.titleFont
         clipsToBounds = true
-        setTitleColor(UIColor.white, for:.normal)
-        setTitleColor(UIColor.white, for: .highlighted)
-        setTitleColor(.white, for: .disabled)
-        tintColor = .white
-        titleLabel?.font = UIFont(name: "Raleway-Semibold", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.semibold)
-        setBackgroundColor(color: UIColor(named: "buttonEnableColor", in: Bundle(for: AmFloatingExtendedButton.self), compatibleWith: nil) ?? .clear, forState: .normal)
-        setBackgroundColor(color: UIColor(named: "buttonDisabledColor", in: Bundle(for: AmFloatingExtendedButton.self), compatibleWith: nil) ?? .clear, forState: .disabled)
         imageView?.contentMode = .scaleAspectFit
         let contentPadding = UIEdgeInsets(top: 0, left: 12, bottom: 0, right: 20)
         contentEdgeInsets = contentPadding
+        layer.cornerRadius = frame.height / 2
+        tintColor = style.titleColorNormal
+        dropShadowFAB()
         
-    
-        //setInsets(forContentPadding: contentPadding, imageTitlePadding: 12)
-        
-
     }
-    open override func awakeFromNib() {
-        super.awakeFromNib()
-        self.layer.masksToBounds = false
-        self.layer.cornerRadius = self.frame.height/2
-        self.layer.shadowColor = UIColor.black.cgColor
-        self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.layer.cornerRadius).cgPath
-        self.layer.shadowOffset = CGSize(width: 0.0, height: 3.0)
-        self.layer.shadowOpacity = 0.5
-        self.layer.shadowRadius = 1.0
-    }
-
-
-    override open var isHighlighted: Bool {
-        didSet {
-            backgroundColor = isHighlighted ? UIColor(named: "buttonHighlightedColor") : UIColor(named: "buttonEnableColor")
-        }
-    }
-    
     
     
 }

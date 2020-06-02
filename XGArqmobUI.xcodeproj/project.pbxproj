@@ -10,6 +10,10 @@
 		70253D41C9BA43A76882ACA4 /* Pods_XGArqmobUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D809A1DEB90A74AD427D32 /* Pods_XGArqmobUI.framework */; };
 		D661D5D42473D7F00062BF69 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D661D5D22473D7F00062BF69 /* ExampleVC.m */; };
 		D661D5D52473D7F00062BF69 /* ExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D661D5D32473D7F00062BF69 /* ExampleVC.xib */; };
+		D67FAF8524863E52005117DC /* XGArqmobUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */; };
+		D67FAF8624863E52005117DC /* XGArqmobUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D67FAF8A24863E58005117DC /* XGArqmobUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */; };
+		D67FAF8B24863E58005117DC /* XGArqmobUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D69ECB0024628ED0001F17E9 /* XGArqmobUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D69ECB0524628ED0001F17E9 /* XGArqmobUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D69ECB0324628ED0001F17E9 /* XGArqmobUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D69ECB1524628F8C001F17E9 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB0F24628F8C001F17E9 /* Raleway-Bold.ttf */; };
 		D69ECB1624628F8C001F17E9 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D69ECB1024628F8C001F17E9 /* Raleway-BoldItalic.ttf */; };
@@ -172,6 +176,48 @@
 		F2B5860D120B54554E35D87F /* Pods_XGArqmobUIDemo_Objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C342DDE9C8186D3FDCDF8C04 /* Pods_XGArqmobUIDemo_Objc.framework */; };
 		FA6C6C68DE807798695E9151 /* Pods_XGArqmobUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC628B9C256A81313F0BF009 /* Pods_XGArqmobUIDemo.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D67FAF8724863E52005117DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69ECAF724628ED0001F17E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69ECAFF24628ED0001F17E9;
+			remoteInfo = XGArqmobUI;
+		};
+		D67FAF8C24863E58005117DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69ECAF724628ED0001F17E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69ECAFF24628ED0001F17E9;
+			remoteInfo = XGArqmobUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D67FAF8924863E52005117DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D67FAF8624863E52005117DC /* XGArqmobUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67FAF8E24863E58005117DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D67FAF8B24863E58005117DC /* XGArqmobUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0725E25E7DDD896A01A851AF /* Pods-XGArqmobUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUIDemo.release.xcconfig"; path = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -370,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6C6C68DE807798695E9151 /* Pods_XGArqmobUIDemo.framework in Frameworks */,
+				D67FAF8524863E52005117DC /* XGArqmobUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B5860D120B54554E35D87F /* Pods_XGArqmobUIDemo_Objc.framework in Frameworks */,
+				D67FAF8A24863E58005117DC /* XGArqmobUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1052,10 +1100,12 @@
 				D6B9F5F324640B53002AAD70 /* Frameworks */,
 				D6B9F5F424640B53002AAD70 /* Resources */,
 				9DC06978810EBBB3837F0932 /* [CP] Embed Pods Frameworks */,
+				D67FAF8924863E52005117DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D67FAF8824863E52005117DC /* PBXTargetDependency */,
 			);
 			name = XGArqmobUIDemo;
 			productName = XGArqmobUIDemo;
@@ -1071,10 +1121,12 @@
 				D6B9F7602465475E002AAD70 /* Frameworks */,
 				D6B9F7612465475E002AAD70 /* Resources */,
 				533212AE9D66244A077F9486 /* [CP] Embed Pods Frameworks */,
+				D67FAF8E24863E58005117DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D67FAF8D24863E58005117DC /* PBXTargetDependency */,
 			);
 			name = "XGArqmobUIDemo-Objc";
 			productName = "XGArqmobUIDemo-Objc";
@@ -1433,6 +1485,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67FAF8824863E52005117DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69ECAFF24628ED0001F17E9 /* XGArqmobUI */;
+			targetProxy = D67FAF8724863E52005117DC /* PBXContainerItemProxy */;
+		};
+		D67FAF8D24863E58005117DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69ECAFF24628ED0001F17E9 /* XGArqmobUI */;
+			targetProxy = D67FAF8C24863E58005117DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D6B9F5FE24640B53002AAD70 /* Main.storyboard */ = {

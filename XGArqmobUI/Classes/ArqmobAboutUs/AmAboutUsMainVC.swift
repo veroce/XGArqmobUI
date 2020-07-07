@@ -39,6 +39,9 @@ public class AmAboutUsMainVC: UIViewController {
     private func loadStyle() {
         AmAboutUsShared.shared.customStyle = style
         segmentControl.setTitleTextAttributes([NSAttributedString.Key.font: AmAboutUsShared.shared.customStyle.tabsTitle], for: .normal)
+        segmentControl.tintColor =  AmAboutUsShared.shared.customStyle.tintColor
+        
+        
     }
     private func loadData() {
         segmentControl.setTitle(titleTab1, forSegmentAt: 0)
@@ -51,12 +54,12 @@ public class AmAboutUsMainVC: UIViewController {
         
         
     }
-    public func setTitleTab1( _ tab1: String, titleTab2: String, titleTab3: String){
+   @objc public func setTitleTab1( _ tab1: String, titleTab2: String, titleTab3: String){
         self.titleTab1 = tab1
         self.titleTab2 = titleTab2
         self.titleTab3 = titleTab3
     }
-    public func setAboutUs(_ aboutUsInfo: AmAboutInfo, contactInfo: Array<AmContactInfo>, versionInfo: Array<AmVersionInfo>){
+   @objc public func setAboutUs(_ aboutUsInfo: AmAboutInfo, contactInfo: Array<AmContactInfo>, versionInfo: Array<AmVersionInfo>){
         self.aboutUsInfo = aboutUsInfo
         self.contactInfo = contactInfo
         self.versionInfo = versionInfo

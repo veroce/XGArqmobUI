@@ -46,7 +46,7 @@ class LoginWithOutImageVC: UIViewController {
         
     }
     func configureTextFields () {
-        var format = AnimatedFieldFormat()
+        let format = AnimatedFieldFormat()
         format.alertFieldActive = false
         format.titleAlwaysVisible = false
         format.counterEnabled = false

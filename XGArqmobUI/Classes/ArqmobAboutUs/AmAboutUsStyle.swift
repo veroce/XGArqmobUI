@@ -41,6 +41,11 @@ import UIKit
      The version info color. Default is `systemColor` .
      */
     @objc public var infoColor: UIColor = UIColor(named: "primaryTextColor") ?? UIColor(named: "primaryTextColor", in: Bundle(for: AmAboutUsStyle.self), compatibleWith: nil) ?? UIColor.darkGray
+    /**
+     The tintcolor. Default is `primaryColor` .
+
+     */
+    @objc public var tintColor: UIColor = UIColor(named: "primaryColor") ?? UIColor(named: "primaryColor", in: Bundle(for: AmAboutUsStyle.self), compatibleWith: nil) ?? UIColor.darkGray
     
     
     

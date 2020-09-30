@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D7BFE1252496E300DD1C8B /* AmDefaultMultipleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7BFE0252496E300DD1C8B /* AmDefaultMultipleStyle.swift */; };
+		21D7BFE32524987900DD1C8B /* AmDefaultMultipleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7BFE22524987800DD1C8B /* AmDefaultMultipleButton.swift */; };
 		70253D41C9BA43A76882ACA4 /* Pods_XGArqmobUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D809A1DEB90A74AD427D32 /* Pods_XGArqmobUI.framework */; };
 		D661D5D42473D7F00062BF69 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D661D5D22473D7F00062BF69 /* ExampleVC.m */; };
 		D661D5D52473D7F00062BF69 /* ExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D661D5D32473D7F00062BF69 /* ExampleVC.xib */; };
@@ -222,6 +224,8 @@
 /* Begin PBXFileReference section */
 		0725E25E7DDD896A01A851AF /* Pods-XGArqmobUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUIDemo.release.xcconfig"; path = "Target Support Files/Pods-XGArqmobUIDemo/Pods-XGArqmobUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		10D809A1DEB90A74AD427D32 /* Pods_XGArqmobUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGArqmobUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D7BFE0252496E300DD1C8B /* AmDefaultMultipleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmDefaultMultipleStyle.swift; sourceTree = "<group>"; };
+		21D7BFE22524987800DD1C8B /* AmDefaultMultipleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmDefaultMultipleButton.swift; sourceTree = "<group>"; };
 		3669852F95CB000F91CA042A /* Pods-XGArqmobUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUI.debug.xcconfig"; path = "Target Support Files/Pods-XGArqmobUI/Pods-XGArqmobUI.debug.xcconfig"; sourceTree = "<group>"; };
 		665864144AE9552F13499CB3 /* Pods-XGArqmobUIDemo-Objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUIDemo-Objc.release.xcconfig"; path = "Target Support Files/Pods-XGArqmobUIDemo-Objc/Pods-XGArqmobUIDemo-Objc.release.xcconfig"; sourceTree = "<group>"; };
 		84E1F487024F1A114223FE00 /* Pods-XGArqmobUIDemo-Objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGArqmobUIDemo-Objc.debug.xcconfig"; path = "Target Support Files/Pods-XGArqmobUIDemo-Objc/Pods-XGArqmobUIDemo-Objc.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1001,6 +1005,8 @@
 				D69ECC092462D2C2001F17E9 /* AmDefaultButton.swift */,
 				D6B9F6F2246437C8002AAD70 /* AmDefaultButtonStyle.swift */,
 				D6B9F6F42464399C002AAD70 /* AmDefaultGreyButton.swift */,
+				21D7BFE0252496E300DD1C8B /* AmDefaultMultipleStyle.swift */,
+				21D7BFE22524987800DD1C8B /* AmDefaultMultipleButton.swift */,
 			);
 			path = Default;
 			sourceTree = "<group>";
@@ -1371,6 +1377,7 @@
 				D69ECC142462D2C2001F17E9 /* AmAboutInfo.swift in Sources */,
 				D69ECC162462D2C2001F17E9 /* AmTutorialItem.swift in Sources */,
 				D6B9F6C82464242B002AAD70 /* AnimatedField+TextFieldDelegate.swift in Sources */,
+				21D7BFE32524987900DD1C8B /* AmDefaultMultipleButton.swift in Sources */,
 				D69ECC262462D2C2001F17E9 /* AmDefaultGrayButton.swift in Sources */,
 				D69ECC332462D2C2001F17E9 /* AmDefaultButton.swift in Sources */,
 				D6E4BD5B246C190000A57FFC /* AmFloatingButtonStyle.swift in Sources */,
@@ -1397,6 +1404,7 @@
 				D69ECC232462D2C2001F17E9 /* AmAboutUsStyle.swift in Sources */,
 				D6B9F62924641C32002AAD70 /* AmSplash.swift in Sources */,
 				D69ECC0E2462D2C2001F17E9 /* AmTutorialMainVC.swift in Sources */,
+				21D7BFE1252496E300DD1C8B /* AmDefaultMultipleStyle.swift in Sources */,
 				D6B9F6C62464242B002AAD70 /* AmFormWithLabel.swift in Sources */,
 				D6B9F6C72464242B002AAD70 /* AnimatedFieldFormat.swift in Sources */,
 				D69ECC212462D2C2001F17E9 /* AmChildContactVC.swift in Sources */,

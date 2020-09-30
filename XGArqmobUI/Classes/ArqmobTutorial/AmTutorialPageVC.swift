@@ -21,7 +21,7 @@ class AmTutorialPageVC: UIViewController {
     @IBOutlet weak var imgPage: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!
     @IBOutlet weak var lbBody: UILabel!
-    @IBOutlet weak var btnNext: AmDefaultButton!
+    @IBOutlet weak var btnNext: AmDefaultMultipleButton!
     
     var itemPage: AmTutorialItem?
     var index = 0
@@ -34,11 +34,12 @@ class AmTutorialPageVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        loadStyle()
+
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         loadData()
-        loadStyle()
 
     }
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eMH-Io-JwU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eMH-Io-JwU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -113,7 +113,7 @@
                                 <color key="textColor" name="primaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpm-WM-q2N" customClass="AmDefaultButton" customModule="XGArqmobUI" customModuleProvider="target">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpm-WM-q2N" customClass="AmDefaultMultipleButton" customModule="XGArqmobUI" customModuleProvider="target">
                                 <rect key="frame" x="135" y="548" width="144" height="44"/>
                                 <color key="backgroundColor" name="tutorialButtonColor"/>
                                 <constraints>
@@ -146,7 +146,7 @@
                         <viewLayoutGuide key="safeArea" id="alK-94-Ub0"/>
                     </view>
                     <connections>
-                        <outlet property="btnNext" destination="lpm-WM-q2N" id="Erj-9t-nTW"/>
+                        <outlet property="btnNext" destination="lpm-WM-q2N" id="fO1-oy-H5x"/>
                         <outlet property="imgPage" destination="c3M-eW-lto" id="Erc-PK-3JM"/>
                         <outlet property="lbBody" destination="ZJH-qx-JnD" id="jFL-EI-OQi"/>
                         <outlet property="lbTitle" destination="xo3-9K-1N6" id="NBg-kb-UGd"/>

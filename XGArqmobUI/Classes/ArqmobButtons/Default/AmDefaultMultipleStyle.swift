@@ -11,19 +11,19 @@ import UIKit
 open class AmDefaultMultipleStyle: NSObject {
     
     @objc public override init() {}
-    private let bundle = Bundle(for: AmDefaultButtonStyle.self)
+    private let bundle = Bundle(for: AmDefaultMultipleButton.self)
     /**
      The backgroun color for normal state. Default is `buttonEnableColor` .
      */
-    @objc public var backgroundColorNormal: UIColor = UIColor(named: "tutorialButtonColor") ?? UIColor(named: "tutorialButtonColor", in: Bundle(for: AmDefaultButton.self), compatibleWith: nil) ?? .clear
+    @objc public var backgroundColorNormal: UIColor = UIColor(named: "tutorialButtonColor") ?? UIColor(named: "tutorialButtonColor", in: Bundle(for: AmDefaultMultipleButton.self), compatibleWith: nil) ?? .clear
     /**
      The backgroun color for highlighted state. Default is `buttonHighlightedColor` .
      */
-    @objc public var backgroundColorHighlighted: UIColor = UIColor(named: "tutorialButtonHighlightedColor") ?? UIColor(named: "tutorialButtonHighlightedColor", in: Bundle(for: AmDefaultButton.self), compatibleWith: nil) ?? .clear
+    @objc public var backgroundColorHighlighted: UIColor = UIColor(named: "tutorialButtonHighlightedColor") ?? UIColor(named: "tutorialButtonHighlightedColor", in: Bundle(for: AmDefaultMultipleButton.self), compatibleWith: nil) ?? .clear
     /**
      The backgroun color for disabled state. Default is `buttonDisabledColor` .
      */
-    @objc public var backgroundColorDisabled: UIColor = UIColor(named: "tutorialButtonDisabledColor") ?? UIColor(named: "tutorialButtonDisabledColor", in: Bundle(for: AmDefaultButton.self), compatibleWith: nil) ?? .clear
+    @objc public var backgroundColorDisabled: UIColor = UIColor(named: "tutorialButtonDisabledColor") ?? UIColor(named: "tutorialButtonDisabledColor", in: Bundle(for: AmDefaultMultipleButton.self), compatibleWith: nil) ?? .clear
     
     /**
      The title color for normal state. Default is `white` .

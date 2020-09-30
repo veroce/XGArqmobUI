@@ -23,7 +23,7 @@ open class AmDefaultMultipleStyle: NSObject {
     /**
      The backgroun color for disabled state. Default is `buttonDisabledColor` .
      */
-    @objc public var backgroundColorDisabled: UIColor = UIColor(named: "buttonDisabledColor") ?? UIColor(named: "buttonDisabledColor", in: Bundle(for: AmDefaultButton.self), compatibleWith: nil) ?? .clear
+    @objc public var backgroundColorDisabled: UIColor = UIColor(named: "tutorialButtonDisabledColor") ?? UIColor(named: "tutorialButtonDisabledColor", in: Bundle(for: AmDefaultButton.self), compatibleWith: nil) ?? .clear
     
     /**
      The title color for normal state. Default is `white` .

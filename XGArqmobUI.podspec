@@ -8,7 +8,7 @@ s.summary = "XGArqmobUI componentes ui para las aplicaciones"
 s.requires_arc = true
 
 # 2
-s.version = "0.4.6"
+s.version = "0.4.7"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

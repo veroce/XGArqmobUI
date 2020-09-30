@@ -50,6 +50,8 @@ class PantallasVC: UITableViewController {
         
     }
     @IBAction func openTutorial(_ sender: Any) {
+        let style = AmTutorialStyle()
+        style.currentPageColor = .red
         let page1 = AmTutorialItem(image: "page1", title: "¡Bienvenidos!", body: "¡Hola! Estás a punto de entrar en el Manual de estilos para las Aplicaciones de Turismo de Galicia")
         let page2 = AmTutorialItem(image: "page2", title: "Selecciona los colores", body: "Desde la pantalla de Ajustes podrás cambiar la visualización de la aplicación para ver como quedan los distintos modos que se ofrecen")
         let page3 = AmTutorialItem(image: "page3", title: "Ahorra tiempo", body: "A través de este manual podrás ver como quedan los elementos antes de implementarlos así como consultar para comprobar cual debe de emplearse")
@@ -59,6 +61,7 @@ class PantallasVC: UITableViewController {
         if let nc = sb.instantiateInitialViewController() {
             if let vc: AmTutorialMainVC = nc.children.first as? AmTutorialMainVC {
                 vc.items = [page1, page2, page3]
+                vc.style = style
             }
             nc.modalPresentationStyle = .fullScreen
             nc.modalTransitionStyle = .crossDissolve

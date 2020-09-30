@@ -8,6 +8,9 @@
 
 import UIKit
 @objc
+public protocol AmAboutUsDelegate {
+    func opctionContactSelected(value: String, type: String)
+}
 public class AmAboutUsMainVC: UIViewController {
     
     @IBOutlet weak var segmentControl: UISegmentedControl!
@@ -17,10 +20,10 @@ public class AmAboutUsMainVC: UIViewController {
     var aboutUsInfo: AmAboutInfo?
     var contactInfo: Array<AmContactInfo> = []
     var versionInfo: Array<AmVersionInfo> = []
-   private var titleTab1 = "_Acerca de"
-   private var titleTab2 = "_Contacto"
-   private var titleTab3 = "_Versiones"
-    
+    private var titleTab1 = "_Acerca de"
+    private var titleTab2 = "_Contacto"
+    private var titleTab3 = "_Versiones"
+    open var delegate: AmAboutUsDelegate?
     open var style = AmAboutUsStyle() {
         didSet {
             AmAboutUsShared.shared.customStyle = style
@@ -54,12 +57,12 @@ public class AmAboutUsMainVC: UIViewController {
         
         
     }
-   @objc public func setTitleTab1( _ tab1: String, titleTab2: String, titleTab3: String){
+    @objc public func setTitleTab1( _ tab1: String, titleTab2: String, titleTab3: String){
         self.titleTab1 = tab1
         self.titleTab2 = titleTab2
         self.titleTab3 = titleTab3
     }
-   @objc public func setAboutUs(_ aboutUsInfo: AmAboutInfo, contactInfo: Array<AmContactInfo>, versionInfo: Array<AmVersionInfo>){
+    @objc public func setAboutUs(_ aboutUsInfo: AmAboutInfo, contactInfo: Array<AmContactInfo>, versionInfo: Array<AmVersionInfo>){
         self.aboutUsInfo = aboutUsInfo
         self.contactInfo = contactInfo
         self.versionInfo = versionInfo
@@ -99,6 +102,10 @@ extension AmAboutUsMainVC: AmAboutUsPagerDelegate{
     func updateSegemeted(index: Int) {
         segmentControl.selectedSegmentIndex = index
     }
-    
-    
+    func contactOptionSelected(contact: AmContactInfo) {
+        guard let delegate = self.delegate else {
+            return
+        }
+        delegate.opctionContactSelected(value: contact.info, type: contact.type)
+    }
 }

@@ -9,6 +9,7 @@
 import UIKit
 protocol AmAboutUsPagerDelegate {
     func updateSegemeted(index: Int)
+    func contactOptionSelected(contact: AmContactInfo)
 }
 
 class AmAboutUsPageController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
@@ -55,6 +56,7 @@ class AmAboutUsPageController: UIPageViewController, UIPageViewControllerDelegat
             return vc
         } else if let vc: AmChildContactVC = pages[index] as? AmChildContactVC {
             vc.contactItems = contactInfo
+            vc.delegate = self
             return vc
         }else if let vc: AmChildVersionVC = pages[index] as? AmChildVersionVC {
             vc.items = versionInfo
@@ -116,4 +118,14 @@ class AmAboutUsPageController: UIPageViewController, UIPageViewControllerDelegat
             setViewControllers([vc], direction: direction, animated: true, completion: nil)
         }
         
+}
+extension AmAboutUsPageController: AmChildContactDelegate {
+    func contactItemSelected(contact: AmContactInfo) {
+        guard let delegate = self.delegatePager else {
+            return
+        }
+        delegate.contactOptionSelected(contact: contact)
+    }
+    
+    
 }

@@ -17,11 +17,8 @@ public class AmTutorialMainVC: UIViewController {
     open var items: Array<AmTutorialItem>?
     @IBOutlet private weak var lbError: UILabel!
     
-    open var style = AmTutorialStyle() {
-        didSet {
-            loadStyle()
-        }
-    }
+    open var style = AmTutorialStyle()
+    
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,10 +32,18 @@ public class AmTutorialMainVC: UIViewController {
     
     private func loadStyle() {
         pageControl.currentPageIndicatorTintColor = style.currentPageColor
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default) //UIImage.init(named: "transparent.png")
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = true
-        self.navigationController?.view.backgroundColor = .clear
+        if #available(iOS 13.0, *) {
+            let navBarAppearance = UINavigationBarAppearance()
+            navBarAppearance.configureWithTransparentBackground()
+            navigationController?.navigationBar.standardAppearance = navBarAppearance
+            navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
+        }else{
+            self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default) //UIImage.init(named: "transparent.png")
+            self.navigationController?.navigationBar.shadowImage = UIImage()
+            self.navigationController?.navigationBar.isTranslucent = true
+            self.navigationController?.view.backgroundColor = .clear
+        }
+        
     }
     
     private func configurePager() {
@@ -58,19 +63,19 @@ public class AmTutorialMainVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
     public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
         if segue.identifier == "embedSegueTutorial" {
             self.pagerController = segue.destination as? AmTutorialPageController
             loadData()
-
+            
         }
-     }
-     
+    }
+    
     
 }
 extension AmTutorialMainVC: AmTutorialPagerControllerDelegate {
@@ -80,12 +85,12 @@ extension AmTutorialMainVC: AmTutorialPagerControllerDelegate {
     
     func actionButton(action: AmButtonAction) {
         switch action {
-        case .NEXT:
-            pagerController?.moveToViewController(index: pageControl.currentPage + 1)
-            break
-        default:
-             dismiss(animated: true, completion: nil)
-            break
+            case .NEXT:
+                pagerController?.moveToViewController(index: pageControl.currentPage + 1)
+                break
+            default:
+                dismiss(animated: true, completion: nil)
+                break
         }
     }
     

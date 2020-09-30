@@ -8,7 +8,13 @@
 
 import UIKit
 import XGArqmobUI
-class AcercaDeVC: UIViewController {
+enum CONTACT_TYPE: String {
+    case email = "email"
+    case phone = "phone"
+}
+class AcercaDeVC: UIViewController, AmAboutUsDelegate {
+
+    
     @IBOutlet weak var containerView: UIView!
     var mainView: AmAboutUsMainVC?
     
@@ -30,11 +36,12 @@ class AcercaDeVC: UIViewController {
          let bundle = Bundle(for: AmAboutUsMainVC.self)
         let storyboard = UIStoryboard(name: "AmAboutUs", bundle: bundle)
         self.mainView =  storyboard.instantiateViewController(withIdentifier: "AmAboutUsMainVC") as? AmAboutUsMainVC
+        self.mainView?.delegate = self
         // Acerca de
         let aboutUsInfo = AmAboutInfo(text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet augue accumsan tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar, tortor eros facilisis libero, vitae commodo nunc quam et ligula. Ut nec ipsum sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex imperdiet justo tincidunt egestas. Ut porttitor urna ac augue cursus tincidunt sit amet sed orci.")
         // Contacto
-        let contactPhone = AmContactInfo(icon: "ic_phone", info: "(+34) 981 888 888")
-        let contactMail = AmContactInfo(icon: "ic_email", info: "info@email.com")
+        let contactPhone = AmContactInfo(icon: "ic_phone", info: "(+34) 981 888 888", type: CONTACT_TYPE.phone.rawValue )
+        let contactMail = AmContactInfo(icon: "ic_email", info: "info@email.com", type: CONTACT_TYPE.email.rawValue)
         let itemsContact = [contactPhone, contactMail]
         
         // Versiones
@@ -74,5 +81,8 @@ class AcercaDeVC: UIViewController {
             //5. Avisamos al child view controller que hemos realizado el cambio
             activeVC.didMove(toParent: self)
         }
+    }
+    func opctionContactSelected(value: String, type: String) {
+        debugPrint("Option selected: \(value) - type: \(type)")
     }
 }

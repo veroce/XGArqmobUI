@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+protocol AmContactInfoDelegate {
+    func itemSelected()
+}
 class AmContactInfoTableController: NSObject {
-        var contact = [AmContactInfo]()
+    var contact = [AmContactInfo]()
+    var delegate: AmContactInfoDelegate?
 }
 
-extension AmContactInfoTableController: UITableViewDataSource {
+extension AmContactInfoTableController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contact.count
     }
@@ -22,5 +25,13 @@ extension AmContactInfoTableController: UITableViewDataSource {
         let item = contact[indexPath.row]
         cell.loadData(info: item)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let delegate = self.delegate else{
+            return
+        }
+        
+        delegate.itemSelected()
     }
 }

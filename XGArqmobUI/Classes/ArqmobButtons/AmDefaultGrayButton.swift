@@ -10,7 +10,7 @@ import UIKit
 @objc
 @IBDesignable
 open class AmDefaultGrayButton: SimpleButton {
-    open var style = AmDefaultGrayButtonStyle() {
+  @objc open var style = AmDefaultGrayButtonStyle() {
            didSet {
                configureButtonStyles()
            }

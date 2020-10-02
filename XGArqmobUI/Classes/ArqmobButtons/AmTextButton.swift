@@ -13,7 +13,7 @@ open class AmTextButton: UIButton {
     
     var activityIndicator: UIActivityIndicatorView!
     var customTitle: String?
-    open var style = AmTextDefaultButtonStyle() {
+ @objc   open var style = AmTextDefaultButtonStyle() {
         didSet {
            
         }
@@ -32,7 +32,7 @@ open class AmTextButton: UIButton {
         setTitleColor(style.titleColorDisabled, for: .disabled)
         titleLabel?.font = style.titleFont
     }
-    public func showLoading() {
+ @objc   public func showLoading() {
         customTitle = self.titleLabel?.text
         self.setTitle("", for: .normal)
         
@@ -42,7 +42,7 @@ open class AmTextButton: UIButton {
         
         showSpinning()
     }
-   public  func hideLoading() {
+  @objc public  func hideLoading() {
         self.setTitle(customTitle, for: .normal)
         activityIndicator.stopAnimating()
     }

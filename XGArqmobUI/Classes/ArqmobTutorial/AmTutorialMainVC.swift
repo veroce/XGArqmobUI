@@ -14,10 +14,10 @@ public class AmTutorialMainVC: UIViewController {
     @IBOutlet private weak var containerView: UIView!
     
     private var pagerController: AmTutorialPageController?
-    open var items: Array<AmTutorialItem>?
+    @objc open var items: Array<AmTutorialItem>?
     @IBOutlet private weak var lbError: UILabel!
     
-    open var style = AmTutorialStyle()
+    @objc open var style = AmTutorialStyle()
     
     
     public override func viewDidLoad() {

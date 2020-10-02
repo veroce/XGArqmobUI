@@ -10,7 +10,7 @@ import UIKit
 @objc
 @IBDesignable
 open class AmOutlineButton: SimpleButton {
-    open var style = AmOutlineDefaultButtonStyle() {
+   @objc open var style = AmOutlineDefaultButtonStyle() {
         didSet {
             configureButtonStyles()
         }

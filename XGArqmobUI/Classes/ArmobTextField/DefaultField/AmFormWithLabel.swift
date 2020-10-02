@@ -18,7 +18,7 @@ open class AmFormWithLabel: UIView {
     /// Object that configure `DefaultField` view. You can setup `Default` with
     /// your own parameters. See also `DefaultFieldFormat` implementation.
     
-    open var format = DefaultFieldFormat() {
+   @objc open var format = DefaultFieldFormat() {
         didSet {
             lbTitle.font = format.titleFont
             lbTitle.textColor = format.titleColor
@@ -30,22 +30,22 @@ open class AmFormWithLabel: UIView {
         }
     }
     
-    open var keyboadType = UIKeyboardType.default {
+   @objc open var keyboadType = UIKeyboardType.default {
         didSet {
             textField.keyboardType = keyboadType
         }
     }
-    open var isSecureTextEntry = false {
+   @objc open var isSecureTextEntry = false {
         didSet {
             textField.isSecureTextEntry = isSecureTextEntry
         }
     }
-    open var placeholder: String? {
+   @objc open var placeholder: String? {
         didSet {
             textField.placeholder = placeholder
         }
     }
-    open var labeltitle: String? {
+   @objc open var labeltitle: String? {
         didSet {
             lbTitle.text = labeltitle
         }

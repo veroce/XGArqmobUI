@@ -32,7 +32,7 @@ open class AmSplash: UIView {
         self.addSubview(xibView)
     }
     
-    open func loadImageFondo(_ image: String, logo: String){
+    @objc open func loadImageFondo(_ image: String, logo: String){
         if let image = UIImage(named: image) {
             imgFondo.image = image
         }else{

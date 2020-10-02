@@ -10,7 +10,7 @@ import UIKit
 @objc
 open class AmFloatingExtendedButton: SimpleButton {
     private var shadowLayer: CAShapeLayer!
-    open var style = AmFloatingButtonStyle() {
+  @objc  open var style = AmFloatingButtonStyle() {
         didSet {
             configureButtonStyles()
         }

@@ -13,7 +13,7 @@ open class AmTextGrayButton: UIButton {
 
    var activityIndicator: UIActivityIndicatorView!
     var customTitle: String?
-    open var style = AmTextDefaultGrayButtonStyle() {
+  @objc  open var style = AmTextDefaultGrayButtonStyle() {
            didSet {
               
            }
@@ -25,14 +25,14 @@ open class AmTextGrayButton: UIButton {
     
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
-    open override func draw(_ rect: CGRect) {
+  @objc  open override func draw(_ rect: CGRect) {
         // Drawing code
         setTitleColor(style.titleColorNormal, for: .normal)
         setTitleColor(style.titleColorHighlighted, for: .highlighted)
         setTitleColor(style.titleColorDisabled, for: .disabled)
         titleLabel?.font = style.titleFont
     }
-   public func showLoading() {
+ @objc  public func showLoading() {
         customTitle = self.titleLabel?.text
         self.setTitle("", for: .normal)
         
@@ -42,7 +42,7 @@ open class AmTextGrayButton: UIButton {
         
         showSpinning()
     }
-   public func hideLoading() {
+ @objc  public func hideLoading() {
         self.setTitle(customTitle, for: .normal)
         activityIndicator.stopAnimating()
     }

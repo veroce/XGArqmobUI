@@ -14,7 +14,7 @@ open class ArmobTheme: NSObject {
         return ArmobTheme.current
     }
     
-    public static let current = ArmobTheme()
+    @objc public static let current = ArmobTheme()
     
     @objc public var navigationLargeFontTitle =  UIFont(name: "Raleway-Bold", size: 28)
     

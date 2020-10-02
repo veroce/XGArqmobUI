@@ -8,7 +8,7 @@
 
 import UIKit
 import Kingfisher
-open class AmCardMap: UIView {
+@objc open class AmCardMap: UIView {
     
     @IBOutlet weak var imgElemento: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!
@@ -57,7 +57,7 @@ open class AmCardMap: UIView {
         viewContainer.layer.shadowColor = style.shadowColor.cgColor
         
     }
-    open func loadData(title: String, image: String, location: String, category: String? = nil, placeholder: String? = nil){
+    @objc open func loadData(title: String, image: String, location: String, category: String? = nil, placeholder: String? = nil){
         lbTitle.text = title
         lbLocation.text = location
         lbCategory.text = category?.uppercased()

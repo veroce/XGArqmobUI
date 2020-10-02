@@ -11,7 +11,7 @@ import UIKit
 open class AmFloatingButton: SimpleButton {
     private var shadowLayer: CAShapeLayer!
     
-    open var style = AmFloatingButtonStyle() {
+   @objc open var style = AmFloatingButtonStyle() {
         didSet {
             configureButtonStyles()
         }

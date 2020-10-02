@@ -22,7 +22,7 @@ extension UIToolbar {
         setItems([flexible, barButton], animated: false)
     }
 }
-open class AnimatedField: UIView {
+@objc open class AnimatedField: UIView {
     
     @IBOutlet weak public var textField: UITextField!
     @IBOutlet weak private var textFieldRightConstraint: NSLayoutConstraint!
@@ -56,7 +56,7 @@ open class AnimatedField: UIView {
         return formatter
     }
     
-    var isPlaceholderVisible = false {
+  @objc  var isPlaceholderVisible = false {
         didSet {
             
             guard isPlaceholderVisible else {
@@ -74,7 +74,7 @@ open class AnimatedField: UIView {
     }
     
     /// Placeholder
-    public var placeholder = "" {
+  @objc  public var placeholder = "" {
         didSet {
             setupTextField()
             setupTextView()
@@ -89,7 +89,7 @@ open class AnimatedField: UIView {
     /// Assigning a new value to this property also replaces the value of the placeholder property with
     /// the same string data, albeit without any formatting information. Assigning a new value to this
     /// property does not affect any other style-related properties of the text field.
-    public var attributedPlaceholder: NSAttributedString? {
+   @objc public var attributedPlaceholder: NSAttributedString? {
         didSet {
             placeholder = attributedPlaceholder?.string ?? ""
             setupTextField()
@@ -99,7 +99,7 @@ open class AnimatedField: UIView {
     }
     
     /// The input accessory view for this field
-    public var accessoryView: UIView? {
+   @objc public var accessoryView: UIView? {
         didSet {
             textField.inputAccessoryView = accessoryView
             textView.inputAccessoryView = accessoryView
@@ -136,7 +136,7 @@ open class AnimatedField: UIView {
         }
     }
     
-    public var keyboardAppearance: UIKeyboardAppearance = .default {
+  @objc  public var keyboardAppearance: UIKeyboardAppearance = .default {
         didSet {
             textField.keyboardAppearance = keyboardAppearance
             textView.keyboardAppearance = keyboardAppearance
@@ -144,27 +144,27 @@ open class AnimatedField: UIView {
     }
     
     /// Uppercased field format
-    public var uppercased = false
+  @objc  public var uppercased = false
     
     /// Lowercased field format
-    public var lowercased = false
+  @objc  public var lowercased = false
     
     /// Keyboard type
-    public var keyboardType = UIKeyboardType.alphabet {
+   @objc public var keyboardType = UIKeyboardType.alphabet {
         didSet { textField.keyboardType = keyboardType }
     }
     
-    public var keyboardToolbar: UIToolbar? {
+  @objc  public var keyboardToolbar: UIToolbar? {
         didSet { textField.inputView = keyboardToolbar }
     }
     
     /// Secure field (dot format)
-    public var isSecure = false {
+  @objc  public var isSecure = false {
         didSet { textField.isSecureTextEntry = isSecure }
     }
     
     /// Show visible button to make field unsecure
-    public var showVisibleButton = false {
+   @objc public var showVisibleButton = false {
         didSet {
             if showVisibleButton {
                 eyeButton.isHidden = false
@@ -178,7 +178,7 @@ open class AnimatedField: UIView {
     }
     
     /// Result of regular expression validation
-    public var isValid: Bool {
+   @objc public var isValid: Bool {
         get { return !(validateText(textField.isHidden ? textView.text : textField.text) != nil) }
     }
     
@@ -199,7 +199,7 @@ open class AnimatedField: UIView {
     /// Object that configure `AnimatedField` view. You can setup `AnimatedField` with
     /// your own parameters. See also `AnimatedFieldFormat` implementation.
     
-    open var format = AnimatedFieldFormat() {
+  @objc open var format = AnimatedFieldFormat() {
         didSet {
             titleLabel.font = format.titleFont
             titleLabel.textColor = format.titleColor
@@ -223,7 +223,7 @@ open class AnimatedField: UIView {
         }
     }
     
-    open var text: String? {
+  @objc open var text: String? {
         get {
             return textField.isHidden ? (textView.text == placeholder && textView.textColor == UIColor.lightGray.withAlphaComponent(0.8) ? "" : textView.text) : textField.text
         }

@@ -9,9 +9,9 @@
 import UIKit
 @objc
 public protocol AmAboutUsDelegate {
-    func opctionContactSelected(value: String, type: String)
+   @objc func opctionContactSelected(value: String, type: String)
 }
-public class AmAboutUsMainVC: UIViewController {
+@objc public class AmAboutUsMainVC: UIViewController {
     
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var containerView: UIView!
@@ -23,8 +23,8 @@ public class AmAboutUsMainVC: UIViewController {
     private var titleTab1 = "_Acerca de"
     private var titleTab2 = "_Contacto"
     private var titleTab3 = "_Versiones"
-    open var delegate: AmAboutUsDelegate?
-    open var style = AmAboutUsStyle() {
+    @objc open var delegate: AmAboutUsDelegate?
+    @objc open var style = AmAboutUsStyle() {
         didSet {
             AmAboutUsShared.shared.customStyle = style
         }
